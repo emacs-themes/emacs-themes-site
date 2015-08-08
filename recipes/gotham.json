@@ -1,7 +1,7 @@
 {
     "name": "Gotham Theme",
     "description": "A very dark Emacs color theme",
-    "remoteSrc": "https:\/\/github.com\/wasamasa\/gotham-theme\/blob\/master\/gotham-theme.el",
+    "remoteSrc": "https:\/\/github.com\/wasamasa\/gotham-theme",
     "localSrc": ".\/assets\/local-src\/gotham-theme-source-code.el",
     "author": "Vasilij Schneidermann",
     "largeImgs": [

@@ -1,7 +1,7 @@
 {
     "name": "Almost Monokai Theme",
     "description": "A beautiful, fruity, calm, yet dark color theme for Emacs. Based on the Monokai TextMate theme by Wimer Hazenberg.",
-    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/almost-monokai-theme.el",
+    "remoteSrc": "https:\/\/github.com\/lut4rp\/almost-monokai",
     "localSrc": ".\/assets\/local-src\/almost-monokai-theme-source-code.el",
     "author": "Prateek Saxena & Pratul Kalia",
     "largeImgs": [

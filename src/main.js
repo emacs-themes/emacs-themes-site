@@ -9,18 +9,14 @@ var buildAllThemes = require('./builders/allThemesBuilder');
 var buildAllTags = require('./builders/allTagsBuilder');
 var buildTagsIndex = require('./builders/tagIndexBuilder');
 // config vars
-var rootDir = __dirname + '/../root/';
 var recipesDir = __dirname + '/../recipes/';
 
 function buildAllPages(allTemplates, allRecipes) {
     buildMainPage(allTemplates);
+    buildAllThemes(allTemplates, allRecipes);
+    buildThemeIndex(allTemplates, allRecipes);
     buildAllTags(allTemplates, allRecipes);
     buildTagsIndex(allTemplates, allRecipes);
-    buildAllThemes(allTemplates, allRecipes);
-    // this is problematic (find out why)
-    buildThemeIndex(allTemplates, allRecipes);
-
-
 }
 
 function buildSite() {

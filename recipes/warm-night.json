@@ -1,7 +1,7 @@
 {
     "name": "Warm Night Theme",
     "description": "Emacs24 theme with a dark background and warm colors",
-    "remoteSrc": "https:\/\/github.com\/mswift42\/warm-night-theme\/blob\/master\/warm-night-theme.el",
+    "remoteSrc": "https:\/\/github.com\/mswift42\/warm-night-theme",
     "localSrc": ".\/assets\/local-src\/warm-night-theme-source-code.el",
     "author": "Martin Haesler",
     "largeImgs": [

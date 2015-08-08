@@ -1,7 +1,7 @@
 {
     "name": "Lush Theme",
     "description": "A colorful Emacs24 theme based on blackboard theme.",
-    "remoteSrc": "https:\/\/github.com\/andre-richter\/emacs-lush-theme\/blob\/master\/lush-theme.el",
+    "remoteSrc": "https:\/\/github.com\/andre-richter\/emacs-lush-theme",
     "localSrc": ".\/assets\/local-src\/lush-theme-source-code.el",
     "author": "Andre Richter",
     "largeImgs": [

@@ -1,6 +1,6 @@
 {
     "name": "Afternoon Theme",
-    "description": "Dark color theme with a deep blue background",
+    "description": "Dark color theme with a deep blue background, based on Steve Purcell's sanityinc-tomorrow theme.",
     "remoteSrc": "https:\/\/github.com\/osener\/emacs-afternoon-theme",
     "localSrc": ".\/assets\/local-src\/afternoon-theme-source-code.el",
     "author": "Ozan Sener",
@@ -11,7 +11,8 @@
     "tags": [
         "afternoon",
         "blue",
-        "dark"
+        "dark",
+        "modern"
     ],
     "available": true,
     "smallImg": ".\/assets\/imgs-small\/afternoon.png"

@@ -3,7 +3,7 @@
     "description": "A fork of subatomic-theme.el with the colors adjusted to work in a 256 color terminal.",
     "remoteSrc": "https:\/\/github.com\/d11wtq\/subatomic256",
     "localSrc": ".\/assets\/local-src\/subatomic256-theme-source-code.el",
-    "author": "John Olsson",
+    "author": "John Olsson & Chris Corbyn",
     "largeImgs": [
         ".\/assets\/imgs\/subatomic256.png",
         ".\/assets\/imgs\/subatomic256-bis.png"

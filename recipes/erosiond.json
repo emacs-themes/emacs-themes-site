@@ -1,7 +1,7 @@
 {
     "name": "Erosiond Theme",
     "description": "A theme for GNU emacs 24",
-    "remoteSrc": "https:\/\/github.com\/darrik\/erosiond-theme\/blob\/master\/erosiond-theme.el",
+    "remoteSrc": "https:\/\/github.com\/darrik\/erosiond-theme",
     "localSrc": ".\/assets\/local-src\/erosiond-theme-source-code.el",
     "author": "Rikard Glans",
     "largeImgs": [

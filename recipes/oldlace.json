@@ -1,7 +1,7 @@
 {
     "name": "Oldlace Theme",
     "description": "Emacs 24 theme with an 'oldlace' background.",
-    "remoteSrc": "https:\/\/github.com\/mswift42\/oldlace-theme\/blob\/master\/oldlace-theme.el",
+    "remoteSrc": "https:\/\/github.com\/mswift42\/oldlace-theme",
     "localSrc": ".\/assets\/local-src\/oldlace-theme-source-code.el",
     "author": "Martin Haesler",
     "largeImgs": [

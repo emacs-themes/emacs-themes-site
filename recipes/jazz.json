@@ -1,7 +1,7 @@
 {
     "name": "Jazz Theme",
     "description": "Warm dark color theme for Emacs 24 inspired by zenburn color theme.",
-    "remoteSrc": "https:\/\/github.com\/donderom\/jazz-theme\/blob\/master\/jazz-theme.el",
+    "remoteSrc": "https:\/\/github.com\/donderom\/jazz-theme",
     "localSrc": ".\/assets\/local-src\/jazz-theme-source-code.el",
     "author": "Roman Parykin",
     "largeImgs": [

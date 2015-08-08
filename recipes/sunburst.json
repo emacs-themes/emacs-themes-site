@@ -1,7 +1,7 @@
 {
     "name": "Sunburst Theme",
     "description": "A Emacs 24 deftheme that resembles Textmate\u2019s \u2018sunburst\u2019 theme.",
-    "remoteSrc": "https:\/\/github.com\/neomantic\/Emacs-Sunburst-Color-Theme\/blob\/master\/sunburst-theme.el",
+    "remoteSrc": "https:\/\/github.com\/neomantic\/Emacs-Sunburst-Color-Theme",
     "localSrc": ".\/assets\/local-src\/sunburst-theme-source-code.el",
     "author": "Chad Albers",
     "largeImgs": [

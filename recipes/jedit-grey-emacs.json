@@ -1,7 +1,7 @@
 {
     "name": "Jedit Grey Emacs Themes",
     "description": "Color Theme",
-    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/jedit-grey-emacs-theme.el",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/jedit-grey-theme.el",
     "localSrc": ".\/assets\/local-src\/jedit-grey-emacs-themes-source-code.el",
     "author": "Gordon Messmer \/ Syohei YOSHIDA",
     "largeImgs": [

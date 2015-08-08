@@ -1,5 +1,4 @@
-;-
-<pre class="lang:lisp decode:true" title="High Contrast">;;; high-contrast-theme.el --- high-contrast theme
+;;; high-contrast-theme.el --- high-contrast theme
 
 ;; Copyright (C) 2005, 2006  Xavier Maillard &lt;zedek@gnu.org&gt;
 ;; Copyright (C) 2005, 2006  Brian Palmer &lt;bpalmer@gmail.com&gt;

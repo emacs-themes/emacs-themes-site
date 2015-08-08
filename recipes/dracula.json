@@ -1,7 +1,7 @@
 {
     "name": "Dracula Theme",
     "description": "Emacs theme inspired by IntelliJ\u2019s Darcula.",
-    "remoteSrc": "https:\/\/github.com\/fommil\/darcula-theme-emacs\/blob\/master\/darcula-theme.el",
+    "remoteSrc": "https:\/\/github.com\/fommil\/darcula-theme-emacs",
     "localSrc": ".\/assets\/local-src\/dracula-theme-source-code.el",
     "author": "Sam Halliday",
     "largeImgs": [

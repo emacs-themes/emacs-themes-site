@@ -8,7 +8,7 @@ var log = require('../helpers/simpleLogger');
 var rootDirPath = __dirname + '/../../root/';
 var themesPerPage = 12;
 
-// Build individual index theme page
+// builds individual index theme page
 function buildThemePage(allRecipes, startIndex, endIndex, currentPage, pageLimit, template) {
     var data = [];
     var allPages = [];
@@ -45,21 +45,27 @@ function buildThemePage(allRecipes, startIndex, endIndex, currentPage, pageLimit
 function calculateNumberOfPages(allRecipes) {
     return Math.ceil(allRecipes.length / themesPerPage);
 }
-// Build theme index page
+// returns the upper limit for the pages index
+function getHighLimit(lowLimit, recipesNumber) {
+    var limit = lowLimit + themesPerPage;
+
+    if (limit > recipesNumber) {
+        return recipesNumber;
+    }
+    return limit;
+}
+// builds theme index page
 function buildThemeIndex(allTemplates, allRecipes) {
     var template = Handlebars.compile(allTemplates['theme-index']);
     var numberOfPages = calculateNumberOfPages(allRecipes);
-    var recipesNumber;
+    var recipesNumber = allRecipes.length;
     var lowLimit;
     var highLimit;
     var i;
 
     for (i = 0; i < numberOfPages; i++) {
         lowLimit = i * themesPerPage;
-        highLimit = lowLimit + themesPerPage;
-        if (highLimit > recipesNumber) {
-            highLimit = recipesNumber;
-        }
+        highLimit = getHighLimit(lowLimit, recipesNumber);
         buildThemePage(allRecipes, lowLimit, highLimit, i, numberOfPages, template);
     }
 }

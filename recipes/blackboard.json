@@ -1,7 +1,7 @@
 {
     "name": "Blackboard Theme",
     "description": "Porting that makes blackboard no longer rely on color-theme package.",
-    "remoteSrc": "https:\/\/github.com\/don9z\/blackboard-theme\/blob\/master\/blackboard-theme.el",
+    "remoteSrc": "https:\/\/github.com\/don9z\/blackboard-theme",
     "localSrc": ".\/assets\/local-src\/blackboard-theme-source-code.el",
     "author": "JD Huntington",
     "largeImgs": [

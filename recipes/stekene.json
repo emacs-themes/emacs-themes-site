@@ -1,7 +1,7 @@
 {
     "name": "Stekene Theme",
     "description": "Stekene Theme",
-    "remoteSrc": "http:\/\/emacsthemes.caisah.info\/stekene-theme.el",
+    "remoteSrc": "https:\//github.com\/Fanael\/stekene-theme",
     "localSrc": ".\/assets\/local-src\/stekene-theme-source-code.el",
     "author": "Fanael Linithien",
     "largeImgs": [

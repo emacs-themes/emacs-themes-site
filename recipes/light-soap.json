@@ -1,7 +1,7 @@
 {
     "name": "Light Soap Theme",
     "description": "Emacs 24 theme with a light background",
-    "remoteSrc": "https:\/\/github.com\/mswift42\/light-soap-theme\/blob\/master\/light-soap-theme.el",
+    "remoteSrc": "https:\/\/github.com\/mswift42\/light-soap-theme",
     "localSrc": ".\/assets\/local-src\/light-soap-theme-source-code.el",
     "author": "Martin Haesler",
     "largeImgs": [

@@ -1,5 +1,4 @@
-;-
-<pre class="lang:lisp decode:true" title="Bharadwaj ">;;; bharadwaj-theme.el --- bharadwaj theme
+;;; bharadwaj-theme.el --- bharadwaj theme
 
 ;; Copyright (C) 2001 by Girish Bharadwaj
 ;; Copyright (C) 2013 by Syohei YOSHIDA

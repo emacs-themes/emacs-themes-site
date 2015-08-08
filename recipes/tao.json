@@ -1,7 +1,7 @@
 {
     "name": "Tao Theme",
     "description": "A golden mean grayscale color theme for Emacs.",
-    "remoteSrc": "https:\/\/github.com\/11111000000\/tao-theme-emacs\/blob\/master\/tao-theme.el",
+    "remoteSrc": "https:\/\/github.com\/11111000000\/tao-theme-emacs",
     "localSrc": ".\/assets\/local-src\/tao-theme-source-code.el",
     "author": "Peter Kosov",
     "largeImgs": [

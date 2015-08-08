@@ -1,6 +1,6 @@
 {
     "name": "emacs-themes",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "Static site generator for Emacs Themes",
     "main": "index.js",
     "scripts": {

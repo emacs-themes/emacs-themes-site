@@ -1,8 +1,7 @@
-;-
-<pre class="lang:lisp decode:true crayon-selected" title="Tango 2">;;; tango-2-theme.el --- Tango 2 color theme for GNU Emacs 24
+;;; tango-2-theme.el --- Tango 2 color theme for GNU Emacs 24
 ;; Author: Nick Parker
 ;; Version: 1.0.0
-;; 
+;;
 ;; Ported theme to Emacs 24 color theme Nick Parker &lt;nickp@developernotes.com&gt;
 ;; original from Will Farrington &lt;wcfarrington@gmail.com&gt;
 ;;

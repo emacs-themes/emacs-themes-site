@@ -12,7 +12,7 @@
 ** DONE add "__dirname" to paths
 
 * Bugs
-** Create module for deleting dirs recursively
+** create module for deleting dirs recursively
 
 * Refactoring
 ** TODO use better names for functions
@@ -21,23 +21,24 @@
 ** DONE remove rimraf package
 ** DONE remove async package
 ** TODO improve CSS
+   add responsiveness
 ** TODO move all variables to a common module
 
 * Additional functionality
-** TODO create github repository
-   Create .gitignore file & all that jazz
+** DONE create github repository
 ** TODO add search input
 ** TODO add classes to tags
 ** TODO integrate with git
 ** TODO create template for the rest of the pages
-** break all recipes containing multiple themes
-   Currently there are recipes which contain multiple themes.
-   These must be broken down to simple ones.
-** TODO Add analytics code
+** TODO add analytics code
 
 * Automation
 ** TODO create gulp tasks for minification
 
 * Testing
-** TODO Test all themes
-** TODO Test all theme sources
+  starting from page 6
+** TODO test all themes
+** TODO test all theme sources
+
+* Add more themes
+** TODO add new screenshots for ample theme

@@ -1,5 +1,4 @@
-;-
-<pre class="lang:lisp decode:true" title="Granger">;; This program is free software; you can redistribute it and/or modify
+;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
 ;; the Free Software Foundation, either version 3 of the License, or
 ;; (at your option) any later version.
@@ -48,7 +47,7 @@
 
 ;; Font lock faces
 ;; *****************************************************************************************
- 
+
    `(font-lock-keyword-face           ((t (:foreground "#3ca380"))))
    `(font-lock-type-face              ((t (:foreground "#484879"))))
    `(font-lock-constant-face          ((t (:foreground "#3F5C70"))))
@@ -57,7 +56,7 @@
    `(font-lock-string-face            ((t (:foreground "#699ABC"))))
    `(font-lock-comment-face           ((t (:foreground "#496b83"))))
    `(font-lock-comment-delimiter-face ((t (:foreground "#666688"))))
- 
+
    `(font-lock-function-name-face     ((t (:foreground "#3ca380"))))
    `(font-lock-doc-string-face        ((t (:foreground "#496B83")))))
 

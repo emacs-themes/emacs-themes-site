@@ -1,7 +1,7 @@
 {
     "name": "Mac Classic Theme",
-    "description": "A theme which resembles the TextMate Mac Classic colour theme.",
-    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/mac-classic-theme.el",
+    "description": "A theme which resembles the TextMate Mac Classic color theme.",
+    "remoteSrc": "https:\/\/github.com\/ahobson\/mac-classic-theme",
     "localSrc": ".\/assets\/local-src\/mac-classic-theme-source-code.el",
     "author": "Jason Watson",
     "largeImgs": [

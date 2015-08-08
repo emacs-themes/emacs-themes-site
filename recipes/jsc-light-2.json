@@ -1,7 +1,7 @@
 {
     "name": "Jsc Light 2 Theme",
     "description": "Color Theme",
-    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/jsc-light-2-theme.el",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/jsc-light2-theme.el",
     "localSrc": ".\/assets\/local-src\/jsc-light-2-theme-source-code.el",
     "author": "John S Cooper \/ Syohei YOSHIDA",
     "largeImgs": [

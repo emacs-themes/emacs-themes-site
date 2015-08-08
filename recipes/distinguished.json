@@ -1,7 +1,7 @@
 {
     "name": "Distinguished Theme",
     "description": "A modified port of the distinguished theme for vim.",
-    "remoteSrc": "https:\/\/github.com\/Lokaltog\/distinguished-theme\/blob\/develop\/distinguished-theme.el",
+    "remoteSrc": "https:\/\/github.com\/Lokaltog\/distinguished-theme",
     "localSrc": ".\/assets\/local-src\/distinguished-theme-source-code.el",
     "author": "Kim Silkeb\u00e6kken",
     "largeImgs": [

@@ -1,7 +1,7 @@
 {
     "name": "Deep Thought Theme",
     "description": "Emacs 24 theme with the Answer to The Ultimate Question.",
-    "remoteSrc": "https:\/\/github.com\/emacsfodder\/emacs-deep-thought-theme\/blob\/master\/deep-thought-theme.el",
+    "remoteSrc": "https:\/\/github.com\/emacsfodder\/emacs-deep-thought-theme",
     "localSrc": ".\/assets\/local-src\/deep-thought-theme-source-code.el",
     "author": "Jason Milkins",
     "largeImgs": [

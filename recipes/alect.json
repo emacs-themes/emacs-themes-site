@@ -1,6 +1,6 @@
 {
     "name": "Alect Themes",
-    "description": "Configurable\u00a0light, dark and black color themes for GNU Emacs 24 or later.",
+    "description": "Configurable light, dark and black color themes for GNU Emacs 24 or later.",
     "remoteSrc": "https:\/\/github.com\/alezost\/alect-themes",
     "localSrc": ".\/assets\/local-src\/alect-themes-source-code.el",
     "author": "Alex Kost",
@@ -24,7 +24,8 @@
         "dark",
         "emacs 24",
         "light",
-        "popular"
+        "popular",
+        "modern"
     ],
     "available": true,
     "smallImg": ".\/assets\/imgs-small\/alect-dark.png"

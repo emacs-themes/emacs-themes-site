@@ -2,7 +2,7 @@
     "name": "Taming Mr. Arneson Theme",
     "description": "Color Theme",
     "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/taming-mr.-arneson-theme.el",
-    "localSrc": ".\/assets\/local-src\/taming-mr.-arneson-theme-source-code.el",
+    "localSrc": ".\/assets\/local-src\/taming-mr-arneson-theme-source-code.el",
     "author": "rik Arneson \/ Syohei YOSHIDA",
     "largeImgs": [
         ".\/assets\/imgs\/taming-mr-arneson.png",

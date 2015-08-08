@@ -1,5 +1,4 @@
-;-
-<pre class="lang:lisp decode:true" title="Niflheim">;;; niflheim-theme.el --- A port of the Nifleim theme to Emacs
+;;; niflheim-theme.el --- A port of the Nifleim theme to Emacs
 
 ;; Copyright (C) 2014  Nicolas Petton
 
@@ -27,11 +26,11 @@
   "A dark medium contrast theme")
 
 (let ((class '((class color) (min-colors 89)))
-	  (background-color "#303030")
-	  (orange "#ffcd8e")
-	  (purple "#cbaaf5")
-	  (default-color "#b8c4cf")
-	  (cursor-background "#b6c4cf"))
+          (background-color "#303030")
+          (orange "#ffcd8e")
+          (purple "#cbaaf5")
+          (default-color "#b8c4cf")
+          (cursor-background "#b6c4cf"))
   (custom-theme-set-faces
    'niflheim
    `(default ((,class (:background ,background-color :foreground ,default-color))))
@@ -119,7 +118,7 @@
    `(message-cited-text ((,class (:foreground "#99968b"))))
    `(message-separator ((,class (:foreground "#ff6c6b" :weight bold))))
 
-	;; flyspell
+        ;; flyspell
    `(flyspell-incorrect ((,class (:underline (:color "#ff6c6b" :style wave) :weight bold))))
    `(flyspell-duplicate ((,class (:underline (:color "#ff6c6b" :style wave) :weight bold))))
 

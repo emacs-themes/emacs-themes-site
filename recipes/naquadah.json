@@ -1,7 +1,7 @@
 {
     "name": "Naquadah Theme",
     "description": "A theme based on Tango color set",
-    "remoteSrc": "http:\/\/git.naquadah.org\/?p=naquadah-theme.git;a=summary",
+    "remoteSrc": "https:\/\/github.com\/jd\/naquadah-theme",
     "localSrc": ".\/assets\/local-src\/naquadah-theme-source-code.el",
     "author": "Julien Danjou",
     "largeImgs": [

@@ -1,7 +1,7 @@
 {
     "name": "Alice Blue Theme",
     "description": "Color Theme",
-    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/alice-blue-theme.el",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/aliceblue-theme.el",
     "localSrc": ".\/assets\/local-src\/alice-blue-theme-source-code.el",
     "author": "Girish Bharadwaj \/ Syohei YOSHIDA",
     "largeImgs": [

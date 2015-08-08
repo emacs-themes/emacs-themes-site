@@ -1,7 +1,7 @@
 {
     "name": "Smyx Theme",
     "description": "Theme based on the smyck color theme by hukl",
-    "remoteSrc": "https:\/\/github.com\/tacit7\/smyx\/blob\/master\/smyx-theme.el",
+    "remoteSrc": "https:\/\/github.com\/tacit7\/smyx",
     "localSrc": ".\/assets\/local-src\/smyx-theme-source-code.el",
     "author": "Uriel G Maldonado",
     "largeImgs": [

@@ -1,4 +1,3 @@
-;; -*- eval: (rainbow-mode); -*-
 ;;; Deviant-theme.el --- Custom face theme for Emacs
 
 ;; Copyright (C) 2010, 2011, 2012 Darksair.

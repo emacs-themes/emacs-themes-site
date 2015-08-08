@@ -1,5 +1,4 @@
-;-
-<pre class="lang:lisp decode:true " title="Evenhold">;;; evenhold-theme.el --- Custom theme for faces
+;;; evenhold-theme.el --- Custom theme for faces
 
 ;; Copyright (C) 2011-2014 Free Software Foundation, Inc.
 
@@ -40,7 +39,7 @@
    `(cperl-array-face ((,class (:foreground "yellow2"))))
    `(cperl-hash-face ((,class (:foreground "green"))))
    `(cursor ((,class (:background "#34ADF2"))))
-   `(default ((,class (:background "#000000" :foreground "#D0D0D0")))) 
+   `(default ((,class (:background "#000000" :foreground "#D0D0D0"))))
    `(diff-added ((,class (nil))))
    `(diff-changed ((,class (nil))))
    `(diff-context ((,class (:foreground "seashell4"))))
@@ -61,11 +60,11 @@
    `(ediff-fine-diff-A ((,class (:background "skyblue4" :foreground "white"))))
    `(ediff-fine-diff-B ((,class (:background "cyan4" :foreground "white"))))
    `(ediff-odd-diff-A ((,class (:background "Grey50" :foreground "White"))))
-   `(error ((,class (:foreground "#BB0000")))) 
+   `(error ((,class (:foreground "#BB0000"))))
    `(flymake-errline ((,class (:background nil :underline "red"))))
    `(flymake-warnline ((,class (:background nil :underline "green"))))
    `(font-lock-builtin-face ((,class (:foreground "#FF983C" :weight bold))))
-   `(font-lock-comment-delimiter-face ((,class (:foreground "#A5A6A6")))) 
+   `(font-lock-comment-delimiter-face ((,class (:foreground "#A5A6A6"))))
    `(font-lock-comment-face ((,class (:foreground "#626262"))))
    `(font-lock-constant-face ((,class (:foreground "#C61A1A"))))
    `(font-lock-doc-face ((,class (:foreground "#EFEFEF"))))

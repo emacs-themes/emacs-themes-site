@@ -1,5 +1,4 @@
-;-
-<pre class="lang:lisp decode:true " title="Erosiond">;;; erosiond-theme.el --- A color theme for Emacs 24.
+;;; erosiond-theme.el --- A color theme for Emacs 24.
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by

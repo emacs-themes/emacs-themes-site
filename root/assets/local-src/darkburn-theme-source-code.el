@@ -1,5 +1,4 @@
-;-
-<pre class="lang:lisp decode:true " title="Darkburn">;;; darkburn-theme.el --- A not-so-low contrast color theme for Emacs.
+;;;; darkburn-theme.el --- A not-so-low contrast color theme for Emacs.
 
 ;; Copyright 2014 Jonas Gorauskas
 

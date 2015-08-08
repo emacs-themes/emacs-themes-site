@@ -1,7 +1,7 @@
 {
     "name": "Waher Theme",
     "description": "Dark, clean theme for Emacs.",
-    "remoteSrc": "https:\/\/github.com\/emacsfodder\/emacs-waher-theme\/blob\/master\/waher-theme.el",
+    "remoteSrc": "https:\/\/github.com\/emacsfodder\/emacs-waher-theme",
     "localSrc": ".\/assets\/local-src\/waher-theme-source-code.el",
     "author": "Jason Milkins",
     "largeImgs": [
