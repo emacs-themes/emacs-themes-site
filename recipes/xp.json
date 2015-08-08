@@ -1,0 +1,19 @@
+{
+    "name": "XP Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/xp-theme.el",
+    "localSrc": ".\/assets\/local-src\/xp-theme-source-code.el",
+    "author": "Girish Bharadwaj \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/xp-theme.png",
+        ".\/assets\/imgs\/xp-theme-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "light",
+        "xp",
+        "yellow"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/xp-theme.png"
+}

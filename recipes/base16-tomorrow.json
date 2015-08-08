@@ -1,0 +1,19 @@
+{
+    "name": "Base16 Tomorrow Theme",
+    "description": "Base16 for Emacs",
+    "remoteSrc": "https:\/\/github.com\/neil477\/base16-emacs",
+    "localSrc": ".\/assets\/local-src\/base16-tomorrow-theme-source-code.el",
+    "author": "Neil Bhakta",
+    "largeImgs": [
+        ".\/assets\/imgs\/base16-tomorrow.png",
+        ".\/assets\/imgs\/base16-tomorrow-bis.png"
+    ],
+    "tags": [
+        "base16",
+        "base16 tomorrow",
+        "dark",
+        "tomorrow"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/base16-tomorrow.png"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Warm Night Theme",
+    "description": "Emacs24 theme with a dark background and warm colors",
+    "remoteSrc": "https:\/\/github.com\/mswift42\/warm-night-theme\/blob\/master\/warm-night-theme.el",
+    "localSrc": ".\/assets\/local-src\/warm-night-theme-source-code.el",
+    "author": "Martin Haesler",
+    "largeImgs": [
+        ".\/assets\/imgs\/warm-night.png",
+        ".\/assets\/imgs\/warm-night-bis.png"
+    ],
+    "tags": [
+        "brown",
+        "dark",
+        "emacs24",
+        "warm night"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/warm-night.png"
+}

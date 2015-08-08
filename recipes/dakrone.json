@@ -1,0 +1,19 @@
+{
+    "name": "Dakrone Theme",
+    "description": "A dark color theme for Emacs.",
+    "remoteSrc": "https:\/\/github.com\/dakrone\/dakrone-theme",
+    "localSrc": ".\/assets\/local-src\/dakrone-theme-source-code.el",
+    "author": "Lee Hinman",
+    "largeImgs": [
+        ".\/assets\/imgs\/dakrone.png",
+        ".\/assets\/imgs\/dakrone-bis.png"
+    ],
+    "tags": [
+        "black",
+        "dark",
+        "darkrone",
+        "emacs 24"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/dakrone.png"
+}

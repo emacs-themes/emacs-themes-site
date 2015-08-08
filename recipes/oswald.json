@@ -1,0 +1,20 @@
+{
+    "name": "Oswald Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/oswald-theme.el",
+    "localSrc": ".\/assets\/local-src\/oswald-theme-source-code.el",
+    "author": " Tom Oswald \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/oswald.png",
+        ".\/assets\/imgs\/oswald-bis.png"
+    ],
+    "tags": [
+        "black",
+        "color themes",
+        "dark",
+        "green",
+        "oswald"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/oswald.png"
+}

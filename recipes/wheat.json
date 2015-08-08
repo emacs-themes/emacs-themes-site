@@ -1,0 +1,19 @@
+{
+    "name": "Wheat Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/wheat-theme.el",
+    "localSrc": ".\/assets\/local-src\/wheat-theme-source-code.el",
+    "author": "Xavier Maillard \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/wheat.png",
+        ".\/assets\/imgs\/wheat-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "light",
+        "orange",
+        "wheat"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/wheat.png"
+}

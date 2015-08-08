@@ -1,0 +1,20 @@
+{
+    "name": "Purple Haze Theme",
+    "description": "An overtly purple color theme for Emacs24",
+    "remoteSrc": "https:\/\/github.com\/emacsfodder\/emacs-purple-haze-theme",
+    "localSrc": ".\/assets\/local-src\/purple-haze-theme-source-code.el",
+    "author": "Jason Milkins",
+    "largeImgs": [
+        ".\/assets\/imgs\/purple-haze.png",
+        ".\/assets\/imgs\/purple-haze-bis.png"
+    ],
+    "tags": [
+        "black",
+        "color themes",
+        "dark",
+        "emacs 24",
+        "purple"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/purple-haze.png"
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Smyx Theme",
+    "description": "Theme based on the smyck color theme by hukl",
+    "remoteSrc": "https:\/\/github.com\/tacit7\/smyx\/blob\/master\/smyx-theme.el",
+    "localSrc": ".\/assets\/local-src\/smyx-theme-source-code.el",
+    "author": "Uriel G Maldonado",
+    "largeImgs": [
+        ".\/assets\/imgs\/smyx-theme.png",
+        ".\/assets\/imgs\/smyx-theme-bis.png"
+    ],
+    "tags": [
+        "black",
+        "dark",
+        "smyx"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/smyx-theme.png"
+}

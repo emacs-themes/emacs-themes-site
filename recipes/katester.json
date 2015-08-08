@@ -1,0 +1,19 @@
+{
+    "name": "Katester Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/katester-theme.el",
+    "localSrc": ".\/assets\/local-src\/katester-theme-source-code.el",
+    "author": "walterh@rocketmail.com \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/katester.png",
+        ".\/assets\/imgs\/katester-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "katester",
+        "light",
+        "yellow"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/katester.png"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Radiance Theme",
+    "description": "Color theme that goes well with Ubuntu\u2019s Radiance theme",
+    "remoteSrc": "https:\/\/github.com\/miloshadzic\/color-theme-radiance\/blob\/master\/radiance-theme.el",
+    "localSrc": ".\/assets\/local-src\/radiance-theme-source-code.el",
+    "author": "Milo\u0161 Had\u017ei\u0107",
+    "largeImgs": [
+        ".\/assets\/imgs\/radiance.png",
+        ".\/assets\/imgs\/radiance-bis.png"
+    ],
+    "tags": [
+        "light",
+        "radiance",
+        "ubuntu",
+        "white"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/radiance.png"
+}

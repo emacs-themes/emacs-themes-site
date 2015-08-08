@@ -1,0 +1,19 @@
+{
+    "name": "Emacs 21 Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/emacs-21-theme.el",
+    "localSrc": ".\/assets\/local-src\/emacs-21-theme-source-code.el",
+    "author": "Xavier Maillard & Brian Palmer \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/emacs-21.png",
+        ".\/assets\/imgs\/emacs-21-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "emacs 21",
+        "light",
+        "white"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/emacs-21.png"
+}

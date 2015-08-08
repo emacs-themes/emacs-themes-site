@@ -1,0 +1,23 @@
+{
+    "name": "ColorsAreNice Themes",
+    "description": "A color theme for Emacs.",
+    "remoteSrc": "https:\/\/github.com\/Fanael\/colorsarenice-theme",
+    "localSrc": ".\/assets\/local-src\/colorsarenice-themes-source-code.el",
+    "author": "Fanael Linithien",
+    "largeImgs": [
+        ".\/assets\/imgs\/colorsarenice-dark.el_.png",
+        ".\/assets\/imgs\/colorsarenice-dark-bis.png",
+        ".\/assets\/imgs\/colorsarenice-light-bis.png",
+        ".\/assets\/imgs\/colorsarenice-light.png"
+    ],
+    "tags": [
+        "black",
+        "color themes",
+        "colorsarenice",
+        "dark",
+        "light",
+        "yellow"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/colorsarenice-dark.el_.png"
+}

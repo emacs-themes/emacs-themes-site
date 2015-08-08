@@ -1,0 +1,18 @@
+{
+    "name": "Blue Mood Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/blue-mood-theme.el",
+    "localSrc": ".\/assets\/local-src\/blue-mood-theme-source-code.el",
+    "author": "Nelson Loyola \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/blue-mood.png",
+        ".\/assets\/imgs\/blue-mood-bis.png"
+    ],
+    "tags": [
+        "blue",
+        "blue mood",
+        "color themes"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/blue-mood.png"
+}

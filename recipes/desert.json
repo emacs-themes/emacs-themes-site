@@ -1,0 +1,20 @@
+{
+    "name": "Desert Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/desert-theme.el",
+    "localSrc": ".\/assets\/local-src\/desert-theme-source-code.el",
+    "author": "Sergei Lebedev \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/desert.png",
+        ".\/assets\/imgs\/desert-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "dark",
+        "desert",
+        "grey",
+        "vim"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/desert.png"
+}

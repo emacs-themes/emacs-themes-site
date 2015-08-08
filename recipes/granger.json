@@ -1,0 +1,18 @@
+{
+    "name": "Granger Theme",
+    "description": "Color theme based on light table",
+    "remoteSrc": "https:\/\/github.com\/owainlewis\/emacs-color-themes",
+    "localSrc": ".\/assets\/local-src\/granger-theme-source-code.el",
+    "author": "Owain Lewis",
+    "largeImgs": [
+        ".\/assets\/imgs\/granger.png",
+        ".\/assets\/imgs\/granger-bis.png"
+    ],
+    "tags": [
+        "black",
+        "dark",
+        "granger"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/granger.png"
+}

@@ -1,0 +1,151 @@
+html {
+    height: 100%;
+}
+body, div, a, span, ul, li, h1, h2, p {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    background-color: #f1f1f1;
+    color: #494949;
+}
+a {
+    text-decoration: none;
+    color: #E85085;
+}
+a:hover {
+    border-bottom: 2px solid #5E5BA8;
+}
+a img:hover {
+    border: none;
+}
+h1 {
+    color: #3A377D;
+    font-size: 2rem;
+    padding: 1.5rem 0;
+}
+p {
+    padding: 1rem 0;
+    line-height: 2rem;
+}
+ul {
+    display: inline;
+}
+li {
+    list-style-type: none;
+    display: inline;
+}
+em {
+    font-weight: bold;
+    font-style: normal;
+}
+a.no-hover:hover {
+    border: none;
+}
+.main {
+    min-height:100%;
+    position: relative;
+}
+.header {
+    border-top: 1rem solid #3A377D;
+    background-color: #5E5BA8;
+    color: #fff;
+    padding: 1rem 0 0.5rem 0;
+}
+.site-title {
+    font-size: 5rem;
+    padding: 0 0 1.5rem 0;
+}
+.center-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+.menu-item {
+    font-size: 1.5rem;
+    padding-left: 0.25rem;
+    margin-right: 3rem;
+}
+.menu-item a {
+    color: #fff;
+    padding-bottom: .5rem;
+}
+.menu-item a:hover {
+    border-bottom: .25rem solid #E85085;
+}
+.content {
+    padding: 2rem 0 3rem 0;
+}
+.details {
+    padding: .5rem 0;
+}
+.detail {
+    display: block;
+    line-height: 2rem;
+}
+.detail::before {
+    content: "» ";
+    color: #3A377D;
+    padding-left: .5rem;
+}
+.screenshots {
+    padding: 1rem 0;
+}
+.screenshot {
+    padding: 1rem 0;
+}
+.screenshot img {
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+.tags {
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+.tag {
+    display: inline;
+    padding: 0 .25rem;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.75rem;
+    height: 3rem;
+    background-color:#5E5BA8;
+    color: #fff;
+}
+.footer-info {
+    line-height: 3rem;
+    text-align: center;
+}
+.license-logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+.themes-list {
+    display: inline-block;
+    width: 100%;
+}
+.theme-title {
+    font-size: 1.5rem;
+}
+.cell {
+    width: 33.33%;
+    float: left;
+}
+.theme-small-img {
+    box-shadow: 0 3px 2px #5E5BA8;
+}
+.theme-small-img:hover {
+     box-shadow: 0 3px 15px #3A377D;
+}
+.theme-large-img {
+    box-shadow:  0 0 4px #5E5BA8;
+}
+ .theme-large-img:hover {
+     box-shadow: 0 0 20px #3A377D;
+}

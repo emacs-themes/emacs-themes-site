@@ -1,0 +1,19 @@
+{
+    "name": "Jsc Light Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/jsc-light-theme.el",
+    "localSrc": ".\/assets\/local-src\/jsc-light-theme-source-code.el",
+    "author": "John S Cooper \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/jsc-light.png",
+        ".\/assets\/imgs\/jsc-light-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "jsc light",
+        "light",
+        "white"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/jsc-light.png"
+}

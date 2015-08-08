@@ -1,0 +1,19 @@
+{
+    "name": "Soft Morning Theme",
+    "description": "Emacs24 theme with a light background",
+    "remoteSrc": "https:\/\/github.com\/mswift42\/soft-morning-theme",
+    "localSrc": ".\/assets\/local-src\/soft-morning-theme-source-code.el",
+    "author": "Martin Haesler",
+    "largeImgs": [
+        ".\/assets\/imgs\/soft-morning.png",
+        ".\/assets\/imgs\/soft-morning-bis.png"
+    ],
+    "tags": [
+        "bright",
+        "emacs 24",
+        "soft morning",
+        "white"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/soft-morning.png"
+}

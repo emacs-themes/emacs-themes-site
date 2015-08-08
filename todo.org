@@ -1,0 +1,43 @@
+* Logging
+** DONE make logging messages more uniform
+** DONE replace console.log with local logger
+
+* Templates
+** DONE break templates into smaller files
+** TODO create main page template
+   Currently there is only a list with the most popular themes
+** DONE remove intermediate templates
+
+* Paths
+** DONE add "__dirname" to paths
+
+* Bugs
+** Create module for deleting dirs recursively
+
+* Refactoring
+** TODO use better names for functions
+** TODO break large functions into small named ones
+** DONE break main.js into modules
+** DONE remove rimraf package
+** DONE remove async package
+** TODO improve CSS
+** TODO move all variables to a common module
+
+* Additional functionality
+** TODO create github repository
+   Create .gitignore file & all that jazz
+** TODO add search input
+** TODO add classes to tags
+** TODO integrate with git
+** TODO create template for the rest of the pages
+** break all recipes containing multiple themes
+   Currently there are recipes which contain multiple themes.
+   These must be broken down to simple ones.
+** TODO Add analytics code
+
+* Automation
+** TODO create gulp tasks for minification
+
+* Testing
+** TODO Test all themes
+** TODO Test all theme sources

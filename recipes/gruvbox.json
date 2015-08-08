@@ -1,0 +1,19 @@
+{
+    "name": "Gruvbox Theme",
+    "description": "A retro groove color scheme for Emacs.",
+    "remoteSrc": "https:\/\/github.com\/Greduan\/emacs-theme-gruvbox",
+    "localSrc": ".\/assets\/local-src\/gruvbox-theme-source-code.el",
+    "author": "Edu\u00e1n L\u00e1vaque",
+    "largeImgs": [
+        ".\/assets\/imgs\/gruvbox.png",
+        ".\/assets\/imgs\/gruvbox-bis.png"
+    ],
+    "tags": [
+        "brown",
+        "dark",
+        "gruvbox",
+        "vim"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/gruvbox.png"
+}

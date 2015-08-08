@@ -1,0 +1,19 @@
+{
+    "name": "Busybee Theme",
+    "description": "Port of vim\u2019s Busybee theme.",
+    "remoteSrc": "https:\/\/github.com\/mswift42\/busybee-theme",
+    "localSrc": ".\/assets\/local-src\/busybee-theme-source-code.el",
+    "author": "Martin Haesler",
+    "largeImgs": [
+        ".\/assets\/imgs\/busybee.png",
+        ".\/assets\/imgs\/busybee-bis.png"
+    ],
+    "tags": [
+        "black",
+        "busybee",
+        "dark",
+        "vim"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/busybee.png"
+}

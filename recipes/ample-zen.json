@@ -1,0 +1,20 @@
+{
+    "name": "Ample Zen Theme",
+    "description": "A combination of ample-theme and zenburn.",
+    "remoteSrc": "http:\/\/marmalade-repo.org.el",
+    "localSrc": ".\/assets\/local-src\/ample-zen-theme-source-code.el",
+    "author": "Michael Wall",
+    "largeImgs": [
+        ".\/assets\/imgs\/ample-zen.png",
+        ".\/assets\/imgs\/ample-zen-bis.png"
+    ],
+    "tags": [
+        "ample",
+        "ample zen",
+        "black",
+        "dark",
+        "zen"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/ample-zen.png"
+}

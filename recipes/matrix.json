@@ -1,0 +1,19 @@
+{
+    "name": "Matrix Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/matrix-theme.el",
+    "localSrc": ".\/assets\/local-src\/matrix-theme-source-code.el",
+    "author": "walterh@rocketmail.com \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/matrix.png",
+        ".\/assets\/imgs\/matrix-bis.png"
+    ],
+    "tags": [
+        "black",
+        "color themes",
+        "green",
+        "matrix. dark"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/matrix.png"
+}

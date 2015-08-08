@@ -1,0 +1,19 @@
+{
+    "name": "Kingsajz Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/kingsajz-theme.el",
+    "localSrc": ".\/assets\/local-src\/kingsajz-theme-source-code.el",
+    "author": "Olgierd \u201cKingsajz\u201d Ziolko \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/kingsajz.png",
+        ".\/assets\/imgs\/kingsajz-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "dark",
+        "green",
+        "kingsajz"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/kingsajz.png"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Bharadwaj Slate Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/bharadwaj-slate-theme.el",
+    "localSrc": ".\/assets\/local-src\/bharadwaj-slate-theme-source-code.el",
+    "author": "Girish Bharadwaj \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/bharadwaj-slate.png",
+        ".\/assets\/imgs\/bharadwaj-slate-bis.png"
+    ],
+    "tags": [
+        "bharadwaj slate",
+        "color themes",
+        "dark",
+        "green"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/bharadwaj-slate.png"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Tangotango Theme",
+    "description": "Color theme based on the tango palette colors.",
+    "remoteSrc": "https:\/\/github.com\/juba\/color-theme-tangotango",
+    "localSrc": ".\/assets\/local-src\/tangotango-theme-source-code.el",
+    "author": "Julien Barnier &\u00a0Yesudeep Mangalapilly",
+    "largeImgs": [
+        ".\/assets\/imgs\/tangotango.png",
+        ".\/assets\/imgs\/tangotango-bis.png"
+    ],
+    "tags": [
+        "dark",
+        "popular",
+        "tango",
+        "tangotango"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/tangotango.png"
+}

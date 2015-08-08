@@ -1,0 +1,19 @@
+{
+    "name": "Obsidian Theme",
+    "description": "A port of the Eclipse theme Obsidian",
+    "remoteSrc": "https:\/\/github.com\/mswift42\/obsidian-theme",
+    "localSrc": ".\/assets\/local-src\/obsidian-theme-source-code.el",
+    "author": "Martin Haesler",
+    "largeImgs": [
+        ".\/assets\/imgs\/obsidian.el_.png",
+        ".\/assets\/imgs\/obsidian-bis.png"
+    ],
+    "tags": [
+        "dark",
+        "eclipse",
+        "grey",
+        "obsidian"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/obsidian.el_.png"
+}

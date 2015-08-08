@@ -1,0 +1,19 @@
+{
+    "name": "XEmacs Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/xemacs-theme.el",
+    "localSrc": ".\/assets\/local-src\/xemacs-theme-source-code.el",
+    "author": "Xavier Maillard & Brian Palmer \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/xemacs.png",
+        ".\/assets\/imgs\/xemacs-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "grey",
+        "light",
+        "xemacs"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/xemacs.png"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Flatland Theme",
+    "description": "A simple theme based on the Flatland theme for Sublime Text",
+    "remoteSrc": "https:\/\/github.com\/gregchapple\/flatland-emacs",
+    "localSrc": ".\/assets\/local-src\/flatland-theme-source-code.el",
+    "author": "Greg Chapple",
+    "largeImgs": [
+        ".\/assets\/imgs\/flatland.png",
+        ".\/assets\/imgs\/flatland-bis.png"
+    ],
+    "tags": [
+        "dark",
+        "flatland",
+        "grey",
+        "sublime text"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/flatland.png"
+}

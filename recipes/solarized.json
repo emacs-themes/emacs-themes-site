@@ -1,0 +1,22 @@
+{
+    "name": "Solarized Themes",
+    "description": "Solarized for Emacs is an Emacs port of the Solarized theme for vim, developed by Ethan Schoonover.",
+    "remoteSrc": "https:\/\/github.com\/bbatsov\/solarized-emacs",
+    "localSrc": ".\/assets\/local-src\/solarized-themes-source-code.el",
+    "author": "Bozhidar Batsov & Thomas Fr\u00f6ssman",
+    "largeImgs": [
+        ".\/assets\/imgs\/solarized-dark.png",
+        ".\/assets\/imgs\/solarized-dark-bis.png",
+        ".\/assets\/imgs\/solarized-light.png",
+        ".\/assets\/imgs\/solarized-light-bis.png"
+    ],
+    "tags": [
+        "dark",
+        "emacs 23",
+        "light",
+        "popular",
+        "solarized"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/solarized-dark.png"
+}

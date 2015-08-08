@@ -1,0 +1,19 @@
+{
+    "name": "Marine Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/marine-theme.el",
+    "localSrc": ".\/assets\/local-src\/marine-theme-source-code.el",
+    "author": "Girish Bharadwaj \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/marine.png",
+        ".\/assets\/imgs\/marine-bis.png"
+    ],
+    "tags": [
+        "blue",
+        "color themes",
+        "light",
+        "marine"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/marine.png"
+}

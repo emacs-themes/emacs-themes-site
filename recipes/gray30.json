@@ -1,0 +1,19 @@
+{
+    "name": "Gray30 Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/gray30-theme.el",
+    "localSrc": ".\/assets\/local-src\/gray30-theme-source-code.el",
+    "author": "Girish Bharadwaj \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/gray30.png",
+        ".\/assets\/imgs\/gray30-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "gray30",
+        "grey",
+        "light"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/gray30.png"
+}

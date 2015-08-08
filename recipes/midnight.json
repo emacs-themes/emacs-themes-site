@@ -1,0 +1,19 @@
+{
+    "name": "Midnight Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/midnight-theme.el",
+    "localSrc": ".\/assets\/local-src\/midnight-theme-source-code.el",
+    "author": "Gordon Messmer \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/midnight.png",
+        ".\/assets\/imgs\/midnight-bis.png"
+    ],
+    "tags": [
+        "black",
+        "color themes",
+        "dark",
+        "midnight"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/midnight.png"
+}

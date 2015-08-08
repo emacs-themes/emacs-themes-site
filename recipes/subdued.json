@@ -1,0 +1,19 @@
+{
+    "name": "Subdued Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/subdued-theme.el",
+    "localSrc": ".\/assets\/local-src\/subdued-theme-source-code.el",
+    "author": "Jason R. Blevins \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/subdued.png",
+        ".\/assets\/imgs\/subdued-bis.png"
+    ],
+    "tags": [
+        "black",
+        "color themes",
+        "dark",
+        "subdued"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/subdued.png"
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Base16 Railcasts Theme",
+    "description": "Base16 for Emacs",
+    "remoteSrc": "https:\/\/github.com\/neil477\/base16-emacs",
+    "localSrc": ".\/assets\/local-src\/base16-railcasts-theme-source-code.el",
+    "author": "Neil Bhakta",
+    "largeImgs": [
+        ".\/assets\/imgs\/base16-railcasts.png",
+        ".\/assets\/imgs\/base16-railcasts-bis.png"
+    ],
+    "tags": [
+        "base16",
+        "base16 railcasts",
+        "blue"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/base16-railcasts.png"
+}

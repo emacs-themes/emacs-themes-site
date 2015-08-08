@@ -1,0 +1,20 @@
+{
+    "name": "Retro Green Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/retro-green-theme.el",
+    "localSrc": ".\/assets\/local-src\/retro-green-theme-source-code.el",
+    "author": "Xavier Maillard & Brian Palmer \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/retro-green.png",
+        ".\/assets\/imgs\/retro-green-bis.png"
+    ],
+    "tags": [
+        "black",
+        "color themes",
+        "dark",
+        "green",
+        "retro green"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/retro-green.png"
+}

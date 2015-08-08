@@ -1,0 +1,18 @@
+{
+    "name": "Zenburn Theme",
+    "description": "Zenburn for Emacs is a direct port of the popular Zenburn theme for vim, developed by Jani Nurminen.",
+    "remoteSrc": "https:\/\/github.com\/bbatsov\/zenburn-emacs",
+    "localSrc": ".\/assets\/local-src\/zenburn-theme-source-code.el",
+    "author": "Bozhidar Batsov",
+    "largeImgs": [
+        ".\/assets\/imgs\/zenburn.png",
+        ".\/assets\/imgs\/zenburn-bis.png"
+    ],
+    "tags": [
+        "dark",
+        "popular",
+        "zenburn"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/zenburn.png"
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Aalto Dark theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/aalto-dark-theme.el",
+    "localSrc": ".\/assets\/local-src\/aalto-dark-theme-source-code.el",
+    "author": "Xavier Maillard & Brian Palmer \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/aalto-dark.png",
+        ".\/assets\/imgs\/aalto-dark-bis.png"
+    ],
+    "tags": [
+        "aalto dark",
+        "blue",
+        "color themes",
+        "dark",
+        "old"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/aalto-dark.png"
+}

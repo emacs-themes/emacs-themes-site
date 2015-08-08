@@ -1,0 +1,19 @@
+{
+    "name": "Base16 Chalk Theme",
+    "description": "Base16 for Emacs",
+    "remoteSrc": "https:\/\/github.com\/neil477\/base16-emacs",
+    "localSrc": ".\/assets\/local-src\/base16-chalk-theme-source-code.el",
+    "author": "Neil Bhakta",
+    "largeImgs": [
+        ".\/assets\/imgs\/base16-chalk.png",
+        ".\/assets\/imgs\/base16-chalk-bis.png"
+    ],
+    "tags": [
+        "base16",
+        "base16 chalk",
+        "chalk",
+        "dark"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/base16-chalk.png"
+}

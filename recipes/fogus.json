@@ -1,0 +1,18 @@
+{
+    "name": "Fogus Theme",
+    "description": "An icy dark blue color theme",
+    "remoteSrc": "https:\/\/github.com\/owainlewis\/emacs-color-themes",
+    "localSrc": ".\/assets\/local-src\/fogus-theme-source-code.el",
+    "author": "Owain Lewis",
+    "largeImgs": [
+        ".\/assets\/imgs\/fogus.png",
+        ".\/assets\/imgs\/fogus-bis.png"
+    ],
+    "tags": [
+        "blue",
+        "dark",
+        "fogus"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/fogus.png"
+}

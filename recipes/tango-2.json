@@ -1,0 +1,19 @@
+{
+    "name": "Tango 2 Theme",
+    "description": "Tango 2 color theme for GNU Emacs.",
+    "remoteSrc": "https:\/\/gist.github.com\/developernotes\/2024464",
+    "localSrc": ".\/assets\/local-src\/tango-2-theme-source-code.el",
+    "author": "Nick Parker & Will Farrington",
+    "largeImgs": [
+        ".\/assets\/imgs\/tango2.png",
+        ".\/assets\/imgs\/tango2-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "dark",
+        "popular",
+        "tango"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/tango2.png"
+}

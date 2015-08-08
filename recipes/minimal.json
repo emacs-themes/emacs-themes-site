@@ -1,0 +1,24 @@
+{
+    "name": "Minimal Theme",
+    "description": "A dark\/light minimalistic theme for Emacs 24.",
+    "remoteSrc": "https:\/\/github.com\/ikame\/minimal-theme",
+    "localSrc": ".\/assets\/local-src\/minimal-theme-source-code.el",
+    "author": "Anler Hp",
+    "largeImgs": [
+        ".\/assets\/imgs\/minimal.png",
+        ".\/assets\/imgs\/minimal-bis.png",
+        ".\/assets\/imgs\/minimal-light.png",
+        ".\/assets\/imgs\/minimal-light-bis.png"
+    ],
+    "tags": [
+        "black",
+        "dark",
+        "emacs 24",
+        "light",
+        "minimal",
+        "minimalistic",
+        "white"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/minimal.png"
+}

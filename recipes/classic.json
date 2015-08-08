@@ -1,0 +1,19 @@
+{
+    "name": "Classic Theme",
+    "description": "Classic Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/classic-theme.el",
+    "localSrc": ".\/assets\/local-src\/classic-theme-source-code.el",
+    "author": "Frederic Giroud \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/classic.png",
+        ".\/assets\/imgs\/classic-bis.png"
+    ],
+    "tags": [
+        "classic",
+        "color themes",
+        "dark",
+        "green"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/classic.png"
+}

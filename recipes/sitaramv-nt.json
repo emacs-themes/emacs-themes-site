@@ -1,0 +1,19 @@
+{
+    "name": "Sitaramv NT Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/sitaramv-nt-theme.el",
+    "localSrc": ".\/assets\/local-src\/sitaramv-nt-theme-source-code.el",
+    "author": "Xavier Maillard & Brian Palmer \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/sitramv-nt.png",
+        ".\/assets\/imgs\/sitramv-nt-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "light",
+        "sitramv nt",
+        "white"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/sitramv-nt.png"
+}

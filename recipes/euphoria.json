@@ -1,0 +1,19 @@
+{
+    "name": "Euphoria Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/euphoria-theme.el",
+    "localSrc": ".\/assets\/local-src\/euphoria-theme-source-code.el",
+    "author": "oGLOWo \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/euphoria.png",
+        ".\/assets\/imgs\/euphoria.bis_.png"
+    ],
+    "tags": [
+        "black",
+        "color themes",
+        "dark",
+        "euphoria"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/euphoria.png"
+}

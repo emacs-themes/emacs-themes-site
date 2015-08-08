@@ -1,0 +1,20 @@
+{
+    "name": "Aalto Light Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/aalto-light-theme.el",
+    "localSrc": ".\/assets\/local-src\/aalto-light-theme-source-code.el",
+    "author": "Jari Aalto \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/aalto-light.png",
+        ".\/assets\/imgs\/aalto-light-bis.png"
+    ],
+    "tags": [
+        "aalto light",
+        "color themes",
+        "light",
+        "old",
+        "yellow"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/aalto-light.png"
+}

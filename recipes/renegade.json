@@ -1,0 +1,19 @@
+{
+    "name": "Renegade Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/renegade-theme.el",
+    "localSrc": ".\/assets\/local-src\/renegade-theme-source-code.el",
+    "author": "Brian Palmer \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/renegade.png",
+        ".\/assets\/imgs\/renegade-bis.png"
+    ],
+    "tags": [
+        "black",
+        "color themes",
+        "dark",
+        "renegade"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/renegade.png"
+}

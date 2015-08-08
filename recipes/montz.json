@@ -1,0 +1,18 @@
+{
+    "name": "Montz Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/montz-theme.el",
+    "localSrc": ".\/assets\/local-src\/montz-theme-source-code.el",
+    "author": "Brady Montz \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/montz.png",
+        ".\/assets\/imgs\/montz-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "grey",
+        "montz"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/montz.png"
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Niflheim Theme",
+    "description": "A port of the Nifleim theme to Emacs",
+    "remoteSrc": "https:\/\/github.com\/niflheim-theme\/emacs",
+    "localSrc": ".\/assets\/local-src\/niflheim-theme-source-code.el",
+    "author": "Nicolas Petton & Benjamin Van Ryseghem",
+    "largeImgs": [
+        ".\/assets\/imgs\/nifleim.png",
+        ".\/assets\/imgs\/nifleim-bis.png"
+    ],
+    "tags": [
+        "dark",
+        "grey",
+        "niflheim"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/nifleim.png"
+}

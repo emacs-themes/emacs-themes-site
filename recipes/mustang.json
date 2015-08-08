@@ -1,0 +1,20 @@
+{
+    "name": "Mustang Theme",
+    "description": "Port of vim\u2019s mustang theme to emacs24.",
+    "remoteSrc": "https:\/\/github.com\/mswift42\/mustang-theme",
+    "localSrc": ".\/assets\/local-src\/mustang-theme-source-code.el",
+    "author": "Martin Haesler",
+    "largeImgs": [
+        ".\/assets\/imgs\/mustang.png",
+        ".\/assets\/imgs\/mustang-bis.png"
+    ],
+    "tags": [
+        "black",
+        "dark",
+        "emacs 24",
+        "mustang",
+        "vim"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/mustang.png"
+}

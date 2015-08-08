@@ -1,0 +1,19 @@
+{
+    "name": "Dark Laptop Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/dark-laptop-theme.el",
+    "localSrc": ".\/assets\/local-src\/dark-laptop-theme-source-code.el",
+    "author": "Laurent Michel \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/dark-laptop.png",
+        ".\/assets\/imgs\/dark-laptop-bis.png"
+    ],
+    "tags": [
+        "black",
+        "color themes",
+        "dark",
+        "dark laptop"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/dark-laptop.png"
+}

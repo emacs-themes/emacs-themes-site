@@ -1,0 +1,19 @@
+{
+    "name": "Pastels on Dark Theme",
+    "description": "Theme popularized in TextMate.app",
+    "remoteSrc": "https:\/\/gist.github.com\/shanecelis\/1906662",
+    "localSrc": ".\/assets\/local-src\/pastels-on-dark-theme-source-code.el",
+    "author": "Mats Persson",
+    "largeImgs": [
+        ".\/assets\/imgs\/pastels-on-dark.png",
+        ".\/assets\/imgs\/pastels-on-dark-bis.png"
+    ],
+    "tags": [
+        "brown",
+        "dark",
+        "pastels on dark",
+        "textmate"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/pastels-on-dark.png"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Robin Hood Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/robin-hood-theme.el",
+    "localSrc": ".\/assets\/local-src\/robin-hood-theme-source-code.el",
+    "author": "Xavier Maillard & Brian Palmer \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/robin-hood.png",
+        ".\/assets\/imgs\/robin-hood-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "dark",
+        "green",
+        "robin hood"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/robin-hood.png"
+}

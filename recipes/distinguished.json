@@ -1,0 +1,19 @@
+{
+    "name": "Distinguished Theme",
+    "description": "A modified port of the distinguished theme for vim.",
+    "remoteSrc": "https:\/\/github.com\/Lokaltog\/distinguished-theme\/blob\/develop\/distinguished-theme.el",
+    "localSrc": ".\/assets\/local-src\/distinguished-theme-source-code.el",
+    "author": "Kim Silkeb\u00e6kken",
+    "largeImgs": [
+        ".\/assets\/imgs\/distinguished.png",
+        ".\/assets\/imgs\/distinguished-bis.png"
+    ],
+    "tags": [
+        "black",
+        "dark",
+        "distinguished",
+        "vim"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/distinguished.png"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Taming Mr. Arneson Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/taming-mr.-arneson-theme.el",
+    "localSrc": ".\/assets\/local-src\/taming-mr.-arneson-theme-source-code.el",
+    "author": "rik Arneson \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/taming-mr-arneson.png",
+        ".\/assets\/imgs\/taming-mr-arneson-bis.png"
+    ],
+    "tags": [
+        "black",
+        "color theme",
+        "dark",
+        "taming mr arneson"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/taming-mr-arneson.png"
+}

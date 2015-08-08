@@ -1,0 +1,20 @@
+{
+    "name": "Retro Orange Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/retro-orange-theme.el",
+    "localSrc": ".\/assets\/local-src\/retro-orange-theme-source-code.el",
+    "author": "Xavier Maillard & Brian Palmer \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/retro-orange.png",
+        ".\/assets\/imgs\/retro-orange-bis.png"
+    ],
+    "tags": [
+        "black",
+        "color themes",
+        "dark",
+        "orange",
+        "retro orange"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/retro-orange.png"
+}

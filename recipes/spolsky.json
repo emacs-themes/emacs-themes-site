@@ -1,0 +1,18 @@
+{
+    "name": "Spolsky Theme",
+    "description": "A dark color theme",
+    "remoteSrc": "https:\/\/github.com\/owainlewis\/emacs-color-themes",
+    "localSrc": ".\/assets\/local-src\/spolsky-theme-source-code.el",
+    "author": "Owain Lewis",
+    "largeImgs": [
+        ".\/assets\/imgs\/spolsky.png",
+        ".\/assets\/imgs\/spolsky-bis.png"
+    ],
+    "tags": [
+        "black",
+        "dark",
+        "spolsky"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/spolsky.png"
+}

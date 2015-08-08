@@ -1,0 +1,20 @@
+{
+    "name": "Calm Forest Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/calm-forest-theme.el",
+    "localSrc": ".\/assets\/local-src\/calm-forest-theme-source-code.el",
+    "author": "Artur Hefczyc \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/calm-forest.png",
+        ".\/assets\/imgs\/calm-forest-bis.png"
+    ],
+    "tags": [
+        "calm forest",
+        "color themes",
+        "dark",
+        "green",
+        "grey"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/calm-forest.png"
+}

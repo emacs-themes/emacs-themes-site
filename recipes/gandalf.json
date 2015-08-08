@@ -1,0 +1,19 @@
+{
+    "name": "Gandalf Theme",
+    "description": "Slightly modified version of the\u00a0",
+    "remoteSrc": "https:\/\/github.com\/ptrv\/gandalf-theme-emacs",
+    "localSrc": ".\/assets\/local-src\/gandalf-theme-source-code.el",
+    "author": "Peter Vasil",
+    "largeImgs": [
+        ".\/assets\/imgs\/gandalf.png",
+        ".\/assets\/imgs\/gandalf-bis.png"
+    ],
+    "tags": [
+        "bright",
+        "gandalf",
+        "overtone",
+        "white"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/gandalf.png"
+}

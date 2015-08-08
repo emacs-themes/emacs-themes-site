@@ -1,0 +1,19 @@
+{
+    "name": "Base16 Mocha Theme",
+    "description": "Base16 for Emacs",
+    "remoteSrc": "https:\/\/github.com\/neil477\/base16-emacs",
+    "localSrc": ".\/assets\/local-src\/base16-mocha-theme-source-code.el",
+    "author": "Neil Bhakta",
+    "largeImgs": [
+        ".\/assets\/imgs\/base16-mocha.png",
+        ".\/assets\/imgs\/base16-mocha-bis.png"
+    ],
+    "tags": [
+        "base16",
+        "base16 mocha",
+        "brown",
+        "mocha"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/base16-mocha.png"
+}

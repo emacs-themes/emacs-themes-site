@@ -1,0 +1,19 @@
+{
+    "name": "Bharadwaj Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/bharadwaj-theme.el",
+    "localSrc": ".\/assets\/local-src\/bharadwaj-theme-source-code.el",
+    "author": "Girish Bharadwaj \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/bharadwaj.png",
+        ".\/assets\/imgs\/bharadwaj-bis.png"
+    ],
+    "tags": [
+        "bharadwaj",
+        "emacs themes",
+        "grey",
+        "light"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/bharadwaj.png"
+}

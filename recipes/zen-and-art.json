@@ -1,0 +1,19 @@
+{
+    "name": "Zen and Art Theme",
+    "description": "Ported theme to Emacs 24\u00a0",
+    "remoteSrc": "https:\/\/github.com\/developernotes\/zen-and-art-theme",
+    "localSrc": ".\/assets\/local-src\/zen-and-art-theme-source-code.el",
+    "author": "Nick Parker",
+    "largeImgs": [
+        ".\/assets\/imgs\/zen-and-art.png",
+        ".\/assets\/imgs\/zen-and-art-bis.png"
+    ],
+    "tags": [
+        "dark",
+        "emacs 24",
+        "popular",
+        "zen and art"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/zen-and-art.png"
+}

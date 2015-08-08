@@ -1,0 +1,19 @@
+{
+    "name": "Deep Blue Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/deep-blue-theme.el",
+    "localSrc": ".\/assets\/local-src\/deep-blue-theme-source-code.el",
+    "author": "Tomas Cerha \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/deep-blue.png",
+        ".\/assets\/imgs\/deep-blue-bis.png"
+    ],
+    "tags": [
+        "blue",
+        "color themes",
+        "dark",
+        "deep blue"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/deep-blue.png"
+}

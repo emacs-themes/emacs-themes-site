@@ -1,0 +1,19 @@
+{
+    "name": "Clarity Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/clarity-theme.el",
+    "localSrc": ".\/assets\/local-src\/clarity-theme-source-code.el",
+    "author": "Richard Wellum \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/clarity.png",
+        ".\/assets\/imgs\/clarity-bis.png"
+    ],
+    "tags": [
+        "black",
+        "clarity",
+        "color themes",
+        "dark"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/clarity.png"
+}

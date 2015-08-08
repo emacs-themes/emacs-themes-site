@@ -1,0 +1,18 @@
+{
+    "name": "Hickey Theme",
+    "description": "A dark color theme",
+    "remoteSrc": "https:\/\/github.com\/owainlewis\/emacs-color-themes",
+    "localSrc": ".\/assets\/local-src\/hickey-theme-source-code.el",
+    "author": "Owain Lewis",
+    "largeImgs": [
+        ".\/assets\/imgs\/hickey.png",
+        ".\/assets\/imgs\/hickey-bis.png"
+    ],
+    "tags": [
+        "black",
+        "dark",
+        "hickey"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/hickey.png"
+}

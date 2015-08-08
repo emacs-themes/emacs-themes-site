@@ -1,0 +1,19 @@
+{
+    "name": "Taylor Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/taylor-theme.el",
+    "localSrc": ".\/assets\/local-src\/taylor-theme-source-code.el",
+    "author": "Art Taylor \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/taylor.png",
+        ".\/assets\/imgs\/taylor-bis.png"
+    ],
+    "tags": [
+        "black",
+        "color themes",
+        "dark",
+        "taylor"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/taylor.png"
+}

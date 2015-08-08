@@ -1,0 +1,20 @@
+{
+    "name": "Tango Plus Theme",
+    "description": "Color theme for Emacs loosely based on the tango palette.",
+    "remoteSrc": "https:\/\/github.com\/tmalsburg\/tango-plus-theme",
+    "localSrc": ".\/assets\/local-src\/tango-plus-theme-source-code.el",
+    "author": "Titus von der Malsburg",
+    "largeImgs": [
+        ".\/assets\/imgs\/tango-plus.png",
+        ".\/assets\/imgs\/tango-plus-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "light",
+        "tango",
+        "tango plus",
+        "white"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/tango-plus.png"
+}

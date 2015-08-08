@@ -1,0 +1,20 @@
+{
+    "name": "Spacegray Theme",
+    "description": "Emacs port of the excellent\u00a0",
+    "remoteSrc": "https:\/\/github.com\/bruce\/emacs-spacegray-theme",
+    "localSrc": ".\/assets\/local-src\/spacegray-theme-source-code.el",
+    "author": "Bruce Williams",
+    "largeImgs": [
+        ".\/assets\/imgs\/spacegray.png",
+        ".\/assets\/imgs\/spacegray-bis.png"
+    ],
+    "tags": [
+        "blue",
+        "dark",
+        "emacs 24",
+        "space gray",
+        "sublime text"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/spacegray.png"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Blackboard Theme",
+    "description": "Porting that makes blackboard no longer rely on color-theme package.",
+    "remoteSrc": "https:\/\/github.com\/don9z\/blackboard-theme\/blob\/master\/blackboard-theme.el",
+    "localSrc": ".\/assets\/local-src\/blackboard-theme-source-code.el",
+    "author": "JD Huntington",
+    "largeImgs": [
+        ".\/assets\/imgs\/blackboard.png",
+        ".\/assets\/imgs\/blackboard-bis.png"
+    ],
+    "tags": [
+        "black",
+        "blackboard",
+        "dark",
+        "textmate"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/blackboard.png"
+}

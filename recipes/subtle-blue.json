@@ -1,0 +1,18 @@
+{
+    "name": "Subtle Blue Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/subtle-blue-theme.el",
+    "localSrc": ".\/assets\/local-src\/subtle-blue-theme-source-code.el",
+    "author": " Chris McMahan \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/subtle-blue.png",
+        ".\/assets\/imgs\/subtle-blue-bis.png"
+    ],
+    "tags": [
+        "blue",
+        "color themes",
+        "subtle blue"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/subtle-blue.png"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Professional Theme",
+    "description": "A port of Vim\u2019s Professional Theme for Emacs, originally created by Narayanan Iyer.",
+    "remoteSrc": "https:\/\/github.com\/juanjux\/emacs-professional-theme\/blob\/master\/professional-theme.el",
+    "localSrc": ".\/assets\/local-src\/professional-theme-source-code.el",
+    "author": "Juanjo Alvarez",
+    "largeImgs": [
+        ".\/assets\/imgs\/professional.png",
+        ".\/assets\/imgs\/professional-bis.png"
+    ],
+    "tags": [
+        "light",
+        "professional",
+        "vim",
+        "yellow"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/professional.png"
+}

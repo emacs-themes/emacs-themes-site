@@ -1,0 +1,19 @@
+{
+    "name": "Monochrome Theme",
+    "description": "Theme based on the builtin dichromacy theme",
+    "remoteSrc": "https:\/\/github.com\/fxn\/monochrome-theme.el",
+    "localSrc": ".\/assets\/local-src\/monochrome-theme-source-code.el",
+    "author": "Xavier Noria",
+    "largeImgs": [
+        ".\/assets\/imgs\/monochrome1.png",
+        ".\/assets\/imgs\/monochrome-bis.png"
+    ],
+    "tags": [
+        "black",
+        "dark",
+        "hacking",
+        "monochrome"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/monochrome1.png"
+}

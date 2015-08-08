@@ -1,0 +1,19 @@
+{
+    "name": "Parus Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/parus-theme.el",
+    "localSrc": ".\/assets\/local-src\/parus-theme-source-code.el",
+    "author": "Jon K Hellank \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/parus1.png",
+        ".\/assets\/imgs\/parus-bis1.png"
+    ],
+    "tags": [
+        "blue",
+        "color themes",
+        "dark",
+        "parus"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/parus1.png"
+}

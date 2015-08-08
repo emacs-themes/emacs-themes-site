@@ -1,0 +1,19 @@
+{
+    "name": "JB Simple Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/jb-simple-theme.el",
+    "localSrc": ".\/assets\/local-src\/jb-simple-theme-source-code.el",
+    "author": "Jeff \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/jb-simple.png",
+        ".\/assets\/imgs\/jb-simple-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "jb simple",
+        "light",
+        "white"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/jb-simple.png"
+}

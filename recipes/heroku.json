@@ -1,0 +1,19 @@
+{
+    "name": "Heroku Theme",
+    "description": "Emacs color theme based on the aesthetics Heroku",
+    "remoteSrc": "https:\/\/github.com\/jonathanchu\/heroku-theme",
+    "localSrc": ".\/assets\/local-src\/heroku-theme-source-code.el",
+    "author": "Jonathan Chu",
+    "largeImgs": [
+        ".\/assets\/imgs\/heroku.png",
+        ".\/assets\/imgs\/heroku-bis.png"
+    ],
+    "tags": [
+        "emacs 24",
+        "grey",
+        "heroku",
+        "light"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/heroku.png"
+}

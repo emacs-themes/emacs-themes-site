@@ -1,0 +1,19 @@
+{
+    "name": "Molokai Theme",
+    "description": "\u201cMolokai\u201d? Like \u201cMonokai\u201d?",
+    "remoteSrc": "https:\/\/github.com\/alloy-d\/color-theme-molokai",
+    "localSrc": ".\/assets\/local-src\/molokai-theme-source-code.el",
+    "author": "Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/molokai.png",
+        ".\/assets\/imgs\/molokai-bis.png"
+    ],
+    "tags": [
+        "dark",
+        "molokai",
+        "monokai",
+        "popular"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/molokai.png"
+}

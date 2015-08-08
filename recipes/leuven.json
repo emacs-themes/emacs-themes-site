@@ -1,0 +1,19 @@
+{
+    "name": "Leuven Theme",
+    "description": "An elegant color theme for light backgrounds.",
+    "remoteSrc": "https:\/\/github.com\/fniessen\/emacs-leuven-theme",
+    "localSrc": ".\/assets\/local-src\/leuven-theme-source-code.el",
+    "author": "Fabrice Niessen",
+    "largeImgs": [
+        ".\/assets\/imgs\/leuven.png",
+        ".\/assets\/imgs\/leuven-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "leuven",
+        "light",
+        "white"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/leuven.png"
+}

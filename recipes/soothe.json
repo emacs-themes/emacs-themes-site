@@ -1,0 +1,19 @@
+{
+    "name": "Soothe Theme",
+    "description": "Colorful, muted theme for Emacs 24",
+    "remoteSrc": "https:\/\/github.com\/emacsfodder\/emacs-soothe-theme\/blob\/master\/soothe-theme.el",
+    "localSrc": ".\/assets\/local-src\/soothe-theme-source-code.el",
+    "author": "Jason Milkins",
+    "largeImgs": [
+        ".\/assets\/imgs\/soothe.png",
+        ".\/assets\/imgs\/soothe-bis.png"
+    ],
+    "tags": [
+        "black",
+        "dark",
+        "emacs 24",
+        "soothe"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/soothe.png"
+}

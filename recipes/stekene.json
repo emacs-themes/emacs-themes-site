@@ -1,0 +1,22 @@
+{
+    "name": "Stekene Theme",
+    "description": "Stekene Theme",
+    "remoteSrc": "http:\/\/emacsthemes.caisah.info\/stekene-theme.el",
+    "localSrc": ".\/assets\/local-src\/stekene-theme-source-code.el",
+    "author": "Fanael Linithien",
+    "largeImgs": [
+        ".\/assets\/imgs\/stekene-dark.png",
+        ".\/assets\/imgs\/stekene-dark-bis.png",
+        ".\/assets\/imgs\/stekene-light.png",
+        ".\/assets\/imgs\/stekene-light-bis.png"
+    ],
+    "tags": [
+        "black",
+        "dark",
+        "light",
+        "stekene",
+        "white"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/stekene-dark.png"
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Anti Zenburn Theme",
+    "description": "This is a low contrast grayish colour theme derived from\u00a0",
+    "remoteSrc": "https:\/\/github.com\/m00natic\/anti-zenburn-theme",
+    "localSrc": ".\/assets\/local-src\/anti-zenburn-theme-source-code.el",
+    "author": "Andrey Kotlarski",
+    "largeImgs": [
+        ".\/assets\/imgs\/anti-zenburn.png",
+        ".\/assets\/imgs\/anti-zenburn-bis.png"
+    ],
+    "tags": [
+        "emacs 23",
+        "grey",
+        "light",
+        "popular",
+        "zenburn"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/anti-zenburn.png"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Snow Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/snow-theme.el",
+    "localSrc": ".\/assets\/local-src\/snow-theme-source-code.el",
+    "author": "Nicolas Rist \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/snow.png",
+        ".\/assets\/imgs\/snow-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "grey",
+        "light",
+        "snow"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/snow.png"
+}

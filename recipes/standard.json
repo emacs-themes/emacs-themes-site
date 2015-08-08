@@ -1,0 +1,19 @@
+{
+    "name": "Standard Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/standard-theme.el",
+    "localSrc": ".\/assets\/local-src\/standard-theme-source-code.el",
+    "author": "Xavier Maillard & Brian Palmer \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/standard.png",
+        ".\/assets\/imgs\/standard-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "light",
+        "standard",
+        "white"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/standard.png"
+}

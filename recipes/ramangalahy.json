@@ -1,0 +1,19 @@
+{
+    "name": "Ramangalahy Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/ramangalahy-theme.el",
+    "localSrc": ".\/assets\/local-src\/ramangalahy-theme-source-code.el",
+    "author": "Solofo Ramangalahy \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/ramangalahy.png",
+        ".\/assets\/imgs\/ramangalahy-bis.png"
+    ],
+    "tags": [
+        "color theme",
+        "grey",
+        "light",
+        "ramangalahy"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/ramangalahy.png"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Dark Blue 2 Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/dark-blue-2-theme.el",
+    "localSrc": ".\/assets\/local-src\/dark-blue-2-theme-source-code.el",
+    "author": "Chris McMahan \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/dark-blue2.png",
+        ".\/assets\/imgs\/dark-blue2-bis.png"
+    ],
+    "tags": [
+        "blue",
+        "color themes",
+        "dark",
+        "dark blue 2"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/dark-blue2.png"
+}

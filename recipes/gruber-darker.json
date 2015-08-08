@@ -1,0 +1,18 @@
+{
+    "name": "Gruber Darker Theme",
+    "description": "A darker variant of the\u00a0",
+    "remoteSrc": "https:\/\/github.com\/rexim\/gruber-darker-theme",
+    "localSrc": ".\/assets\/local-src\/gruber-darker-theme-source-code.el",
+    "author": "Alexey Kutepov",
+    "largeImgs": [
+        ".\/assets\/imgs\/gruber-darker.png",
+        ".\/assets\/imgs\/gruber-darker-bis.png"
+    ],
+    "tags": [
+        "dark",
+        "gruber",
+        "popular"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/gruber-darker.png"
+}

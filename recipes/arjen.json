@@ -1,0 +1,19 @@
+{
+    "name": "Arjen Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/arjen-theme.el",
+    "localSrc": ".\/assets\/local-src\/arjen-theme-source-code.el",
+    "author": "Arjen Wiersma \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/arjen.png",
+        ".\/assets\/imgs\/arjen-bis.png"
+    ],
+    "tags": [
+        "arjen",
+        "black",
+        "color themes",
+        "dark"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/arjen.png"
+}

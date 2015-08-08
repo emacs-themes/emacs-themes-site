@@ -1,0 +1,18 @@
+{
+    "name": "Base16 GreenScreen Theme",
+    "description": "Base16 for Emacs",
+    "remoteSrc": "https:\/\/github.com\/neil477\/base16-emacs",
+    "localSrc": ".\/assets\/local-src\/base16-greenscreen-theme-source-code.el",
+    "author": "Neil Bhakta",
+    "largeImgs": [
+        ".\/assets\/imgs\/base16-greenscreen.png",
+        ".\/assets\/imgs\/base16-greenscreen-bis.png"
+    ],
+    "tags": [
+        "base16",
+        "base16 greenscreen",
+        "green"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/base16-greenscreen.png"
+}

@@ -1,0 +1,18 @@
+{
+    "name": "FlatUI Emacs Theme",
+    "description": "A color theme for Emacs based on ",
+    "remoteSrc": "https:\/\/github.com\/john2x\/flatui-theme.el",
+    "localSrc": ".\/assets\/local-src\/flatui-emacs-theme-source-code.el",
+    "author": "John Louis Del Rosario",
+    "largeImgs": [
+        ".\/assets\/imgs\/flatui.png",
+        ".\/assets\/imgs\/flatui-bis.png"
+    ],
+    "tags": [
+        "blue",
+        "flatui",
+        "light"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/flatui.png"
+}

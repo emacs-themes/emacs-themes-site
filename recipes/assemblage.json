@@ -1,0 +1,18 @@
+{
+    "name": "Assemblage Theme",
+    "description": "A dark theme for Emacs 24",
+    "remoteSrc": "https:\/\/github.com\/jasonm23\/emacs-assemblage-theme\/blob\/master\/assemblage-theme.el",
+    "localSrc": ".\/assets\/local-src\/assemblage-theme-source-code.el",
+    "author": "Jason Milkins",
+    "largeImgs": [
+        ".\/assets\/imgs\/assemblage.png",
+        ".\/assets\/imgs\/assemblage-bis.png"
+    ],
+    "tags": [
+        "assemblage",
+        "dark",
+        "emacs 24"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/assemblage.png"
+}

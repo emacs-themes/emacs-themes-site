@@ -1,0 +1,18 @@
+{
+    "name": "Base16 Solarized Theme",
+    "description": "Base16 for Emacs",
+    "remoteSrc": "https:\/\/github.com\/neil477\/base16-emacs",
+    "localSrc": ".\/assets\/local-src\/base16-solarized-theme-source-code.el",
+    "author": "Neil Bhakta",
+    "largeImgs": [
+        ".\/assets\/imgs\/base16-solarized.png",
+        ".\/assets\/imgs\/base16-solarized-bis.png"
+    ],
+    "tags": [
+        "base16",
+        "base16 solarized",
+        "solarized"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/base16-solarized.png"
+}

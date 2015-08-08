@@ -1,0 +1,19 @@
+{
+    "name": "Goldenrod Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/goldenrod-theme.el",
+    "localSrc": ".\/assets\/local-src\/goldenrod-theme-source-code.el",
+    "author": "Xavier Maillard & Brian Palmer \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/goldenrod.png",
+        ".\/assets\/imgs\/goldenrod-bis.png"
+    ],
+    "tags": [
+        "black",
+        "color themes",
+        "dark",
+        "goldenrod"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/goldenrod.png"
+}

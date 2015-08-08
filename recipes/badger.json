@@ -1,0 +1,19 @@
+{
+    "name": "Badger Theme",
+    "description": "Dark Emacs 24 color theme (using deftheme).",
+    "remoteSrc": "https:\/\/github.com\/ccann\/badger-theme\/blob\/master\/badger-theme.el",
+    "localSrc": ".\/assets\/local-src\/badger-theme-source-code.el",
+    "author": "Cody Canning",
+    "largeImgs": [
+        ".\/assets\/imgs\/badger.png",
+        ".\/assets\/imgs\/badger-bis.png"
+    ],
+    "tags": [
+        "badger",
+        "black",
+        "dark",
+        "emacs 24"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/badger.png"
+}

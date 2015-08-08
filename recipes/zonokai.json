@@ -1,0 +1,18 @@
+{
+    "name": "Zonokai Theme",
+    "description": "Blue based theme with red green and yellow accents.",
+    "remoteSrc": "https:\/\/github.com\/ZehCnaS34\/zonokai-emacs",
+    "localSrc": ".\/assets\/local-src\/zonokai-theme-source-code.el",
+    "author": "Alex Sanchez",
+    "largeImgs": [
+        ".\/assets\/imgs\/zonokai.png",
+        ".\/assets\/imgs\/zonokai-bis.png"
+    ],
+    "tags": [
+        "blue",
+        "dark",
+        "zonokai"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/zonokai.png"
+}

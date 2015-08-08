@@ -1,0 +1,18 @@
+{
+    "name": "Base16 Default Theme",
+    "description": "Base16 for Emacs",
+    "remoteSrc": "https:\/\/github.com\/neil477\/base16-emacs",
+    "localSrc": ".\/assets\/local-src\/base16-default-theme-source-code.el",
+    "author": "Neil Bhakta",
+    "largeImgs": [
+        ".\/assets\/imgs\/base16-default.png",
+        ".\/assets\/imgs\/base16-default-bis.png"
+    ],
+    "tags": [
+        "base16",
+        "base16 default",
+        "dark"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/base16-default.png"
+}

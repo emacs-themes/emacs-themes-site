@@ -1,0 +1,20 @@
+{
+    "name": "Hober Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/hober-theme.el",
+    "localSrc": ".\/assets\/local-src\/hober-theme-source-code.el",
+    "author": "Jonadab the Unsightly One, Alex Schroeder & Xavier Maillard \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/horber.png",
+        ".\/assets\/imgs\/hober-bis.png"
+    ],
+    "tags": [
+        "black",
+        "color themes",
+        "dark",
+        "hober",
+        "purple"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/horber.png"
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Hemisu Themes",
+    "description": "A port of ",
+    "remoteSrc": "https:\/\/github.com\/andrzejsliwa\/hemisu-theme",
+    "localSrc": ".\/assets\/local-src\/hemisu-themes-source-code.el",
+    "author": "Andrzej Sliwa",
+    "largeImgs": [
+        ".\/assets\/imgs\/hemisu-dark.png",
+        ".\/assets\/imgs\/hemisu-dark-bis.png",
+        ".\/assets\/imgs\/hemisu-light.png",
+        ".\/assets\/imgs\/hemisu-light-bis.png"
+    ],
+    "tags": [
+        "black",
+        "dark",
+        "hemisu",
+        "light",
+        "vim",
+        "white"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/hemisu-dark.png"
+}

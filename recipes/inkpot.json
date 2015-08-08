@@ -1,0 +1,20 @@
+{
+    "name": "Inkpot Theme",
+    "description": "A port of the vim inkpot theme for emacs deftheme",
+    "remoteSrc": "https:\/\/github.com\/siovan\/emacs24-inkpot",
+    "localSrc": ".\/assets\/local-src\/inkpot-theme-source-code.el",
+    "author": "Sarah Iovan",
+    "largeImgs": [
+        ".\/assets\/imgs\/inkpot.png",
+        ".\/assets\/imgs\/inkpot-bis.png"
+    ],
+    "tags": [
+        "dark",
+        "emacs 24",
+        "inkpot",
+        "purple",
+        "vim"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/inkpot.png"
+}

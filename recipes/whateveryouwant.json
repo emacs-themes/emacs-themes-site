@@ -1,0 +1,19 @@
+{
+    "name": "Whateveryouwant Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/whateveryouwant-theme.el",
+    "localSrc": ".\/assets\/local-src\/whateveryouwant-theme-source-code.el",
+    "author": "Fabien Penso \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/whateveryouwant.png",
+        ".\/assets\/imgs\/whateveryouwant-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "light",
+        "whateveryouwant",
+        "white"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/whateveryouwant.png"
+}

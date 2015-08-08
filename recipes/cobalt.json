@@ -1,0 +1,19 @@
+{
+    "name": "Cobalt Theme",
+    "description": "Theme resembling TextMate Cobalt color theme.",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/cobalt-theme.el",
+    "localSrc": ".\/assets\/local-src\/cobalt-theme-source-code.el",
+    "author": "Nick Ewing",
+    "largeImgs": [
+        ".\/assets\/imgs\/cobalt1.png",
+        ".\/assets\/imgs\/cobalt-bis.png"
+    ],
+    "tags": [
+        "blue",
+        "cobalt",
+        "dark",
+        "textmate"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/cobalt1.png"
+}

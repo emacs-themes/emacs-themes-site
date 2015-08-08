@@ -1,0 +1,19 @@
+{
+    "name": "Birds of Paradise Plus Theme",
+    "description": "A Emacs port of Joe Bergantine\u2019s light-on-dark\u00a0",
+    "remoteSrc": "https:\/\/github.com\/jimeh\/birds-of-paradise-plus-theme.el",
+    "localSrc": ".\/assets\/local-src\/birds-of-paradise-plus-theme-source-code.el",
+    "author": "Jim Myhrberg",
+    "largeImgs": [
+        ".\/assets\/imgs\/birds-of-paradise-plus.png",
+        ".\/assets\/imgs\/birds-of-paradise-plus-bis.png"
+    ],
+    "tags": [
+        "birds of paradise plus",
+        "brown",
+        "emacs 24",
+        "popular"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/birds-of-paradise-plus.png"
+}

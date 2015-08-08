@@ -1,0 +1,19 @@
+{
+    "name": "Comidia Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/comidia-theme.el",
+    "localSrc": ".\/assets\/local-src\/comidia-theme-source-code.el",
+    "author": "Marcelo Dias \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/comidia.png",
+        ".\/assets\/imgs\/comidia-bis.png"
+    ],
+    "tags": [
+        "black",
+        "color themes",
+        "comidia",
+        "pastels on dark"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/comidia.png"
+}

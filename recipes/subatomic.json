@@ -1,0 +1,20 @@
+{
+    "name": "Subatomic Theme",
+    "description": "An emacs 24 (deftheme) color theme.",
+    "remoteSrc": "https:\/\/github.com\/cryon\/subatomic",
+    "localSrc": ".\/assets\/local-src\/subatomic-theme-source-code.el",
+    "author": "John Olsson",
+    "largeImgs": [
+        ".\/assets\/imgs\/subatomic.png",
+        ".\/assets\/imgs\/subatomic-bis.png"
+    ],
+    "tags": [
+        "blue",
+        "color themes",
+        "emacs 24",
+        "popular",
+        "subatomic"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/subatomic.png"
+}

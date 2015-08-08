@@ -1,0 +1,18 @@
+{
+    "name": "Planet Theme",
+    "description": "Theme for Emacs inspired by the color palette of the former Gmail theme Planets.",
+    "remoteSrc": "https:\/\/github.com\/cmack\/emacs-planet-theme",
+    "localSrc": ".\/assets\/local-src\/planet-theme-source-code.el",
+    "author": "Charlie McMackin",
+    "largeImgs": [
+        ".\/assets\/imgs\/planet.png",
+        ".\/assets\/imgs\/planet-bis.png"
+    ],
+    "tags": [
+        "blue",
+        "dark",
+        "planet"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/planet.png"
+}

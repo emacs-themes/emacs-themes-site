@@ -1,0 +1,19 @@
+{
+    "name": "Jonadabian Slate Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/jonadabian-slate-theme.el",
+    "localSrc": ".\/assets\/local-src\/jonadabian-slate-theme-source-code.el",
+    "author": "Jonadab the Unsightly One \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/jonadabian-slate.png",
+        ".\/assets\/imgs\/jonadabian-slate-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "dark",
+        "green",
+        "jonadabian slate"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/jonadabian-slate.png"
+}

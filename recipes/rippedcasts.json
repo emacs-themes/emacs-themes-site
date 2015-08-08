@@ -1,0 +1,18 @@
+{
+    "name": "Rippedcasts Theme",
+    "description": "Custom face theme for Emacs.",
+    "remoteSrc": "https:\/\/github.com\/mdw123\/rippedcasts\/blob\/master\/rippedcasts-theme.el",
+    "localSrc": ".\/assets\/local-src\/rippedcasts-theme-source-code.el",
+    "author": "Matt Woodward",
+    "largeImgs": [
+        ".\/assets\/imgs\/rippedcasts.png",
+        ".\/assets\/imgs\/rippedcasts-bis.png"
+    ],
+    "tags": [
+        "brown",
+        "dark",
+        "rippedcasts"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/rippedcasts.png"
+}

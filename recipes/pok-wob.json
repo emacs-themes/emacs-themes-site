@@ -1,0 +1,19 @@
+{
+    "name": "Pok Wob Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/pok-wob-theme.el",
+    "localSrc": ".\/assets\/local-src\/pok-wob-theme-source-code.el",
+    "author": "Xavier Maillard & Brian Palmer \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/pok-wob.png",
+        ".\/assets\/imgs\/pok-wob-bis.png"
+    ],
+    "tags": [
+        "black",
+        "color themes",
+        "dark",
+        "pok wob"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/pok-wob.png"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Twilight Theme",
+    "description": "Colour scheme resembling that of the original TextMate Twilight colour theme.",
+    "remoteSrc": "https:\/\/github.com\/developernotes\/twilight-theme",
+    "localSrc": ".\/assets\/local-src\/twilight-theme-source-code.el",
+    "author": "Nick Parker",
+    "largeImgs": [
+        ".\/assets\/imgs\/twilight.png",
+        ".\/assets\/imgs\/twilight-bis.png"
+    ],
+    "tags": [
+        "dark",
+        "popular",
+        "textmate",
+        "twilight"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/twilight.png"
+}

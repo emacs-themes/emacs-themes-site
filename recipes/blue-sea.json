@@ -1,0 +1,19 @@
+{
+    "name": "Blue Sea Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/blue-sea-theme.el",
+    "localSrc": ".\/assets\/local-src\/blue-sea-theme-source-code.el",
+    "author": "Xavier Maillard & Brian Palmer \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/blue-sea.png",
+        ".\/assets\/imgs\/blue-sea-bis.png"
+    ],
+    "tags": [
+        "blue",
+        "blue sea",
+        "color themes",
+        "intense"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/blue-sea.png"
+}

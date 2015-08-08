@@ -1,0 +1,20 @@
+{
+    "name": "Sitaramv Solaris Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/sitaramv-solaris-theme.el",
+    "localSrc": ".\/assets\/local-src\/sitaramv-solaris-theme-source-code.el",
+    "author": "Xavier Maillard & Brian Palmer \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/sitaram-solaris.png",
+        ".\/assets\/imgs\/sitaram-solaris-bis.png"
+    ],
+    "tags": [
+        "blue",
+        "color themes",
+        "dark",
+        "intense",
+        "sitaramv solaris"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/sitaram-solaris.png"
+}

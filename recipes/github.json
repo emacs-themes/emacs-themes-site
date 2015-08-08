@@ -1,0 +1,19 @@
+{
+    "name": "Github Theme",
+    "description": "Github color theme for GNU Emacs 24.",
+    "remoteSrc": "https:\/\/github.com\/dudleyf\/color-theme-github\/blob\/master\/color-theme-github.el",
+    "localSrc": ".\/assets\/local-src\/github-theme-source-code.el",
+    "author": "Dudley Flanders",
+    "largeImgs": [
+        ".\/assets\/imgs\/github.png",
+        ".\/assets\/imgs\/github-bis.png"
+    ],
+    "tags": [
+        "emacs 24",
+        "github",
+        "light",
+        "white"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/github.png"
+}

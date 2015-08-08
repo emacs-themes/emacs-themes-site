@@ -1,0 +1,19 @@
+{
+    "name": "Feng Shui Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/feng-shui-theme.el",
+    "localSrc": ".\/assets\/local-src\/feng-shui-theme-source-code.el",
+    "author": "walterh@rocketmail.com \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/feng-shui.png",
+        ".\/assets\/imgs\/feng-shui-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "feng shui",
+        "light",
+        "yellow"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/feng-shui.png"
+}

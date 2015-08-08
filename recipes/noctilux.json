@@ -1,0 +1,20 @@
+{
+    "name": "Noctilux Theme",
+    "description": "A dark color theme for Emacs 24+, inspired by the default dark theme in\u00a0",
+    "remoteSrc": "https:\/\/github.com\/stafu\/noctilux-theme",
+    "localSrc": ".\/assets\/local-src\/noctilux-theme-source-code.el",
+    "author": "Simon M.",
+    "largeImgs": [
+        ".\/assets\/imgs\/noctilux.png",
+        ".\/assets\/imgs\/noclilux-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "dark",
+        "noctilux",
+        "popular",
+        "solarized"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/noctilux.png"
+}

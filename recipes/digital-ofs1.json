@@ -1,0 +1,19 @@
+{
+    "name": "Digital Ofs1 Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/digital-ofs1-theme.el",
+    "localSrc": ".\/assets\/local-src\/digital-ofs1-theme-source-code.el",
+    "author": "Gareth Owen \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/digital-ofs1.png",
+        ".\/assets\/imgs\/digital-ofs1-bis.png"
+    ],
+    "tags": [
+        "brown",
+        "color themes",
+        "digital ofs1",
+        "light"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/digital-ofs1.png"
+}

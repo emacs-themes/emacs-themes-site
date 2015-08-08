@@ -1,0 +1,19 @@
+{
+    "name": "Jsc Dark Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/jsc-dark-theme.el",
+    "localSrc": ".\/assets\/local-src\/jsc-dark-theme-source-code.el",
+    "author": "John S Cooper \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/jsc-dark.png",
+        ".\/assets\/imgs\/jsc-dark-bis.png"
+    ],
+    "tags": [
+        "black",
+        "color themes",
+        "dark",
+        "jsc dark"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/jsc-dark.png"
+}

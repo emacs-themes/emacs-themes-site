@@ -1,0 +1,17 @@
+{
+    "name": "Django Theme",
+    "description": "Custom face theme for Emacs",
+    "remoteSrc": "https:\/\/github.com\/andrzejsliwa\/django-theme.el",
+    "localSrc": ".\/assets\/local-src\/django-theme-source-code.el",
+    "author": "Andrzej Sliwa",
+    "largeImgs": [
+        ".\/assets\/imgs\/django.png",
+        ".\/assets\/imgs\/django-bis.png"
+    ],
+    "tags": [
+        "django",
+        "green"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/django.png"
+}

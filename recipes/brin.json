@@ -1,0 +1,20 @@
+{
+    "name": "Brin Theme",
+    "description": "An Emacs port of the Space Grey ST2 theme",
+    "remoteSrc": "https:\/\/github.com\/owainlewis\/emacs-color-themes",
+    "localSrc": ".\/assets\/local-src\/brin-theme-source-code.el",
+    "author": "Owain Lewis",
+    "largeImgs": [
+        ".\/assets\/imgs\/brin.png",
+        ".\/assets\/imgs\/brin-bis.png"
+    ],
+    "tags": [
+        "black",
+        "brin",
+        "dark",
+        "space gray",
+        "sublime text"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/brin.png"
+}

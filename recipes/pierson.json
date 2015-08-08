@@ -1,0 +1,19 @@
+{
+    "name": "Pierson Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/pierson-theme.el",
+    "localSrc": ".\/assets\/local-src\/pierson-theme-source-code.el",
+    "author": "Dan L. Pierson \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/pierson.png",
+        ".\/assets\/imgs\/pierson-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "light",
+        "orange",
+        "pierson"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/pierson.png"
+}

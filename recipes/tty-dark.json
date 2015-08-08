@@ -1,0 +1,19 @@
+{
+    "name": "TTY Dark Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/tty-dark-theme.el",
+    "localSrc": ".\/assets\/local-src\/tty-dark-theme-source-code.el",
+    "author": "Oivvio Polite \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/tty-dark-bis.png",
+        ".\/assets\/imgs\/tty-dark.png"
+    ],
+    "tags": [
+        "black",
+        "color themes",
+        "dark",
+        "tty dark"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/tty-dark-bis.png"
+}

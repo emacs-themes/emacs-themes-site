@@ -1,0 +1,20 @@
+{
+    "name": "Phoenix Dark Mono Theme",
+    "description": "A mono version of the port of the Phoenix Dark Pink theme",
+    "remoteSrc": "https:\/\/github.com\/j0ni\/phoenix-dark-mono",
+    "localSrc": ".\/assets\/local-src\/phoenix-dark-mono-theme-source-code.el",
+    "author": "J Irving",
+    "largeImgs": [
+        ".\/assets\/imgs\/phoenix-dark-mono.png",
+        ".\/assets\/imgs\/phoenix-dark-mono-bis.png"
+    ],
+    "tags": [
+        "black",
+        "dark",
+        "mono",
+        "phoenix dark mono",
+        "sublimetext"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/phoenix-dark-mono.png"
+}

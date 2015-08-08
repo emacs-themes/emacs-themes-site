@@ -1,0 +1,19 @@
+{
+    "name": "Beige Diff Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/beige-diff-theme.el",
+    "localSrc": ".\/assets\/local-src\/beige-diff-theme-source-code.el",
+    "author": "Xavier Maillard & Brian Palmer \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/beige-diff.png",
+        ".\/assets\/imgs\/beige-diff-bis.png"
+    ],
+    "tags": [
+        "beige diff",
+        "color themes",
+        "light",
+        "white"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/beige-diff.png"
+}

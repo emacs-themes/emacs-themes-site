@@ -1,0 +1,19 @@
+{
+    "name": "Ir Black Theme",
+    "description": "A light-on-dark color theme",
+    "remoteSrc": "https:\/\/github.com\/jmdeldin\/ir-black-theme.el",
+    "localSrc": ".\/assets\/local-src\/ir-black-theme-source-code.el",
+    "author": "Jon-Michael Deldin",
+    "largeImgs": [
+        ".\/assets\/imgs\/ir-black.png",
+        ".\/assets\/imgs\/ir-black-bis.png"
+    ],
+    "tags": [
+        "black",
+        "dark",
+        "ir black",
+        "textmate"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/ir-black.png"
+}

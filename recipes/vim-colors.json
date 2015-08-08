@@ -1,0 +1,20 @@
+{
+    "name": "Vim Colors Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/vim-colors-theme.el",
+    "localSrc": ".\/assets\/local-src\/vim-colors-theme-source-code.el",
+    "author": "Michael Soulier \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/vim-colors.png",
+        ".\/assets\/imgs\/vim-colors-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "light",
+        "vim",
+        "vim colors",
+        "white"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/vim-colors.png"
+}

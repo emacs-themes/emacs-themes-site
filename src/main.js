@@ -1,0 +1,37 @@
+'use strict';
+// local dependencies
+var readAndParseRecipes = require('./recipesParser');
+var generateDirs = require('./generators/dirsGenerator');
+var generateTemplates = require('./generators/templatesGenerator');
+var buildMainPage = require('./builders/mainPageBuilder');
+var buildThemeIndex = require('./builders/themeIndexBuilder');
+var buildAllThemes = require('./builders/allThemesBuilder');
+var buildAllTags = require('./builders/allTagsBuilder');
+var buildTagsIndex = require('./builders/tagIndexBuilder');
+// config vars
+var rootDir = __dirname + '/../root/';
+var recipesDir = __dirname + '/../recipes/';
+
+function buildAllPages(allTemplates, allRecipes) {
+    buildMainPage(allTemplates);
+    buildAllTags(allTemplates, allRecipes);
+    buildTagsIndex(allTemplates, allRecipes);
+    buildAllThemes(allTemplates, allRecipes);
+    // this is problematic (find out why)
+    buildThemeIndex(allTemplates, allRecipes);
+
+
+}
+
+function buildSite() {
+    readAndParseRecipes(recipesDir)
+        .then(function(allRecipes) {
+            generateDirs()
+                .then(generateTemplates)
+                .then(function(allTemplates) {
+                    buildAllPages(allTemplates, allRecipes);
+                });
+        }).done();
+}
+
+buildSite();

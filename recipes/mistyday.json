@@ -1,0 +1,19 @@
+{
+    "name": "Mistyday Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/mistyday-theme.el",
+    "localSrc": ".\/assets\/local-src\/mistyday-theme-source-code.el",
+    "author": "K.C. Hari Kumar \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/mistyday.png",
+        ".\/assets\/imgs\/mistyday-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "light",
+        "mistyday",
+        "pink"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/mistyday.png"
+}

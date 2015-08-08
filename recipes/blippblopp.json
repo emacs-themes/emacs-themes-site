@@ -1,0 +1,19 @@
+{
+    "name": "Blippblopp Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/blippblopp-theme.el",
+    "localSrc": ".\/assets\/local-src\/blippblopp-theme-source-code.el",
+    "author": "Thomas Sicheritz-Ponten \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/blipp-blopp.png",
+        ".\/assets\/imgs\/blipp-blopp-bis.png"
+    ],
+    "tags": [
+        "blippblop",
+        "color themes",
+        "light",
+        "white"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/blipp-blopp.png"
+}

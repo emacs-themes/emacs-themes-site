@@ -1,0 +1,19 @@
+{
+    "name": "Cherry Blossom Theme",
+    "description": "A soothing color theme for Emacs24.",
+    "remoteSrc": "https:\/\/github.com\/byels\/emacs-cherry-blossom-theme",
+    "localSrc": ".\/assets\/local-src\/cherry-blossom-theme-source-code.el",
+    "author": "Ben Yelsey",
+    "largeImgs": [
+        ".\/assets\/imgs\/cherry-blossom.png",
+        ".\/assets\/imgs\/cherry-blossom-bis.png"
+    ],
+    "tags": [
+        "black",
+        "cherry blossom",
+        "dark",
+        "emacs 24"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/cherry-blossom.png"
+}

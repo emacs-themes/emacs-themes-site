@@ -1,0 +1,19 @@
+{
+    "name": "Fischmeister Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/fischmeister-theme.el",
+    "localSrc": ".\/assets\/local-src\/fischmeister-theme-source-code.el",
+    "author": "Xavier Maillard & Brian Palmer \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/fischmeister.png",
+        ".\/assets\/imgs\/fischmeister-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "fischmeister",
+        "grey",
+        "light"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/fischmeister.png"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Rotor Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/rotor-theme.el",
+    "localSrc": ".\/assets\/local-src\/rotor-theme-source-code.el",
+    "author": "Jinwei Shen \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/rotor.el_.png",
+        ".\/assets\/imgs\/rotor-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "light",
+        "rotor",
+        "yellow"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/rotor.el_.png"
+}

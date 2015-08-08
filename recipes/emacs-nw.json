@@ -1,0 +1,19 @@
+{
+    "name": "Emacs NW Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/emacs-nw-theme.el",
+    "localSrc": ".\/assets\/local-src\/emacs-nw-theme-source-code.el",
+    "author": "Xavier Maillard & Brian Palmer \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/emacs-nw.png",
+        ".\/assets\/imgs\/emacs-nw-bis.png"
+    ],
+    "tags": [
+        "emacs nw",
+        "emacs themes",
+        "light",
+        "white"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/emacs-nw.png"
+}

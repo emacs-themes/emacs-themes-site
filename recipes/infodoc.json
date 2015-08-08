@@ -1,0 +1,19 @@
+{
+    "name": "Infodoc Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/infodoc-theme.el",
+    "localSrc": ".\/assets\/local-src\/infodoc-theme-source-code.el",
+    "author": "Frederic Giroud \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/infodoc.png",
+        ".\/assets\/imgs\/infodoc-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "infodoc",
+        "light",
+        "orange"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/infodoc.png"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Erosiond Theme",
+    "description": "A theme for GNU emacs 24",
+    "remoteSrc": "https:\/\/github.com\/darrik\/erosiond-theme\/blob\/master\/erosiond-theme.el",
+    "localSrc": ".\/assets\/local-src\/erosiond-theme-source-code.el",
+    "author": "Rikard Glans",
+    "largeImgs": [
+        ".\/assets\/imgs\/erosiond.png",
+        ".\/assets\/imgs\/erosiond-bis.png"
+    ],
+    "tags": [
+        "black",
+        "dark",
+        "emacs 24",
+        "erosiond"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/erosiond.png"
+}

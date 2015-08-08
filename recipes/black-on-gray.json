@@ -1,0 +1,19 @@
+{
+    "name": "Black on Gray Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/black-on-gray-theme.el",
+    "localSrc": ".\/assets\/local-src\/black-on-gray-theme-source-code.el",
+    "author": "sbhojwani \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/black-on-gray.png",
+        ".\/assets\/imgs\/black-on-gray-bis.png"
+    ],
+    "tags": [
+        "black on gray",
+        "color themes",
+        "grey",
+        "light"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/black-on-gray.png"
+}

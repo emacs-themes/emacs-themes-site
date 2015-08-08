@@ -1,0 +1,20 @@
+{
+    "name": "Lawrence Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/lawrence-theme.el",
+    "localSrc": ".\/assets\/local-src\/lawrence-theme-source-code.el",
+    "author": "Lawrence Mitchell \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/lawrence.png",
+        ".\/assets\/imgs\/lawrence-bis.png"
+    ],
+    "tags": [
+        "black",
+        "color themes",
+        "dark",
+        "green",
+        "lawrence"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/lawrence.png"
+}

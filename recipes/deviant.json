@@ -1,0 +1,19 @@
+{
+    "name": "Deviant Theme",
+    "description": "Theme inspired by the color scheme previously used by deviantart.com",
+    "remoteSrc": "https:\/\/github.com\/Corsair\/emacs-deviant-theme\/blob\/master\/Deviant-theme.el",
+    "localSrc": ".\/assets\/local-src\/deviant-theme-source-code.el",
+    "author": "Darksair",
+    "largeImgs": [
+        ".\/assets\/imgs\/deviant.png",
+        ".\/assets\/imgs\/deviant-bis.png"
+    ],
+    "tags": [
+        "dark",
+        "deviant",
+        "emacs 24",
+        "green"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/deviant.png"
+}

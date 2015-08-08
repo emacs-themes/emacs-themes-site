@@ -1,0 +1,20 @@
+{
+    "name": "Late Night Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/late-night-theme.el",
+    "localSrc": ".\/assets\/local-src\/late-night-theme-source-code.el",
+    "author": "Alex Schroeder \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/late-night.png",
+        ".\/assets\/imgs\/late-night-bis.png"
+    ],
+    "tags": [
+        "black",
+        "black&white",
+        "color themes",
+        "dark",
+        "late night"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/late-night.png"
+}

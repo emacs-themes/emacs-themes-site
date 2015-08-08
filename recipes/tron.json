@@ -1,0 +1,19 @@
+{
+    "name": "Tron Theme",
+    "description": "Simple theme like the one appearing in Tron Evolution. The text and blue hueues are slightly less bright to make it more comfortable on long sessions.",
+    "remoteSrc": "https:\/\/github.com\/ivanmarcin\/emacs-tron-theme\/blob\/master\/tron-theme.el",
+    "localSrc": ".\/assets\/local-src\/tron-theme-source-code.el",
+    "author": "Ivan Marcin",
+    "largeImgs": [
+        ".\/assets\/imgs\/tron.png",
+        ".\/assets\/imgs\/tron-bis.png"
+    ],
+    "tags": [
+        "black",
+        "blue",
+        "dark",
+        "tron"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/tron.png"
+}

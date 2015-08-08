@@ -1,0 +1,19 @@
+{
+    "name": "Word Perfect Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/word-perfect-theme.el",
+    "localSrc": ".\/assets\/local-src\/word-perfect-theme-source-code.el",
+    "author": "Thomas Gehrlein \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/word-perfect.png",
+        ".\/assets\/imgs\/word-perfect-bis.png"
+    ],
+    "tags": [
+        "blue",
+        "color themes",
+        "intense",
+        "word perfect"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/word-perfect.png"
+}

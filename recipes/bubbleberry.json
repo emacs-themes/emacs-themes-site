@@ -1,0 +1,19 @@
+{
+    "name": "Bubbleberry Theme",
+    "description": "Inspired by LightTable by Chris Granger",
+    "remoteSrc": "https:\/\/github.com\/jasonm23\/emacs-bubbleberry-theme",
+    "localSrc": ".\/assets\/local-src\/bubbleberry-theme-source-code.el",
+    "author": "Jason Milkins &\u00a0Gaurav Giri",
+    "largeImgs": [
+        ".\/assets\/imgs\/bubbleberry.png",
+        ".\/assets\/imgs\/bubbleberry-bis.png"
+    ],
+    "tags": [
+        "black",
+        "blueberry",
+        "dark",
+        "emacs 24"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/bubbleberry.png"
+}

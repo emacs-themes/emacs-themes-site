@@ -1,0 +1,18 @@
+{
+    "name": "Clues Theme",
+    "description": "A theme made up of cooling colors with a couple of flecks of light cream\/brown\/orange",
+    "remoteSrc": "https:\/\/github.com\/emacsfodder\/emacs-clues-theme",
+    "localSrc": ".\/assets\/local-src\/clues-theme-source-code.el",
+    "author": "Jason Milkins",
+    "largeImgs": [
+        ".\/assets\/imgs\/clues.png",
+        ".\/assets\/imgs\/clues-bis.png"
+    ],
+    "tags": [
+        "clues",
+        "dark",
+        "emacs 24"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/clues.png"
+}

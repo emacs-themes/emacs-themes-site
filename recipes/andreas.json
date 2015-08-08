@@ -1,0 +1,19 @@
+{
+    "name": "Andreas Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/andreas-theme.el",
+    "localSrc": ".\/assets\/local-src\/andreas-theme-source-code.el",
+    "author": "Andreas Busch \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/andreas.png",
+        ".\/assets\/imgs\/andreas-bis.png"
+    ],
+    "tags": [
+        "andreas",
+        "color themes",
+        "light",
+        "white"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/andreas.png"
+}

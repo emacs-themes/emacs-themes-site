@@ -1,0 +1,19 @@
+{
+    "name": "Snowish Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/snowish-theme.el",
+    "localSrc": ".\/assets\/local-src\/snowish-theme-source-code.el",
+    "author": "Girish Bharadwaj \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/snowish.png",
+        ".\/assets\/imgs\/snowish-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "grey",
+        "light",
+        "snowish"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/snowish.png"
+}

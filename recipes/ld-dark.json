@@ -1,0 +1,19 @@
+{
+    "name": "Ld Dark Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/ld-dark-theme.el",
+    "localSrc": ".\/assets\/local-src\/ld-dark-theme-source-code.el",
+    "author": "Lawrence Mitchell \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/ld-dark.png",
+        ".\/assets\/imgs\/ld-dark-bis.png"
+    ],
+    "tags": [
+        "black",
+        "color themes",
+        "dark",
+        "ld dark"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/ld-dark.png"
+}

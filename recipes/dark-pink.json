@@ -1,0 +1,19 @@
+{
+    "name": "Dark Pink Theme",
+    "description": "Port of the Phoenix Dark Pink theme",
+    "remoteSrc": "https:\/\/github.com\/j0ni\/phoenix-dark-pink",
+    "localSrc": ".\/assets\/local-src\/dark-pink-theme-source-code.el",
+    "author": "J Irving",
+    "largeImgs": [
+        ".\/assets\/imgs\/dark-pink.png",
+        ".\/assets\/imgs\/dark-pink-bis.png"
+    ],
+    "tags": [
+        "dark",
+        "dark pink",
+        "pink",
+        "sublime text"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/dark-pink.png"
+}

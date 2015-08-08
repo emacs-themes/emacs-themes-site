@@ -1,0 +1,19 @@
+{
+    "name": "Soft Stone Theme",
+    "description": "Emacs24 theme with a light background.",
+    "remoteSrc": "https:\/\/github.com\/mswift42\/soft-stone-theme",
+    "localSrc": ".\/assets\/local-src\/soft-stone-theme-source-code.el",
+    "author": "Martin Haesler",
+    "largeImgs": [
+        ".\/assets\/imgs\/soft-stone.png",
+        ".\/assets\/imgs\/soft-stone-bis.png"
+    ],
+    "tags": [
+        "emacs 24",
+        "light",
+        "soft stone",
+        "yellow"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/soft-stone.png"
+}

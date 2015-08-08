@@ -1,0 +1,19 @@
+{
+    "name": "Billw Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/billw-theme.el",
+    "localSrc": ".\/assets\/local-src\/billw-theme-source-code.el",
+    "author": "Xavier Maillard & Brian Palmer \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/billw.png",
+        ".\/assets\/imgs\/billw-bis.png"
+    ],
+    "tags": [
+        "billw",
+        "black",
+        "color themes",
+        "dark"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/billw.png"
+}

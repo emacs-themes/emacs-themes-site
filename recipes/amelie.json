@@ -1,0 +1,19 @@
+{
+    "name": "Amelie Theme",
+    "description": "A Emacs 24 theme with dark background and bright colorful foreground. Inspired by the Slim main page. It is Amelie not amelie. Never forget the beautiful uppercase!",
+    "remoteSrc": "https:\/\/github.com\/ranmocy\/amelie-theme\/blob\/master\/Amelie-theme.el",
+    "localSrc": ".\/assets\/local-src\/amelie-theme-source-code.el",
+    "author": "Ranmocy Sheng",
+    "largeImgs": [
+        ".\/assets\/imgs\/amelie.png",
+        ".\/assets\/imgs\/amelie-bis.png"
+    ],
+    "tags": [
+        "amelie",
+        "dark",
+        "emacs 24",
+        "gray"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/amelie.png"
+}

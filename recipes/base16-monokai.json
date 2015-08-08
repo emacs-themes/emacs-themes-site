@@ -1,0 +1,19 @@
+{
+    "name": "Base16 Monokai Theme",
+    "description": "Base16 for Emacs",
+    "remoteSrc": "https:\/\/github.com\/neil477\/base16-emacs",
+    "localSrc": ".\/assets\/local-src\/base16-monokai-theme-source-code.el",
+    "author": "Neil Bhakta",
+    "largeImgs": [
+        ".\/assets\/imgs\/base16-monokai.png",
+        ".\/assets\/imgs\/base16-monokai-bis.png"
+    ],
+    "tags": [
+        "base16",
+        "base16 monokai",
+        "dark",
+        "monokai"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/base16-monokai.png"
+}

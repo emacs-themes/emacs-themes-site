@@ -1,0 +1,31 @@
+{
+    "name": "Alect Themes",
+    "description": "Configurable\u00a0light, dark and black color themes for GNU Emacs 24 or later.",
+    "remoteSrc": "https:\/\/github.com\/alezost\/alect-themes",
+    "localSrc": ".\/assets\/local-src\/alect-themes-source-code.el",
+    "author": "Alex Kost",
+    "largeImgs": [
+        ".\/assets\/imgs\/alect-dark.png",
+        ".\/assets\/imgs\/alect-dark-bis.png",
+        ".\/assets\/imgs\/alect-dark-alt.png",
+        ".\/assets\/imgs\/alect-dark-alt-bis.png",
+        ".\/assets\/imgs\/alect-black.png",
+        ".\/assets\/imgs\/alect-black-bis.png",
+        ".\/assets\/imgs\/alect-black-alt.png",
+        ".\/assets\/imgs\/alect-black-alt-bis.png",
+        ".\/assets\/imgs\/alect-light.png",
+        ".\/assets\/imgs\/alect-light-alt-bis.png",
+        ".\/assets\/imgs\/alect-light-alt.png",
+        ".\/assets\/imgs\/alect-light-bis.png"
+    ],
+    "tags": [
+        "alect",
+        "black",
+        "dark",
+        "emacs 24",
+        "light",
+        "popular"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/alect-dark.png"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "High Contrast Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/high-contrast-theme.el",
+    "localSrc": ".\/assets\/local-src\/high-contrast-theme-source-code.el",
+    "author": "Xavier Maillard & Brian Palmer \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/hight-constrast.png",
+        ".\/assets\/imgs\/hight-constrast-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "high contrast",
+        "light",
+        "white"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/hight-constrast.png"
+}

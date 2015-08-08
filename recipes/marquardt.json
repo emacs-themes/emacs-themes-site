@@ -1,0 +1,19 @@
+{
+    "name": "Marquardt Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/marquardt-theme.el",
+    "localSrc": ".\/assets\/local-src\/marquardt-theme-source-code.el",
+    "author": "Colin Marquardt \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/marquardt.png",
+        ".\/assets\/imgs\/marquardt-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "light",
+        "marquardt",
+        "orange"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/marquardt.png"
+}

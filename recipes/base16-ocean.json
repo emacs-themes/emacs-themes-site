@@ -1,0 +1,19 @@
+{
+    "name": "Base16 Ocean Theme",
+    "description": "Base16 for Emacs",
+    "remoteSrc": "https:\/\/github.com\/neil477\/base16-emacs",
+    "localSrc": ".\/assets\/local-src\/base16-ocean-theme-source-code.el",
+    "author": "Neil Bhakta",
+    "largeImgs": [
+        ".\/assets\/imgs\/base16-ocean.png",
+        ".\/assets\/imgs\/base16-ocean-bis.png"
+    ],
+    "tags": [
+        "base16",
+        "base16 ocean",
+        "blue",
+        "ocean"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/base16-ocean.png"
+}

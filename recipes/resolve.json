@@ -1,0 +1,19 @@
+{
+    "name": "Resolve Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/resolve-theme.el",
+    "localSrc": ".\/assets\/local-src\/resolve-theme-source-code.el",
+    "author": "Damien Elmes \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/resolve.png",
+        ".\/assets\/imgs\/resolve-bis.png"
+    ],
+    "tags": [
+        "blue",
+        "color themes",
+        "intense",
+        "resolve"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/resolve.png"
+}

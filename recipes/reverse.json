@@ -1,0 +1,19 @@
+{
+    "name": "Reverse Theme",
+    "description": "Color theme like \u2018emacs -r\u2019 or \u2018emacs \u2013reverse-video\u2019",
+    "remoteSrc": "https:\/\/github.com\/syohex\/emacs-reverse-theme",
+    "localSrc": ".\/assets\/local-src\/reverse-theme-source-code.el",
+    "author": "Syohei Yoshida",
+    "largeImgs": [
+        ".\/assets\/imgs\/reverse.png",
+        ".\/assets\/imgs\/reverse-bis.png"
+    ],
+    "tags": [
+        "black",
+        "color themes",
+        "dark",
+        "reverse"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/reverse.png"
+}

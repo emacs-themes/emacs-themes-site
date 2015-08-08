@@ -1,0 +1,19 @@
+{
+    "name": "Ujelly Theme",
+    "description": "A theme\u00a0Inspired by ",
+    "remoteSrc": "https:\/\/github.com\/marktran\/color-theme-ujelly",
+    "localSrc": ".\/assets\/local-src\/ujelly-theme-source-code.el",
+    "author": "Mark Tran",
+    "largeImgs": [
+        ".\/assets\/imgs\/ujelly.png",
+        ".\/assets\/imgs\/ujelly-bis.png"
+    ],
+    "tags": [
+        "black",
+        "dark",
+        "ujelly",
+        "vim"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/ujelly.png"
+}

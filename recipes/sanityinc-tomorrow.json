@@ -1,0 +1,30 @@
+{
+    "name": "Sanityinc Tomorrow Themes",
+    "description": "An Emacs color-theme version of Chris Kempson\u2019s \u201cTomorrow\u201d themes.",
+    "remoteSrc": "https:\/\/github.com\/purcell\/color-theme-sanityinc-tomorrow",
+    "localSrc": ".\/assets\/local-src\/sanityinc-tomorrow-themes-source-code.el",
+    "author": "Steve Purcell",
+    "largeImgs": [
+        ".\/assets\/imgs\/sanityinc-tomorrow-night.png",
+        ".\/assets\/imgs\/sanityinc-tomorrow-night-bis.png",
+        ".\/assets\/imgs\/sanityinc-tomorrow-day.png",
+        ".\/assets\/imgs\/sanityinc-tomorrow-day-bis.png",
+        ".\/assets\/imgs\/sanityinc-tomorrow-eighties.png",
+        ".\/assets\/imgs\/sanityinc-tomorrow-eighties-bis.png",
+        ".\/assets\/imgs\/sanityinc-tomorrow-black.png",
+        ".\/assets\/imgs\/sanityinc-tomorrow-black-bis.png",
+        ".\/assets\/imgs\/sanityinc-tomorrow-blue-bis.png",
+        ".\/assets\/imgs\/sanityinc-tomorrow-blue.png"
+    ],
+    "tags": [
+        "blue",
+        "dark",
+        "day",
+        "light",
+        "night",
+        "popular",
+        "tomorrow"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/sanityinc-tomorrow-night.png"
+}

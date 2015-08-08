@@ -1,0 +1,19 @@
+{
+    "name": "Lethe Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/lethe-theme.el",
+    "localSrc": ".\/assets\/local-src\/lethe-theme-source-code.el",
+    "author": "Ivica Loncar \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/lethe.png",
+        ".\/assets\/imgs\/lethe-bis.png"
+    ],
+    "tags": [
+        "black",
+        "color themes",
+        "dark",
+        "lethe"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/lethe.png"
+}

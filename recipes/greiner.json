@@ -1,0 +1,19 @@
+{
+    "name": "Greiner Theme",
+    "description": "Color Theme",
+    "remoteSrc": "https:\/\/github.com\/emacs-jp\/replace-colorthemes\/blob\/master\/greiner-theme.el",
+    "localSrc": ".\/assets\/local-src\/greiner-theme-source-code.el",
+    "author": "Kevin Greiner \/ Syohei YOSHIDA",
+    "largeImgs": [
+        ".\/assets\/imgs\/greiner.png",
+        ".\/assets\/imgs\/greiner-bis.png"
+    ],
+    "tags": [
+        "color themes",
+        "greiner",
+        "light",
+        "yellow"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/greiner.png"
+}

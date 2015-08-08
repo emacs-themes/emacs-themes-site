@@ -1,0 +1,18 @@
+{
+    "name": "Odersky Theme",
+    "description": "A dark color theme",
+    "remoteSrc": "https:\/\/github.com\/owainlewis\/emacs-color-themes",
+    "localSrc": ".\/assets\/local-src\/odersky-theme-source-code.el",
+    "author": "Owain Lewis",
+    "largeImgs": [
+        ".\/assets\/imgs\/odersky.png",
+        ".\/assets\/imgs\/odersky-bis.png"
+    ],
+    "tags": [
+        "black",
+        "dark",
+        "odersky"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/odersky.png"
+}
