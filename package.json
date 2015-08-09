@@ -1,11 +1,11 @@
 {
     "name": "emacs-themes",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Static site generator for Emacs Themes",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "node build.js",
+        "build": "node main.js",
         "mocha": "node_modules/mocha/bin/mocha"
     },
 
@@ -22,7 +22,7 @@
 
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/emacs-themes/emacs-themes-site"
     },
     "author": "Vlad Piersec",
     "license": "CC-BY-NC-4.0"
