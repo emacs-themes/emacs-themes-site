@@ -1,6 +1,8 @@
+
 * Logging
 ** DONE make logging messages more uniform
 ** DONE replace console.log with local logger
+** TODO log all errors
 
 * Templates
 ** DONE break templates into smaller files
@@ -12,7 +14,7 @@
 ** DONE add "__dirname" to paths
 
 * Bugs
-** create module for deleting dirs recursively
+** DONE create module for deleting dirs recursively
 
 * Refactoring
 ** TODO use better names for functions

@@ -10,7 +10,10 @@ var existsInArray = require('../helpers/generalHelpers').existsInArray;
 var rootDir = __dirname + '/../../root/';
 var indexFilePath = rootDir + 'index.html';
 var allDirs = ['themes', 'tags', 'index', 'charts', 'pages'];
-
+// move this to helpers
+var handleError = function(err) {
+    console.log(err.stack);
+};
 // creates single directory
 function makeDir(dirName) {
     var dirPath = rootDir + dirName;
@@ -61,51 +64,91 @@ function deleteAllFiles(filePaths) {
 }
 // deletes all files from a directory
 function deleteAllFilesFromDir(dirPath) {
-    console.log('Deleting all files from ', path.normalize(dirPath));
     return getAllFilePathsFromDir(dirPath)
        .then(deleteAllFiles);
 }
 
-// deletes a directory
-function deleteDir(dirPath) {
+// deletes an empty directory
+function deleteEmptyDir(dirPath) {
     return Q.nfcall(fs.rmdir, dirPath)
         .then(function() {
             log.deleted('Dir', dirPath);
-        });
+        }, handleError);
 }
-// deletes a directory and all sub files
-function deleteDirAndFiles(dirPath, allFileNamesInRoot) {
-    var dirName = path.parse(dirPath).name;
 
-    if (existsInArray(dirName, allFileNamesInRoot)) {
-        return deleteAllFilesFromDir(dirPath)
-            .then(function() {
-                return deleteDir(dirPath);
-            });
-    }
-    return Q()
-       .then(function() {
-           log.text('Dir "' + dirPath + '" already deleted');
-       });
+// deletes all empty directories
+function deleteAllEmptyDirs(allDirPaths) {
+    return allDirPaths.map(deleteEmptyDir);
 }
-// deletes all directories
-function deleteAllDirs(allFileNamesInRoot) {
-    return Q.all(allDirs.map(function(dirName) {
-        var dirPath = rootDir + dirName;
-
-        return deleteDirAndFiles(dirPath, allFileNamesInRoot);
+// returns a promise with all dirs that need to be deleted
+function getAllDirsToDelete(dirsInRoot) {
+    return Q(dirsInRoot.filter(function(dirName) {
+        return existsInArray(dirName, allDirs);
     }));
+}
+
+function makeFullPaths(partials) {
+    return partials.map(function(partial) {
+        return path.normalize(rootDir + partial);
+    });
+}
+
+function getFileWithType(filePath) {
+    return Q.nfcall(fs.stat, filePath).then(function(stats) {
+        return {
+            filePath: filePath,
+            isFile: stats.isFile()
+        };
+    }, handleError);
+}
+
+function getAllFilesWithTypes(filePaths) {
+    return Q.all(filePaths.map(getFileWithType));
+}
+
+function isSimpleFile(fileWithType) {
+    return fileWithType.isFile;
+}
+
+function isDir(fileWithType) {
+    return !fileWithType.isFile;
+}
+function getFilePath(fileWithType) {
+    return fileWithType.filePath;
+}
+
+function readDirContents(dirPath) {
+    return getAllFilePathsFromDir(dirPath)
+        .then(getAllFilesWithTypes, handleError);
+}
+// deletes recursively a dir
+function deleteDirWithContents(dirPath) {
+    return readDirContents(dirPath)
+    .then(function(filesWithTypes) {
+        var filePaths = filesWithTypes.filter(isSimpleFile).map(getFilePath);
+        return deleteAllFiles(filePaths).then(function() {
+            return filesWithTypes;
+        }, handleError);
+    })
+    .then(function(filesWithTypes) {
+        var dirPaths = filesWithTypes.filter(isDir).map(getFilePath);
+        return deleteAllDirsWithContents(dirPaths);
+    }, handleError)
+    .then(function(filesWithTypes) {
+        return deleteEmptyDir(dirPath);
+    }, handleError);
+}
+// deletes recursively multiple dirs
+function deleteAllDirsWithContents(dirPaths) {
+    return Q.all(dirPaths.map(deleteDirWithContents));
 }
 // export
 function deleteAndRegenerateDirs() {
     return readAllFilesFromRoot()
-        .then(function(allFileNamesInRoot) {
-            deleteIndexIfExists(allFileNamesInRoot)
-                .then(function() {
-                    deleteAllDirs(allFileNamesInRoot)
-                        .then(makeAllDirs);
-                });
-        });
+        .then(getAllDirsToDelete, handleError)
+        .then(makeFullPaths, handleError)
+        .then(deleteAllDirsWithContents, handleError)
+        .then(makeAllDirs, handleError);
 }
 
 module.exports = deleteAndRegenerateDirs;
