@@ -1,16 +1,17 @@
+'use strict';
 // external dependencies
 var fs = require('fs');
-var Q = require('q');
 var Handlebars = require('handlebars');
 // local dependencies
 var log = require('../helpers/simpleLogger');
+var CONSTANTS = require('../helpers/constants');
 // config vars
-var rootDir = __dirname + '/../../root/';
+var ROOT_DIR = CONSTANTS.ROOT_DIR;
 // Build the tags
 function buildTagsIndex(allTemplates, allRecipes) {
     var allTags = {};
     var arr = [];
-    var htmlPath = rootDir + 'tags/index.html';
+    var htmlPath = ROOT_DIR + 'tags/index.html';
     var template = Handlebars.compile(allTemplates['tags']);
 
     allRecipes.forEach(function(recipie) {

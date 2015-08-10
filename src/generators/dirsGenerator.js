@@ -6,17 +6,18 @@ var Q = require('q');
 // internal dependencies
 var log = require('../helpers/simpleLogger');
 var existsInArray = require('../helpers/generalHelpers').existsInArray;
-// globals
-var rootDir = __dirname + '/../../root/';
-var indexFilePath = rootDir + 'index.html';
-var allDirs = ['themes', 'tags', 'index', 'charts', 'pages'];
+var CONSTANTS = require('../helpers/constants');
+// constants
+var ROOT_DIR = CONSTANTS.ROOT_DIR;
+var INDEX_FILE_PATH = CONSTANTS.INDEX_FILE_PATH;
+var ROOT_DIR_NAMES = CONSTANTS.ROOT_DIR_NAMES;
 // move this to helpers
 var handleError = function(err) {
     console.log(err.stack);
 };
 // creates single directory
 function makeDir(dirName) {
-    var dirPath = rootDir + dirName;
+    var dirPath = ROOT_DIR + dirName;
 
     return Q.nfcall(fs.mkdir, dirPath).then(function() {
         log.created('Dir', dirPath);
@@ -24,11 +25,11 @@ function makeDir(dirName) {
 }
 // recreates all directories
 function makeAllDirs() {
-    return Q.all(allDirs.map(makeDir));
+    return Q.all(ROOT_DIR_NAMES.map(makeDir));
 }
 
 function deleteIndexIfExists(allFileNames) {
-    var indexPath = path.normalize(indexFilePath);
+    var indexPath = path.normalize(INDEX_FILE_PATH);
 
     if (existsInArray('index.html', allFileNames)) {
         return Q.nfcall(fs.unlink, indexPath);
@@ -39,7 +40,7 @@ function deleteIndexIfExists(allFileNames) {
         });
 }
 function readAllFilesFromRoot() {
-    return Q.nfcall(fs.readdir, rootDir);
+    return Q.nfcall(fs.readdir, ROOT_DIR);
 }
 // gets all paths for the files inside a directory
 function getAllFilePathsFromDir(dirPath) {
@@ -83,13 +84,13 @@ function deleteAllEmptyDirs(allDirPaths) {
 // returns a promise with all dirs that need to be deleted
 function getAllDirsToDelete(dirsInRoot) {
     return Q(dirsInRoot.filter(function(dirName) {
-        return existsInArray(dirName, allDirs);
+        return existsInArray(dirName, ROOT_DIR_NAMES);
     }));
 }
 
 function makeFullPaths(partials) {
     return partials.map(function(partial) {
-        return path.normalize(rootDir + partial);
+        return path.normalize(ROOT_DIR + partial);
     });
 }
 
@@ -150,5 +151,5 @@ function deleteAndRegenerateDirs() {
         .then(deleteAllDirsWithContents, handleError)
         .then(makeAllDirs, handleError);
 }
-
+console.log(CONSTANTS);
 module.exports = deleteAndRegenerateDirs;

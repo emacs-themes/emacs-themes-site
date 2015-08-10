@@ -1,17 +1,17 @@
 'use strict';
 // external dependencies
 var fs = require('fs');
-var Q = require('q');
 var Handlebars = require('handlebars');
 // local dependencies
 var log = require('../helpers/simpleLogger');
+var CONSTANTS = require('../helpers/constants');
 // config vars
-var rootDir = __dirname + '/../../root/';
-var themesPerPage = 12;
+var ROOT_DIR = CONSTANTS.ROOT_DIR;
+var THEMES_PER_PAGE = CONSTANTS.THEMES_PER_PAGE;
 
 // build the individual index page for a tag
 function buildTagIndexPage(all, template) {
-    var filePath = rootDir + 'tags/' + all.tag.hyphenedValue +
+    var filePath = ROOT_DIR + 'tags/' + all.tag.hyphenedValue +
             '/' + all.currentPage + '.html';
 
     fs.writeFile(filePath, template(all), function() {
@@ -20,8 +20,8 @@ function buildTagIndexPage(all, template) {
 }
 
 function buildTagIndexPages(all, template) {
-    var numberOfPages = Math.ceil(all.themes.length / themesPerPage);
-    var filePath = rootDir + 'tags/' + all.tag.hyphenedValue;
+    var numberOfPages = Math.ceil(all.themes.length / THEMES_PER_PAGE);
+    var filePath = ROOT_DIR + 'tags/' + all.tag.hyphenedValue;
     var obj = {};
     var currentPage;
     var low;
@@ -35,8 +35,8 @@ function buildTagIndexPages(all, template) {
 
     for (i = 0; i < numberOfPages; i++) {
         obj.pages = [];
-        low = i * themesPerPage;
-        high = low + themesPerPage;
+        low = i * THEMES_PER_PAGE;
+        high = low + THEMES_PER_PAGE;
         obj.themes = all.themes.slice(low, high);
         currentPage = i + 1;
         obj.currentPage = currentPage;

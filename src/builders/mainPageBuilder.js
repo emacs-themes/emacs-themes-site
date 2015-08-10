@@ -7,16 +7,17 @@ var Handlebars = require('handlebars');
 var readJsonFromDisk = require('../helpers/generalHelpers').readJsonFromDisk;
 var parseRecipie = require('../helpers/generalHelpers').parseRecipie;
 var log = require('../helpers/simpleLogger');
+var CONSTANTS = require('../helpers/constants');
 // config vars
-var rootDir = __dirname + '/../../root/';
-var configJson = __dirname + '/../config/main.json';
-var recipesDir = __dirname + '/../../recipes/';
-var outputFilePath = rootDir + 'index.html';
+var ROOT_DIR = CONSTANTS.ROOT_DIR;
+var CONFIG_JSON_PATH = CONSTANTS.CONFIG_JSON_PATH;
+var RECIPES_DIR_PATH = CONSTANTS.RECIPES_DIR_PATH;
+var outputFilePath = ROOT_DIR + 'index.html';
 
 // reads an array of names from the disk returning an array of promises
 function readAllRecipesFromDisk(namesArr) {
     return namesArr.map(function(name) {
-        var filePath = recipesDir + name + '.json';
+        var filePath = RECIPES_DIR_PATH + name + '.json';
 
         return readJsonFromDisk(filePath);
     });
@@ -37,7 +38,7 @@ function writeToFile(filePath, text) {
 }
 // build the index.html page
 function buildMainPage(allTemplates) {
-    Q.all(readJsonFromDisk(configJson)
+    Q.all(readJsonFromDisk(CONFIG_JSON_PATH)
         .then(readAllRecipesFromDisk)
         .then(parseAllRecipes))
         .then(function(recipes) {

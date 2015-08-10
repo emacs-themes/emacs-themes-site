@@ -4,12 +4,12 @@ var fs = require('fs');
 var Handlebars = require('handlebars');
 // local dependencies
 var log = require('../helpers/simpleLogger');
+var CONSTANTS = require('../helpers/constants');
 // config vars
-var themesDir = __dirname + '/../../root/themes/';
-
+var THEMES_DIR_PATH = CONSTANTS.THEMES_DIR_PATH;
 // build an individual HTML theme page
 function writeThemeToFile(info, template) {
-    var htmlPath = themesDir + info.name.hyphenedValue + '.html';
+    var htmlPath = THEMES_DIR_PATH + info.name.hyphenedValue + '.html';
     console.log(htmlPath);
     fs.writeFile(htmlPath, template(info), function() {
         log.built(info.name.spacedValue);

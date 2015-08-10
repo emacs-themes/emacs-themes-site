@@ -1,4 +1,3 @@
-
 * Logging
 ** DONE make logging messages more uniform
 ** DONE replace console.log with local logger
@@ -24,7 +23,7 @@
 ** DONE remove async package
 ** TODO improve CSS
    add responsiveness
-** TODO move all variables to a common module
+** DONE move all variables to a common module
 
 * Additional functionality
 ** DONE create github repository

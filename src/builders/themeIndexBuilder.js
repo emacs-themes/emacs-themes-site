@@ -4,9 +4,10 @@ var fs = require('fs');
 var Handlebars = require('handlebars');
 // local dependencies
 var log = require('../helpers/simpleLogger');
+var CONSTANTS = require('../helpers/constants');
 // config vars
-var rootDirPath = __dirname + '/../../root/';
-var themesPerPage = 12;
+var ROOT_DIR = CONSTANTS.ROOT_DIR;
+var THEMES_PER_PAGE = CONSTANTS.THEMES_PER_PAGE;
 
 // builds individual index theme page
 function buildThemePage(allRecipes, startIndex, endIndex, currentPage, pageLimit, template) {
@@ -35,7 +36,7 @@ function buildThemePage(allRecipes, startIndex, endIndex, currentPage, pageLimit
         number: (currentPage + 1)
     };
     page.pages = allPages;
-    filePath = rootDirPath + 'index/' + (currentPage + 1) + '.html';
+    filePath = ROOT_DIR + 'index/' + (currentPage + 1) + '.html';
 
     fs.writeFile(filePath, template(page), function() {
         log.created('Theme index page', filePath);
@@ -43,11 +44,11 @@ function buildThemePage(allRecipes, startIndex, endIndex, currentPage, pageLimit
 }
 // returns the total number of theme pages
 function calculateNumberOfPages(allRecipes) {
-    return Math.ceil(allRecipes.length / themesPerPage);
+    return Math.ceil(allRecipes.length / THEMES_PER_PAGE);
 }
 // returns the upper limit for the pages index
 function getHighLimit(lowLimit, recipesNumber) {
-    var limit = lowLimit + themesPerPage;
+    var limit = lowLimit + THEMES_PER_PAGE;
 
     if (limit > recipesNumber) {
         return recipesNumber;
@@ -64,7 +65,7 @@ function buildThemeIndex(allTemplates, allRecipes) {
     var i;
 
     for (i = 0; i < numberOfPages; i++) {
-        lowLimit = i * themesPerPage;
+        lowLimit = i * THEMES_PER_PAGE;
         highLimit = getHighLimit(lowLimit, recipesNumber);
         buildThemePage(allRecipes, lowLimit, highLimit, i, numberOfPages, template);
     }
