@@ -5,8 +5,7 @@
 
 * Templates
 ** DONE break templates into smaller files
-** TODO create main page template
-   Currently there is only a list with the most popular themes
+** DONE create main page template
 ** DONE remove intermediate templates
 
 * Paths
@@ -37,9 +36,8 @@
 ** TODO create gulp tasks for minification
 
 * Testing
-  starting from page 6
-** TODO test all themes
-** TODO test all theme sources
+** DONE test all themes
+** DONE test all theme sources
 
 * Add more themes
 ** TODO add new screenshots for ample theme

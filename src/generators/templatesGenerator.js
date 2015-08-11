@@ -21,8 +21,8 @@ var allData = [
     {
         templateData: {
             name: 'main',
-            title: 'GNU Emacs Themes',
-            description: 'A list of old and new Emacs Themes',
+            title: 'A GNU Emacs Themes Gallery',
+            description: 'A list of old and new Emacs Themes.',
             relativePath: ''
         },
         schema: ['header', 'main', 'footer']

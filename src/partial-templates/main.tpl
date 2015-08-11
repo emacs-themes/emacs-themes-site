@@ -1,6 +1,6 @@
 <div class="content center-wrapper">
 
-    <h1>Most popular Emacs Themes</h1>
+    <h1>Latest added to the gallery:</h1>
 
     <!-- Theme list start -->
     <ul class="themes-list">
@@ -14,9 +14,5 @@
         {{/each}}
     </ul>
     <!-- Theme list end -->
-
-    <!-- More start-->
-    <div>Some text here</div>
-    <!-- More end -->
 
 </div>
