@@ -4,22 +4,20 @@ var fs = require('fs');
 var Q = require('q');
 var Handlebars = require('handlebars');
 // local dependencies
-var readJsonFromDisk = require('../helpers/generalHelpers').readJsonFromDisk;
-var parseRecipie = require('../helpers/generalHelpers').parseRecipie;
 var log = require('../helpers/simpleLogger');
 var CONSTANTS = require('../helpers/constants');
+var helpers = require('../helpers/generalHelpers')
+var readJsonFromDisk = helpers.readJsonFromDisk;
+var parseRecipie = helpers.parseRecipie;
+var getAllFileNamesFrom = helpers.getAllFileNamesFrom;
 // config vars
 var ROOT_DIR = CONSTANTS.ROOT_DIR;
-var CONFIG_JSON_PATH = CONSTANTS.CONFIG_JSON_PATH;
 var RECIPES_DIR_PATH = CONSTANTS.RECIPES_DIR_PATH;
 var THEMES_PER_PAGE = CONSTANTS.THEMES_PER_PAGE;
 var outputFilePath = ROOT_DIR + 'index.html';
 
-var handleError = function (err) {
+function handleError(err) {
     console.log(err.stack);
-};
-function getAllRecipesFileNames() {
-    return Q.nfcall(fs.readdir, RECIPES_DIR_PATH);
 }
 
 function createFullRecipePath(recipeName) {
@@ -78,7 +76,7 @@ function writeToFile(filePath, text) {
 }
 // build the index.html page
 function buildMainPage(allTemplates) {
-    getAllRecipesFileNames()
+    getAllFileNamesFrom(RECIPES_DIR_PATH)
         .then(createAllFullRecipesPaths)
         .then(getAllRecipesNamesWithDates)
         .then(sortRecipeNamesWithDatesByDate)

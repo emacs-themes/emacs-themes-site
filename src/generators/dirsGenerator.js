@@ -5,8 +5,10 @@ var path = require('path');
 var Q = require('q');
 // internal dependencies
 var log = require('../helpers/simpleLogger');
-var existsInArray = require('../helpers/generalHelpers').existsInArray;
+var helpers = require('../helpers/generalHelpers')
 var CONSTANTS = require('../helpers/constants');
+var existsInArray = helpers.existsInArray;
+var getAllFileNamesFrom = helpers.getAllFileNamesFrom;
 // constants
 var ROOT_DIR = CONSTANTS.ROOT_DIR;
 var INDEX_FILE_PATH = CONSTANTS.INDEX_FILE_PATH;
@@ -39,12 +41,9 @@ function deleteIndexIfExists(allFileNames) {
             log.text('File "' + indexPath + '" already deleted');
         });
 }
-function readAllFilesFromRoot() {
-    return Q.nfcall(fs.readdir, ROOT_DIR);
-}
 // gets all paths for the files inside a directory
 function getAllFilePathsFromDir(dirPath) {
-    return Q.nfcall(fs.readdir, dirPath)
+    return getAllFileNamesFrom(dirPath)
         .then(function(fileNames) {
             var allPaths = fileNames.map(function(fileName) {
                 return path.normalize(dirPath + '/' + fileName);
@@ -145,11 +144,11 @@ function deleteAllDirsWithContents(dirPaths) {
 }
 // export
 function deleteAndRegenerateDirs() {
-    return readAllFilesFromRoot()
+    return getAllFileNamesFrom(ROOT_DIR)
         .then(getAllDirsToDelete, handleError)
         .then(makeFullPaths, handleError)
         .then(deleteAllDirsWithContents, handleError)
         .then(makeAllDirs, handleError);
 }
-console.log(CONSTANTS);
+
 module.exports = deleteAndRegenerateDirs;

@@ -8,7 +8,7 @@ var CONSTANTS = {
     THEMES_DIR_PATH: path.normalize(__dirname + '/../../root/themes/'),
     TEMPLATES_SRC_PATH: path.normalize(__dirname + '/../partial-templates/'),
     RECIPES_DIR_PATH: path.normalize(__dirname + '/../../recipes/'),
-    CONFIG_JSON_PATH: path.normalize(__dirname + '/../config/main.json'),
+    CHARTS_DIR_PATH: path.normalize(__dirname + '/../config/charts/'),
     ROOT_DIR_NAMES: ['themes', 'tags', 'index', 'charts', 'pages'],
     THEMES_PER_PAGE: 12
 };

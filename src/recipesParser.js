@@ -4,13 +4,10 @@
 var fs = require('fs');
 var Q = require('q');
 // local dependencies
-var parseRecipie = require('./helpers/generalHelpers').parseRecipie;
+var helpers = require('./helpers/generalHelpers');
 var log = require('./helpers/simpleLogger');
-
-// read files from recipesDir
-function readFileNamesFromDir(path) {
-    return Q.nfcall(fs.readdir, path);
-}
+var parseRecipie = helpers.parseRecipie;
+var readFileNamesFromDir = helpers.getAllFileNamesFrom;
 
 // parses a recipie's content
 function parseRecipieContent(recipieText) {

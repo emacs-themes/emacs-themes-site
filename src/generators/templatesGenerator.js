@@ -5,6 +5,9 @@ var Q = require('q');
 // local dependencies
 var log = require('../helpers/simpleLogger');
 var CONSTANTS = require('../helpers/constants');
+var helpers = require('../helpers/generalHelpers');
+var getAllFileNamesFrom = helpers.getAllFileNamesFrom;
+
 // constants
 var TEMPLATES_SRC_PATH = CONSTANTS.TEMPLATES_SRC_PATH;
 // files (these go in template data and are concatenated with the relative path)
@@ -69,10 +72,6 @@ var allData = [
         schema: ['header', 'tag-index', 'footer']
     }
 ];
-// returns a promise which resolves with the file names from partialSrcRoot Dir
-function getPartialTemplatesNames() {
-    return Q.nfcall(fs.readdir, TEMPLATES_SRC_PATH);
-}
 // transforms an array of template objects into a single object
 function normalizeTemplatesText(arr) {
     var res = {};
@@ -144,7 +143,7 @@ function generateAllTemplates(allPartialTexts) {
 }
 // returns a promise which resolves with an object containing all templates
 function generateTemplates() {
-    return getPartialTemplatesNames()
+    return getAllFileNamesFrom(TEMPLATES_SRC_PATH)
         .then(readAndParseAllFiles)
         .then(generateAllTemplates);
 }

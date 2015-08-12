@@ -26,10 +26,11 @@
 
 * Additional functionality
 ** DONE create github repository
+** TODO create template for charts page
+** TODO create about page
 ** TODO add search input
 ** TODO add classes to tags
 ** TODO integrate with git
-** TODO create template for the rest of the pages
 ** TODO add analytics code
 
 * Automation

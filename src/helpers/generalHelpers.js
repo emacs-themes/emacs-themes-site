@@ -31,12 +31,16 @@ var helpers = {
 
         return recipie;
     },
-
+    // checks if name is in arr
     existsInArray: function(name, arr) {
         var res = arr.filter(function(el) {
             return el === name;
         });
         return res.length > 0;
+    },
+    // returns a promise which resolves with the file names from somePath
+    getAllFileNamesFrom: function(somePath) {
+        return Q.nfcall(fs.readdir, somePath);
     }
 };
 
