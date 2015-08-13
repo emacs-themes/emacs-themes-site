@@ -1,10 +1,10 @@
 {
-    "date": "June 2015",
+    "date": "July 2015",
     "themes": [
-        "solarized",
-        "monokai",
-        "zenburn",
-        "gruvbox",
-        "lush"
+        "monokai-theme",
+        "ample-theme",
+        "solarized-themes",
+        "zenburn-theme",
+        "gruvbox-theme"
     ]
 }

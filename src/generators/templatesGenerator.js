@@ -64,13 +64,32 @@ var allData = [
         templateData: {
             name: 'tag-index',
             title: 'Tag "{{ tag.spacedValue }}" - Page {{ currentPage }} ' +
-                   '| Emacs Themes',
+                   ' | Emacs Themes',
             description: 'Page {{ currentPage }} for the tag {{ tag.spacedValue }}.' +
                 ' | Emacs Themes',
             relativePath: '../../'
         },
         schema: ['header', 'tag-index', 'footer']
+    },
+    {
+        templateData: {
+            name: 'charts-index',
+            title: 'Emacs Themes Charts',
+            description: 'Most popular Emacs Themes',
+            relativePath: '../'
+        },
+        schema: ['header', 'charts-index', 'footer']
+    },
+    {
+        templateData: {
+            name: 'chart',
+            title: 'Emacs Themes Charts for {{ date }}',
+            description: 'A list with the most popular Emacs Themes in {{ date }}',
+            relativePath: '../'
+        },
+        schema: ['header', 'chart', 'footer']
     }
+
 ];
 // transforms an array of template objects into a single object
 function normalizeTemplatesText(arr) {

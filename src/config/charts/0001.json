@@ -1,20 +1,10 @@
 {
-    "date": "All time",
+    "date": "June 2015",
     "themes": [
-        "zenburn",
-        "solarized",
-        "sanityinc-tomorrow",
-        "monokai",
-        "leuven",
-        "ample",
-        "moe",
-        "cyberpunk",
-        "anti-zenburn",
-        "molokai",
-        "alect",
-        "grand-shell",
-        "tangotango",
-        "ample-zen",
-        "noctilux"
+        "solarized-themes",
+        "monokai-theme",
+        "zenburn-theme",
+        "gruvbox-theme",
+        "lush-theme"
     ]
 }
