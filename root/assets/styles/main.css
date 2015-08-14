@@ -1,7 +1,7 @@
 html {
     height: 100%;
 }
-body, div, a, span, ul, li, h1, h2, p {
+body, div, a, span, ul, li, h1, h2, p, ol {
     padding: 0;
     margin: 0;
     border: 0;
@@ -134,8 +134,8 @@ a.no-hover:hover {
     font-size: 1.5rem;
 }
 .cell {
-    width: 33.33%;
-    float: left;
+    width: 33%;
+    display: inline-block;
 }
 .theme-small-img {
     box-shadow: 0 3px 2px #5E5BA8;
@@ -146,6 +146,58 @@ a.no-hover:hover {
 .theme-large-img {
     box-shadow:  0 0 4px #5E5BA8;
 }
- .theme-large-img:hover {
+.theme-large-img:hover {
      box-shadow: 0 0 20px #3A377D;
+}
+.pagination-pages-text {
+    display: inline-block;
+    padding: 10px 15px 10px 0;
+}
+.page-number {
+    display: inline-block;
+    width: 15px;
+}
+.charts-list {
+    display: block;
+    padding-bottom: 20px
+}
+.chart {
+    display: list-item;
+    list-style-type: disc;
+    margin-left: 28px;
+    padding-bottom: 12px;
+}
+.charts-themes-list {
+    margin-left: 5px;
+    padding-bottom: 12px;
+}
+.charts-themes-list .chart{
+    list-style-type: decimal;
+}
+
+@media all and (max-width:859px) and (min-width:0px) {
+    .center-wrapper {
+        width: 410px;
+    }
+    .cell {
+        width: 100%;
+    }
+}
+
+@media all and (max-width:1279px) and (min-width:860px) {
+    .center-wrapper {
+        width: 860px;
+    }
+    .cell {
+        width: 427px;
+    }
+}
+
+@media all and (max-width:1600px) and (min-width:1280px) {
+    .center-wrapper {
+        width: 1210px;
+    }
+    .cell {
+        width: 33%;
+    }
 }

@@ -20,7 +20,7 @@
 ** DONE break main.js into modules
 ** DONE remove rimraf package
 ** DONE remove async package
-** TODO improve CSS
+** DONE improve CSS
    add responsiveness
 ** DONE move all variables to a common module
 

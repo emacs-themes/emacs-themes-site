@@ -14,13 +14,13 @@
     <!-- Theme list end -->
 
     <!-- Pagination start -->
-    <div>Pages:</div>
+    <div class="pagination-pages-text">Pages:</div>
     <ul>
         {{#each pages}}
         {{#if this.current}}
-        <li>{{this.number}}</li>
+        <li class="page-number">{{this.number}}</li>
         {{else}}
-        <li>
+        <li class="page-number">
             <a href="./{{this}}.html">{{this}}</a>
         </li>
         {{/if}}
