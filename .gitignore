@@ -6,4 +6,4 @@ root/charts/*
 root/pages/*
 root/index.html
 /npm-debug.log
-logs/
+logs/*
