@@ -9,6 +9,7 @@ var buildAllThemes = require('./builders/allThemesBuilder');
 var buildAllTags = require('./builders/allTagsBuilder');
 var buildTagsIndex = require('./builders/tagIndexBuilder');
 var buildCharts = require('./builders/chartsBuilder');
+var buildAboutPage = require('./builders/aboutPageBuilder');
 // config vars
 var recipesDir = __dirname + '/../recipes/';
 
@@ -19,6 +20,7 @@ function buildAllPages(allTemplates, allRecipes) {
     buildAllTags(allTemplates, allRecipes);
     buildTagsIndex(allTemplates, allRecipes);
     buildCharts(allTemplates);
+    buildAboutPage(allTemplates);
 }
 
 function buildSite() {

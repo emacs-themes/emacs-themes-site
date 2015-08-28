@@ -27,11 +27,11 @@
 * Additional functionality
 ** DONE create github repository
 ** DONE create template for charts page
-** TODO create about page
+** DONE create about page
 ** TODO add search input
 ** TODO add classes to tags
-** TODO integrate with git
-** TODO add analytics code
+** DONE integrate with git
+** DONE add analytics code
 
 * Automation
 ** TODO create gulp tasks for minification

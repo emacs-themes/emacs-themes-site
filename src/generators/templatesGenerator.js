@@ -88,8 +88,17 @@ var allData = [
             relativePath: '../'
         },
         schema: ['header', 'chart', 'footer']
+    },
+    {
+        templateData: {
+            name: 'about',
+            title: 'About Emacs Themes Site',
+            description: 'About Emacs Themes site. How to contribute and what it' +
+                'contains',
+            relativePath: '../'
+        },
+        schema: ['header', 'about', 'footer']
     }
-
 ];
 // transforms an array of template objects into a single object
 function normalizeTemplatesText(arr) {
