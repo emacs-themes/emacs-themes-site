@@ -12,6 +12,6 @@
     <p>I don’t have the time and energy to list all the themes but if you want your theme to be listed or have any suggestions/thoughts regarding the site, <a href="mailto:vlad.piersec@gmail.com">email me</a> !</p>
 
     <h3 class="tip">Tip!</h3>
-    <p>Shortly there will be a detailed guide on how you can contribute on <a href="https://github.com/emacs-themes/emacs-themes-site">GitHub</a>. Until then, just <a href="mailto:vlad.piersec@gmail.com">email me</a>...</p>
+    <p>Shortly there will be a detailed guide on how you can contribute on <a href="https://github.com/emacs-themes/emacs-themes-site">GitHub</a>. Until then, just <a href="mailto:vlad.piersec@gmail.com">email me</a>.</p>
 
 </div>
