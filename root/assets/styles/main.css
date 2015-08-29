@@ -155,7 +155,7 @@ a.no-hover:hover {
 }
 .page-number {
     display: inline-block;
-    width: 15px;
+    padding-right: 5px;
 }
 .charts-list {
     display: block;
