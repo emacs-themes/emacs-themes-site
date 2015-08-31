@@ -7,7 +7,7 @@
         {{#each charts}}
         <li class="chart">
             <a href="{{this.url}}">
-                <span>Charts for {{this.text}}</span>
+                <span>{{this.text}}</span>
             </a>
         </li>
         {{/each}}
