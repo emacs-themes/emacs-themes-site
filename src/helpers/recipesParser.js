@@ -4,8 +4,8 @@
 var fs = require('fs');
 var Q = require('q');
 // local dependencies
-var helpers = require('./helpers/generalHelpers');
-var log = require('./helpers/simpleLogger');
+var helpers = require('./../helpers/generalHelpers');
+var log = require('./../helpers/simpleLogger');
 var parseRecipie = helpers.parseRecipie;
 var readFileNamesFromDir = helpers.getAllFileNamesFrom;
 
