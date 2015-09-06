@@ -1,6 +1,6 @@
 <div class="content center-wrapper">
 
-    <h1>Latest added to the gallery:</h1>
+    <h1>Latest additions to the gallery:</h1>
 
     <!-- Theme list start -->
     <ul class="themes-list">
