@@ -8,7 +8,7 @@ var errorLogPath = __dirname + '/logs/error.log';
 var mainLogPath = __dirname + '/logs/main.log';
 // execute a git pull
 var child = exec(command, {cwd: projectPath});
-var buildSite = require(__dirname + '/src/buildSite');
+var buildSite = require(__dirname + '/src/builder/buildSite');
 var successText;
 
 function gitIsUpToDate(data) {
