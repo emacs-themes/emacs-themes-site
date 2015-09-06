@@ -5,7 +5,7 @@
     <!-- Title end -->
 
     <!-- Info start -->
-    <p><em>Info: </em>{{contents}}</p>
+    <p><em>Info: </em>{{description}}</p>
     <div class="details">
         <ul>
             <li class="detail"><em>Author</em>: {{author}}</li>
