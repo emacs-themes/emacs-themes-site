@@ -1,0 +1,23 @@
+{
+    "name": "Aurora theme",
+    "description": "A theme inspired by SublimeText's Material theme.",
+    "remoteSrc": "https:\/\/github.com\/xzerocode\/aurora-theme",
+    "localSrc": ".\/assets\/local-src\/aurora-theme-source-code.el",
+    "author": "Luis Cairampoma",
+    "largeImgs": [
+        ".\/assets\/imgs\/aurora.png",
+        ".\/assets\/imgs\/aurora-bis.png",
+        ".\/assets\/imgs\/aurora-clojure.png",
+        ".\/assets\/imgs\/aurora-html.png",
+        ".\/assets\/imgs\/aurora-javascript.png",
+        ".\/assets\/imgs\/aurora-dark-mode.png"
+    ],
+    "tags": [
+        "aurora",
+        "blue",
+        "dark",
+        "new"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/aurora.png"
+}
