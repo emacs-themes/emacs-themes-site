@@ -1,0 +1,21 @@
+{
+    "name": "Atom One Dark",
+    "description": "An Emacs port of the Atom One Dark theme from Atom.io.",
+    "remoteSrc": "https:\/\/github.com\/jonathanchu\/atom-one-dark-theme",
+    "localSrc": ".\/assets\/local-src\/atom-one-dark-theme-source-code.el",
+    "author": "Jonathan Chu",
+    "largeImgs": [
+        ".\/assets\/imgs\/atom-one-dark.png",
+        ".\/assets\/imgs\/atom-one-dark-bis.png"
+    ],
+    "tags": [
+        "atom",
+        "atom one",
+        "dark",
+        "new",
+        "blue",
+        "indigo"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/atom-one-dark.png"
+}
