@@ -1,5 +1,5 @@
 {
-    "name": "Railscasts",
+    "name": "Railscasts Theme",
     "description": "A theme inspired by the brilliant Railscasts theme for TextMate",
     "remoteSrc": "https:\/\/github.com\/mikenichols\/railscasts-theme",
     "localSrc": ".\/assets\/local-src\/railscasts-theme-source-code.el",
@@ -12,7 +12,7 @@
         "railscasts",
         "dark",
         "textmate",
-        "gray",
+        "bronwn",
         "purple"
     ],
     "available": true,
