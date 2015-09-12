@@ -1,5 +1,5 @@
 {
-    "name": "Atom One Dark",
+    "name": "Atom One Dark Theme",
     "description": "An Emacs port of the Atom One Dark theme from Atom.io.",
     "remoteSrc": "https:\/\/github.com\/jonathanchu\/atom-one-dark-theme",
     "localSrc": ".\/assets\/local-src\/atom-one-dark-theme-source-code.el",

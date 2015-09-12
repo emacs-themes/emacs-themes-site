@@ -1,5 +1,5 @@
 {
-    "name": "Aurora theme",
+    "name": "Aurora Theme",
     "description": "A theme inspired by SublimeText's Material theme.",
     "remoteSrc": "https:\/\/github.com\/xzerocode\/aurora-theme",
     "localSrc": ".\/assets\/local-src\/aurora-theme-source-code.el",
