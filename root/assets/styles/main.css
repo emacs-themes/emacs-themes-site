@@ -175,11 +175,42 @@ a.no-hover:hover {
     list-style-type: decimal;
 }
 
-@media all and (max-width:859px) and (min-width:0px) {
+@media all and (max-width:419px) and (min-width:0px) {
+    h1 {
+        font-size: 1.3rem;
+        padding: 0;
+        margin-bottom: 0.3rem;
+    }
+    .site-title {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+    .menu-item {
+        display: block;
+        text-align: center;
+        margin-bottom: 0.3rem;
+    }
+    .center-wrapper {
+        width: 100%;
+    }
+    .cell {
+        width: 100%;
+    }
+    .theme-small-img {
+        width: 100%;
+    }
+    .footer-info {
+        background-color: #5E5BA8;
+    }
+}
+@media all and (max-width:859px) and (min-width:420px) {
     .center-wrapper {
         width: 410px;
     }
     .cell {
+        width: 100%;
+    }
+    .theme-small-img {
         width: 100%;
     }
 }
