@@ -174,6 +174,28 @@ a.no-hover:hover {
 .charts-themes-list .chart{
     list-style-type: decimal;
 }
+.google-search {
+    display: inline-block;
+    margin-left: 2rem;
+    width: 25rem;
+    position: relative;
+    top: 1.5rem;
+}
+.google-search .gsc-control-cse {
+    height: 0;
+    padding: 0;
+    border: 0;
+}
+.google-search .gsc-input-box {
+    border-color: #3A377D;
+    margin: 0;
+}
+input.gsc-search-button.gsc-search-button-v2 {
+    background-color: #3A377D;
+}
+input.gsc-search-button.gsc-search-button-v2:hover {
+    background-color: #E85085;
+}
 
 @media all and (max-width:419px) and (min-width:0px) {
     h1 {
@@ -202,6 +224,11 @@ a.no-hover:hover {
     .footer-info {
         background-color: #5E5BA8;
     }
+    .google-search {
+        display: inline-block;
+        width: 100%;
+        margin-left: 0;
+    }
 }
 @media all and (max-width:859px) and (min-width:420px) {
     .center-wrapper {
@@ -213,6 +240,11 @@ a.no-hover:hover {
     .theme-small-img {
         width: 100%;
     }
+    .google-search {
+        margin-left: 0;
+        display: inline-block;
+        width: 100%;
+    }
 }
 
 @media all and (max-width:1279px) and (min-width:860px) {
@@ -222,6 +254,11 @@ a.no-hover:hover {
     .cell {
         width: 427px;
     }
+    .google-search {
+        margin-left: 0;
+        display: inline-block;
+        width: 100%;
+    }
 }
 
 @media all and (max-width:1600px) and (min-width:1280px) {
@@ -230,5 +267,10 @@ a.no-hover:hover {
     }
     .cell {
         width: 33%;
+    }
+    .google-search {
+        margin-left: 0;
+        display: inline-block;
+        width: 100%;
     }
 }
