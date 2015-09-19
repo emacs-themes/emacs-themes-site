@@ -9,20 +9,23 @@ To add a new theme, you have to create at least 4 files:
    1. A =.json= file which is the actual recipe of the theme;
    2. A /small/ =.png= file which is the image showing on the front and index page;
    3. At least 1 /large/ =.png= image, which will be listed on the theme page;
-   4. The source code of the theme;
+   4. The /source code/ of the theme;
 
 
-***** Add the small .png file
-      Add a *400x200* =.png= file to */root/assets/imgs-small*. This will be the small image showing on the front page or the index page. You will have to add this name to the [[*Add%20the%20recipe(.json)%20file][recipe]] file.
+**** Add the small .png file
+      Add a *400x200* =.png= file to */root/assets/imgs-small* directory. This will be the small image showing on the front page or the index page.
+      You will have to add this name to the [[#add-the-recipejson-file][recipe]] file.
 
-***** Add the large .png files
-      Add whatever number of =.png= (screenshots) files you want to */root/assets/imgs*. These will show on the theme page. You will have to add this name to the [[*Add%20the%20recipe(.json)%20file][recipe]] file.
+**** Add the large .png files
+      Add whatever number of =.png= (screenshots) files you want to */root/assets/imgs* directory. These will show on the theme page.
+      You will have to add this name to the [[#add-the-recipejson-file][recipe]] file.
 
-***** Add the souce code (.el) file
-      Add a =.el= file to */root/assets/local-src*. You can name it as you like but I strongly encourage to use a name of the form: ~[theme-name]-theme-source-code.el~. You will have to add this name to the [[*Add%20the%20recipe(.json)%20file][recipe]] file.
+**** Add the souce code (.el) file
+      Add a =.el= file to */root/assets/local-src* directory. You can name it as you like but I strongly encourage to use a name of the form: ~[theme-name]-theme-source-code.el~.
+      You will have to add this name to the [[#add-the-recipejson-file][recipe]] file.
 
-***** Add the recipe(.json) file
-      Add a =.json= file to */recipes* folder. You can name it as you like but I strongly encourage to name it as your theme. The file must have this structure:
+**** Add the recipe(.json) file
+      Add a =.json= file to */recipes* directory. You can name it as you like but I strongly encourage to name it as your theme. The file must have this structure:
 
 #+BEGIN_SRC javascript
   {
