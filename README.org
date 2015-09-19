@@ -1,3 +1,72 @@
 * Emacs Themes
 
-Emacs themes site (a work in progress).
+This is the source code for the [[http://emacsthemes.com][Emacs Themes Gallery]] site.
+
+
+** Contribute
+
+To add a new theme, you have to create at least 4 files:
+   1. A =.json= file which is the actual recipe of the theme;
+   2. A /small/ =.png= file which is the image showing on the front and index page;
+   3. At least 1 /large/ =.png= image, which will be listed on the theme page;
+   4. The source code of the theme;
+
+
+***** Add the small .png file
+      Add a *400x200* =.png= file to */root/assets/imgs-small*. This will be the small image showing on the front page or the index page. You will have to add this name to the [[*Add%20the%20recipe(.json)%20file][recipe]] file.
+
+***** Add the large .png files
+      Add whatever number of =.png= (screenshots) files you want to */root/assets/imgs*. These will show on the theme page. You will have to add this name to the [[*Add%20the%20recipe(.json)%20file][recipe]] file.
+
+***** Add the souce code (.el) file
+      Add a =.el= file to */root/assets/local-src*. You can name it as you like but I strongly encourage to use a name of the form: ~[theme-name]-theme-source-code.el~. You will have to add this name to the [[*Add%20the%20recipe(.json)%20file][recipe]] file.
+
+***** Add the recipe(.json) file
+      Add a =.json= file to */recipes* folder. You can name it as you like but I strongly encourage to name it as your theme. The file must have this structure:
+
+#+BEGIN_SRC javascript
+  {
+    "name": "[Theme Name]",
+    "description": "[Some description]",
+    "remoteSrc": "[Source code source]",
+    "localSrc": ".\/assets\/local-src\/[name of the source code file from /root/assets/local-src]",
+    "author": "[Name of the Author/s]",
+    "largeImgs": [
+        ".\/assets\/imgs\/[large-img1-name]",
+        ".\/assets\/imgs\/[large-img2-name]",
+    ],
+    "tags": [
+        "[tag1]",
+        "[tag2]",
+    ],
+    "available": "[true or false (depending on weather the theme is subimitted to MELPA)] ",
+    "smallImg": ".\/assets\/imgs-small\/[small-img-name]"
+}
+#+END_SRC
+
+This is an example on how a regular recipe file looks like:
+
+#+BEGIN_SRC javascript
+{
+    "name": "Solarized Themes",
+    "description": "Solarized for Emacs is an Emacs port of the Solarized theme for vim, developed by Ethan Schoonover.",
+    "remoteSrc": "https:\/\/github.com\/bbatsov\/solarized-emacs",
+    "localSrc": ".\/assets\/local-src\/solarized-themes-source-code.el",
+    "author": "Bozhidar Batsov & Thomas Fr\u00f6ssman",
+    "largeImgs": [
+        ".\/assets\/imgs\/solarized-dark.png",
+        ".\/assets\/imgs\/solarized-dark-bis.png",
+        ".\/assets\/imgs\/solarized-light.png",
+        ".\/assets\/imgs\/solarized-light-bis.png"
+    ],
+    "tags": [
+        "dark",
+        "emacs 23",
+        "light",
+        "popular",
+        "solarized"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/solarized-dark.png"
+}
+#+END_SRC
