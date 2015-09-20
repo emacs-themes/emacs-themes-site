@@ -1,0 +1,25 @@
+{
+    "name": "Darktooth Theme",
+    "description": "Color theme for Emacs, when soothe and gruvbox collide",
+    "remoteSrc": "https:\/\/github.com\/emacsfodder\/emacs-theme-darktooth",
+    "localSrc": ".\/assets\/local-src\/darktooth-theme-source-code.el",
+    "author": "Jason Milkins",
+    "largeImgs": [
+        ".\/assets\/imgs\/darktooth.png",
+        ".\/assets\/imgs\/darktooth-bis.png",
+        ".\/assets\/imgs\/darktooth-coffee.png",
+        ".\/assets\/imgs\/darktooth-dired.png",
+        ".\/assets\/imgs\/darktooth-emacslisp.png",
+        ".\/assets\/imgs\/darktooth-java.png",
+        ".\/assets\/imgs\/darktooth-terminal.png"
+    ],
+    "tags": [
+        "darktooth",
+        "dark",
+        "soothe",
+        "groovbox",
+        "brown"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/darktooth.png"
+}
