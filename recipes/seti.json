@@ -1,0 +1,25 @@
+{
+    "name": "Seti Theme",
+    "description": "A dark colored theme, inspired by Seti Atom Theme",
+    "remoteSrc": "https:\/\/github.com\/caisah\/seti-theme",
+    "localSrc": ".\/assets\/local-src\/seti-theme-source-code.el",
+    "author": "Vlad Piersec",
+    "largeImgs": [
+        ".\/assets\/imgs\/seti.png",
+        ".\/assets\/imgs\/seti-bis.png",
+        ".\/assets\/imgs\/seti-c.png",
+        ".\/assets\/imgs\/seti-dired.png",
+        ".\/assets\/imgs\/seti-elisp.png",
+        ".\/assets\/imgs\/seti-org.png",
+        ".\/assets\/imgs\/seti-shell.png",
+        ".\/assets\/imgs\/seti-web.png"
+    ],
+    "tags": [
+        "seti",
+        "dark",
+        "black",
+        "atom"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/seti.png"
+}
