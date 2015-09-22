@@ -1,0 +1,19 @@
+{
+    "name": "Lavender Theme",
+    "description": "A theme made up of cooling colors with a couple of flecks of light cream\/brown\/orange",
+    "remoteSrc": "https:\/\/github.com\/emacsfodder\/emacs-lavender-theme",
+    "localSrc": ".\/assets\/local-src\/lavender-theme-source-code.el",
+    "author": "Jason Milkins",
+    "largeImgs": [
+        ".\/assets\/imgs\/lavender.png",
+        ".\/assets\/imgs\/lavender-bis.png"
+    ],
+    "tags": [
+        "lavender",
+        "dark",
+        "emacs 24",
+        "purple"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/lavender.png"
+}
