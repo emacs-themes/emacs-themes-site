@@ -1,0 +1,21 @@
+{
+    "name": "Material Theme",
+    "description": "A calm, dark theme for Emacs.",
+    "remoteSrc": "https:\/\/github.com\/cpaulik\/emacs-material-theme",
+    "localSrc": ".\/assets\/local-src\/material-theme-source-code.el",
+    "author": "Paulik Christoph",
+    "largeImgs": [
+        ".\/assets\/imgs\/material.png",
+        ".\/assets\/imgs\/material-bis.png",
+        ".\/assets\/imgs\/material-theme.png",
+        ".\/assets\/imgs\/material-theme-org-mode.png"
+    ],
+    "tags": [
+        "material",
+        "dark",
+        "green",
+        "modern"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/material.png"
+}
