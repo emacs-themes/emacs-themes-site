@@ -6,11 +6,11 @@
     "author": "Srđan Panić",
     "largeImgs": [
         ".\/assets\/imgs\/iodine.png",
-        ".\/assets\/imgs\/iodine2.png",
+        ".\/assets\/imgs\/iodine2.png"
     ],
     "tags": [
         "iodine",
-        "light",
+        "light"
     ],
     "available": true,
     "smallImg": ".\/assets\/imgs-small\/iodine.png"
