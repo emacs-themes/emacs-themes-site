@@ -13,7 +13,7 @@ var getAllFileNamesFrom = helpers.getAllFileNamesFrom;
 // config vars
 var ROOT_DIR = CONSTANTS.ROOT_DIR;
 var RECIPES_DIR_PATH = CONSTANTS.RECIPES_DIR_PATH;
-var THEMES_PER_PAGE = CONSTANTS.THEMES_PER_PAGE;
+var THEMES_PER_PAGE = 2 * CONSTANTS.THEMES_PER_PAGE;
 var outputFilePath = ROOT_DIR + 'index.html';
 
 function handleError(err) {
