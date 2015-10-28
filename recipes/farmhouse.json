@@ -1,0 +1,21 @@
+{
+    "name": "Farmhouse Themes",
+    "description": "Created after having severe eye fatigue issues with a popular 'Mathematically Perfect' color scheme",
+    "remoteSrc": "https:\/\/github.com\/mattly\/emacs-farmhouse-theme",
+    "localSrc": ".\/assets\/local-src\/farmhouse-themes-source-code.el",
+    "author": "Matthew Lyon",
+    "largeImgs": [
+        ".\/assets\/imgs\/farmhouse-dark.png",
+        ".\/assets\/imgs\/farmhouse-dark-bis.png",
+        ".\/assets\/imgs\/farmhouse-light.png",
+        ".\/assets\/imgs\/farmhouse-light-bis.png"
+    ],
+    "tags": [
+        "farmhouse",
+        "dark",
+        "light",
+        "emacs 24"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/farmhouse.png"
+}
