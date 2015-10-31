@@ -1,0 +1,19 @@
+{
+    "name": "Faff Theme",
+    "description": "Light Emacs color theme on ivory3 background",
+    "remoteSrc": "https:\/\/github.com\/WJCFerguson\/emacs-faff-theme",
+    "localSrc": ".\/assets\/local-src\/faff-theme-source-code.el",
+    "author": "James Ferguson",
+    "largeImgs": [
+        ".\/assets\/imgs\/faff.png",
+        ".\/assets\/imgs\/faff-bis.png"
+    ],
+    "tags": [
+        "faff",
+        "light",
+        "yellow",
+        "classic"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/faff.png"
+}
