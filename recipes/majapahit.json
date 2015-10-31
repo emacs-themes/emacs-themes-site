@@ -1,0 +1,21 @@
+{
+    "name": "Majapahit Themes",
+    "description": "A colorscheme for emacs with light and dark variant of it.",
+    "remoteSrc": "https:\/\/gitlab.com\/franksn\/majapahit-theme\/tree\/master",
+    "localSrc": ".\/assets\/local-src\/majapahit-theme-source-code.el",
+    "author": "Alexander Adhyatma",
+    "largeImgs": [
+        ".\/assets\/imgs\/majapahit-dark.png",
+        ".\/assets\/imgs\/majapahit-dark-bis.png",
+        ".\/assets\/imgs\/majapahit-light.png",
+        ".\/assets\/imgs\/majapahit-light-bis.png"
+    ],
+    "tags": [
+        "majapahit",
+        "dark",
+        "light",
+        "emacs 24"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/majapahit-dark.png"
+}
