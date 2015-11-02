@@ -1,0 +1,19 @@
+{
+    "name": "Dracula Theme",
+    "description": "A dark color theme available for a number of editors.",
+    "remoteSrc": "https:\/\/github.com\/zenorocha\/dracula-theme",
+    "localSrc": ".\/assets\/local-src\/dracula2-theme-source-code.el",
+    "author": "Zeno Rocha & Garrett T",
+    "largeImgs": [
+        ".\/assets\/imgs\/dracula2.png",
+        ".\/assets\/imgs\/dracula-bis2.png"
+    ],
+    "tags": [
+        "dark",
+        "dracula",
+        "emacs24",
+        "modern"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/dracula2.png"
+}
