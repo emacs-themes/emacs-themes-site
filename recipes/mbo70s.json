@@ -1,0 +1,18 @@
+{
+    "name": "MBO 70's Theme",
+    "description": "70s style palette, with similarities to mbo theme",
+    "remoteSrc": "https:\/\/github.com\/emacsfodder\/emacs-mbo70s-theme",
+    "localSrc": ".\/assets\/local-src\/mbo70s-theme-source-code.el",
+    "author": "Jason Milkins",
+    "largeImgs": [
+        ".\/assets\/imgs\/mbo70s.png",
+        ".\/assets\/imgs\/mbo70s-bis.png"
+    ],
+    "tags": [
+        "dark",
+        "brown",
+        "mbo70s"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/mbo70s.png"
+}
