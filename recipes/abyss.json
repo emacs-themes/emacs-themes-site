@@ -1,0 +1,20 @@
+{
+    "name": "Abyss Theme",
+    "description": "A dark theme with contrasting colours for Emacs24 based on the Lush theme",
+    "remoteSrc": "https:\/\/github.com\/mgrbyte\/emacs-abyss-theme",
+    "localSrc": ".\/assets\/local-src\/abyss-theme-source-code.el",
+    "author": "Matt Russell",
+    "largeImgs": [
+        ".\/assets\/imgs\/abyss.png",
+        ".\/assets\/imgs\/abyss-bis.png"
+    ],
+    "tags": [
+        "abyss",
+        "dark",
+        "emacs 24",
+        "lush",
+        "black"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/abyss.png"
+}
