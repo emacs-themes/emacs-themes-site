@@ -1,0 +1,18 @@
+{
+    "name": "Ubuntu Theme",
+    "description": "A theme inspired by the default terminal colors in Ubuntu",
+    "remoteSrc": "https:\/\/github.com\/rocher\/ubuntu-theme",
+    "localSrc": ".\/assets\/local-src\/ubuntu-theme-source-code.el",
+    "author": "Francesc Rocher",
+    "largeImgs": [
+        ".\/assets\/imgs\/ubuntu.png",
+        ".\/assets\/imgs\/ubuntu-bis.png"
+    ],
+    "tags": [
+        "ubuntu",
+        "purple",
+        "dark"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/ubuntu.png"
+}
