@@ -1,0 +1,18 @@
+{
+    "name": "Green Phosphor Theme",
+    "description": "A retro color theme for Emacs.",
+    "remoteSrc": "https:\/\/github.com\/aalpern\/emacs-color-theme-green-phosphor",
+    "localSrc": ".\/assets\/local-src\/green-phosphor-theme-source-code.el",
+    "author": "Adam Alpern",
+    "largeImgs": [
+        ".\/assets\/imgs\/green-phosphor.png",
+        ".\/assets\/imgs\/green-phosphor-bis.png"
+    ],
+    "tags": [
+        "green-phosphor",
+        "dark",
+        "green"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/green-phosphor.png"
+}
