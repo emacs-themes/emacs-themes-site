@@ -101,6 +101,10 @@ a.no-hover:hover {
     max-width: 100%;
     margin-bottom: 1rem;
 }
+.tags-container {
+    display: inline-block;
+    padding-bottom: 1rem;
+}
 .tags {
     font-size: 1rem;
     padding: 1rem 0;
