@@ -13,8 +13,8 @@
 
 * Bugs
 ** DONE create module for deleting dirs recursively
+** DONE Fix HTML titles for theme pages
 
-** TODO Fix HTML titles for theme pages
 * Refactoring
 ** TODO use better names for functions
 ** TODO break large functions into small named ones
@@ -22,14 +22,14 @@
 ** DONE remove rimraf package
 ** DONE remove async package
 ** DONE improve CSS
-   add responsiveness
+** DONE add responsiveness
 ** DONE move all variables to a common module
 
 * Additional functionality
 ** DONE create github repository
 ** DONE create template for charts page
 ** DONE create about page
-** TODO add search input
+** DONE add search input
 ** TODO add classes to tags
 ** DONE integrate with git
 ** DONE add analytics code
@@ -43,4 +43,3 @@
 
 * Add more themes
 ** TODO add new screenshots for ample theme
-*

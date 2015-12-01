@@ -44,7 +44,7 @@ var allData = [
     {
         templateData: {
             name: 'theme-index',
-            title: 'Page {{ pageNumber }} | Emacs Themes',
+            title: 'All Themes - Page {{ pageNumber }} | Emacs Themes',
             description: 'Page {{ pageNumber }} of {{ allPagesNumber }} Themes.' +
                 ' | Emacs Themes',
             relativePath: '../'

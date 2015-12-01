@@ -9,6 +9,11 @@ var CONSTANTS = require('../helpers/constants');
 var ROOT_DIR = CONSTANTS.ROOT_DIR;
 var THEMES_PER_PAGE = CONSTANTS.THEMES_PER_PAGE;
 
+// sets the data for the HTML title and description
+function setPageHeadData(obj, currentPage, limit) {
+    obj.pageNumber = currentPage + 1;
+    obj.allPagesNumber = limit;
+}
 // builds individual index theme page
 function buildThemePage(allRecipes, startIndex, endIndex, currentPage, pageLimit, template) {
     var data = [];
@@ -37,6 +42,8 @@ function buildThemePage(allRecipes, startIndex, endIndex, currentPage, pageLimit
     };
     page.pages = allPages;
     filePath = ROOT_DIR + 'index/' + (currentPage + 1) + '.html';
+
+    setPageHeadData(page, currentPage, pageLimit);
 
     fs.writeFile(filePath, template(page), function() {
         log.created('Theme index page', filePath);
