@@ -15,11 +15,6 @@ var ROOT_DIR = CONSTANTS.ROOT_DIR;
 var CHARTS_DIR_PATH = CONSTANTS.CHARTS_DIR_PATH;
 var indexFilePath = ROOT_DIR + 'charts/index.html';
 
-
-function handleError(err) {
-    console.log(err.stack);
-}
-
 function getFullChartJSONPath(fileName) {
     return CHARTS_DIR_PATH + fileName;
 }

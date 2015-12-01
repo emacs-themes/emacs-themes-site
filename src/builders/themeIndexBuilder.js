@@ -9,13 +9,8 @@ var CONSTANTS = require('../helpers/constants');
 var ROOT_DIR = CONSTANTS.ROOT_DIR;
 var THEMES_PER_PAGE = CONSTANTS.THEMES_PER_PAGE;
 
-// sets the data for the HTML title and description
-function setPageHeadData(obj, currentPage, limit) {
-    obj.pageNumber = currentPage + 1;
-    obj.allPagesNumber = limit;
-}
 // builds individual index theme page
-function buildThemePage(allRecipes, startIndex, endIndex, currentPage, pageLimit, template) {
+function buildThemePage(obj) {
     var data = [];
     var allPages = [];
     var page = {};
@@ -24,28 +19,26 @@ function buildThemePage(allRecipes, startIndex, endIndex, currentPage, pageLimit
     var recipie;
     var i;
 
-    for (i = startIndex; i < endIndex; i++) {
-        recipie = allRecipes[i];
+    for (i = obj.startIndex; i < obj.endIndex; i++) {
+        recipie = obj.allRecipes[i];
         theme = {};
         theme.title = recipie.name.spacedValue;
         theme.img = '.' + recipie.smallImg;
         theme.link = '../themes/' + recipie.name.hyphenedValue + '.html';
         data.push(theme);
     }
-    for (i = 0; i < pageLimit; i++) {
+    for (i = 0; i < obj.pageLimit; i++) {
         allPages.push(i + 1);
     }
     page.themes = data;
-    allPages[currentPage] = {
+    allPages[obj.currentPage] = {
         current: true,
-        number: (currentPage + 1)
+        number: (obj.currentPage + 1)
     };
     page.pages = allPages;
-    filePath = ROOT_DIR + 'index/' + (currentPage + 1) + '.html';
+    filePath = ROOT_DIR + 'index/' + (obj.currentPage + 1) + '.html';
 
-    setPageHeadData(page, currentPage, pageLimit);
-
-    fs.writeFile(filePath, template(page), function() {
+    fs.writeFile(filePath, obj.template(page), function() {
         log.created('Theme index page', filePath);
     });
 }
@@ -74,7 +67,14 @@ function buildThemeIndex(allTemplates, allRecipes) {
     for (i = 0; i < numberOfPages; i++) {
         lowLimit = i * THEMES_PER_PAGE;
         highLimit = getHighLimit(lowLimit, recipesNumber);
-        buildThemePage(allRecipes, lowLimit, highLimit, i, numberOfPages, template);
+        buildThemePage({
+            allRecipes: allRecipes,
+            startIndex: lowLimit,
+            endIndex: highLimit,
+            currentPage: i,
+            pageLimit: numberOfPages,
+            template: template
+        });
     }
 }
 

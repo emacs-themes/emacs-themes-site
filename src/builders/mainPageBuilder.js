@@ -6,7 +6,7 @@ var Handlebars = require('handlebars');
 // local dependencies
 var log = require('../helpers/simpleLogger');
 var CONSTANTS = require('../helpers/constants');
-var helpers = require('../helpers/generalHelpers')
+var helpers = require('../helpers/generalHelpers');
 var readJsonFromDisk = helpers.readJsonFromDisk;
 var parseRecipie = helpers.parseRecipie;
 var getAllFileNamesFrom = helpers.getAllFileNamesFrom;
