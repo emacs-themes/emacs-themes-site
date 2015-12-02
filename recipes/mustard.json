@@ -1,0 +1,19 @@
+{
+    "name": "Mustard Theme",
+    "description": "A theme made up of cooling colors with a couple of flecks of light cream\/brown\/orange",
+    "remoteSrc": "https:\/\/github.com\/emacsfodder\/emacs-mustard-theme",
+    "localSrc": ".\/assets\/local-src\/mustard-theme-source-code.el",
+    "author": "Jason Milkins",
+    "largeImgs": [
+        ".\/assets\/imgs\/mustard.png",
+        ".\/assets\/imgs\/mustard-bis.png"
+    ],
+    "tags": [
+        "mustard",
+        "dark",
+        "black",
+        "emacs 24"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/mustard.png"
+}
