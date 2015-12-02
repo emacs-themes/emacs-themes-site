@@ -1,6 +1,6 @@
 {
     "name": "Mustard Theme",
-    "description": "A theme made up of cooling colors with a couple of flecks of light cream\/brown\/orange",
+    "description": "An Emacs 24 theme based on Mustard (tmTheme)",
     "remoteSrc": "https:\/\/github.com\/emacsfodder\/emacs-mustard-theme",
     "localSrc": ".\/assets\/local-src\/mustard-theme-source-code.el",
     "author": "Jason Milkins",
