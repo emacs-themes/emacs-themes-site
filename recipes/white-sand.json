@@ -1,0 +1,22 @@
+{
+    "name": "White Sand Theme",
+    "description": "Emacs24 theme with a light background.",
+    "remoteSrc": "https:\/\/github.com\/mswift42\/white-sand-theme",
+    "localSrc": ".\/assets\/local-src\/white-sand-theme-source-code.el",
+    "author": "Martin Haesler",
+    "largeImgs": [
+        ".\/assets\/imgs\/white-sand.png",
+        ".\/assets\/imgs\/white-sand-bis.png",
+        ".\/assets\/imgs\/white-sand-elispandpython.png",
+        ".\/assets\/imgs\/white-sand-jsandorg.png",
+        ".\/assets\/imgs\/white-sand-goandjava.png"
+    ],
+    "tags": [
+        "emacs 24",
+        "light",
+        "white sand",
+        "pink"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/white-sand.png"
+}
