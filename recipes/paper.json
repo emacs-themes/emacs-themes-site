@@ -1,0 +1,19 @@
+{
+    "name": "Paper theme",
+    "description": "A minimal Emacs colour theme",
+    "remoteSrc": "https:\/\/github.com\/cadadr\/paper-theme",
+    "localSrc": ".\/assets\/local-src\/paper-theme-source-code.el",
+    "author": "Göktuğ Kayaalp",
+    "largeImgs": [
+        ".\/assets\/imgs\/paper.png",
+        ".\/assets\/imgs\/paper-bis.png"
+    ],
+    "tags": [
+        "paper",
+        "light",
+        "white",
+        "minimal"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/paper.png"
+}
