@@ -1,5 +1,5 @@
 {
-    "name": "Paper theme",
+    "name": "Paper Theme",
     "description": "A minimal Emacs colour theme",
     "remoteSrc": "https:\/\/github.com\/cadadr\/paper-theme",
     "localSrc": ".\/assets\/local-src\/paper-theme-source-code.el",

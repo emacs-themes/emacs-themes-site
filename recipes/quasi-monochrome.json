@@ -1,0 +1,20 @@
+{
+    "name": "Quasi Monochrome Theme",
+    "description": "High contrast quasi monochrome color theme",
+    "remoteSrc": "https:\/\/github.com\/lbolla\/emacs-quasi-monochrome",
+    "localSrc": ".\/assets\/local-src\/quasi-monochrome-theme-source-code.el",
+    "author": "Lorenzo Bolla",
+    "largeImgs": [
+        ".\/assets\/imgs\/quasi-monochrome.png",
+        ".\/assets\/imgs\/quasi-monochrome-bis.png"
+    ],
+    "tags": [
+        "quasi-monochrome",
+        "dark",
+        "emacs 24",
+        "monochrome",
+        "black"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/quasi-monochrome.png"
+}
