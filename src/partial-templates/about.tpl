@@ -2,7 +2,7 @@
     <p>This tries to be a comprehensive resource for those interested in Emacs themes. It is a collection of popular and underground, old and new <a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/Custom-Themes.html">Emacs Themes.</a>
     </p>
 
-    <p>If you want to add you own theme go to <a href="https://github.com/emacs-themes/emacs-themes-site">GitHub></a>. But if you find it hard to do it just <a href="mailto:vlad.piersec@gmail.com">email me</a>.
+    <p>If you want to add you own theme go to <a href="https://github.com/emacs-themes/emacs-themes-site">GitHub</a>. But if you find it hard to do it just <a href="mailto:vlad.piersec@gmail.com">email me</a>.
     </p>
 
 

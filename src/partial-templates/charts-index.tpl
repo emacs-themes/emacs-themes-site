@@ -2,7 +2,7 @@
 
     <h1>Charts:</h1>
     <p>
-        These charts are created based on the number of searches (Google seraches) a theme gets every month.
+        These charts are created based on the number of searches (Google searches) a theme gets every month.
     </br>
     The <strong>all times chart</strong> contains a list of the most installed themes according to <strong>MELPA</strong> numbers.
     </p>
