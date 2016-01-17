@@ -1,0 +1,19 @@
+{
+    "name": "Caroline Theme",
+    "description": "An Emacs 24 color scheme",
+    "remoteSrc": "https:\/\/github.com\/xjackk\/caroline-theme",
+    "localSrc": ".\/assets\/local-src\/caroline-theme-source-code.el",
+    "author": "Jack Killilea",
+    "largeImgs": [
+        ".\/assets\/imgs\/caroline.png",
+        ".\/assets\/imgs\/caroline-bis.png"
+    ],
+    "tags": [
+        "caroline",
+        "dark",
+        "emacs 24",
+        "black"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/caroline.png"
+}
