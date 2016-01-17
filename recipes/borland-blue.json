@@ -1,0 +1,19 @@
+{
+    "name": "Borland Blue Theme",
+    "description": "Blue/yellow theme based on old DOS Borland/Turbo C IDE",
+    "remoteSrc": "https:\/\/github.com\/fourier\/borland-blue-theme",
+    "localSrc": ".\/assets\/local-src\/borland-blue-theme-source-code.el",
+    "author": "Alexey Veretennikov",
+    "largeImgs": [
+        ".\/assets\/imgs\/borland-blue.png",
+        ".\/assets\/imgs\/borland-blue-bis.png"
+    ],
+    "tags": [
+        "borland-blue",
+        "dark",
+        "blue",
+        "yellow"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/borland-blue.png"
+}
