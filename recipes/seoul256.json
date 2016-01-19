@@ -1,0 +1,19 @@
+{
+    "name": "Seoul256 Theme",
+    "description": "Low-contrast dark emacs color scheme using Seoul colours",
+    "remoteSrc": "https:\/\/github.com\/ChrisDavison\/seoul256.el",
+    "localSrc": ".\/assets\/local-src\/seoul256-theme-source-code.el",
+    "author": "Chris Davison",
+    "largeImgs": [
+        ".\/assets\/imgs\/seoul256.png",
+        ".\/assets\/imgs\/seoul256-bis.png"
+    ],
+    "tags": [
+        "seoul256",
+        "dark",
+        "grey",
+        "vim"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/seoul256.png"
+}
