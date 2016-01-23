@@ -1,0 +1,19 @@
+{
+    "name": "Meaculpa Theme",
+    "description": "Light color theme for Emacs 24+",
+    "remoteSrc": "https:\/\/gitlab.com\/jtecca\/meacupla-theme",
+    "localSrc": ".\/assets\/local-src\/meaculpa-theme-source-code.el",
+    "author": "Jeff Tecca",
+    "largeImgs": [
+        ".\/assets\/imgs\/meaculpa.png",
+        ".\/assets\/imgs\/meaculpa-bis.png"
+    ],
+    "tags": [
+        "meaculpa",
+        "light",
+        "emacs 24",
+        "grey"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/meaculpa.png"
+}
