@@ -1,0 +1,19 @@
+{
+    "name": "Kooten Theme",
+    "description": "Dark color theme",
+    "remoteSrc": "https:\/\/github.com\/kootenpv\/emacs-kooten-theme",
+    "localSrc": ".\/assets\/local-src\/kooten-theme-source-code.el",
+    "author": "Pascal van Kooten",
+    "largeImgs": [
+        ".\/assets\/imgs\/kooten.png",
+        ".\/assets\/imgs\/kooten-bis.png"
+    ],
+    "tags": [
+        "kooten",
+        "blue",
+        "dark",
+        "modern"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/kooten.png"
+}
