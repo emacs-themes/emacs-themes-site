@@ -1,0 +1,19 @@
+{
+    "name": "Suscolors Theme",
+    "description": "Colorful theme for Emacs. Inspired by Gruvbox.",
+    "remoteSrc": "https:\/\/github.com\/TheSuspiciousWombat\/suscolors-emacs",
+    "localSrc": ".\/assets\/local-src\/suscolors-theme-source-code.el",
+    "author": "Tomas Vojtisek",
+    "largeImgs": [
+        ".\/assets\/imgs\/suscolors.png",
+        ".\/assets\/imgs\/suscolors-bis.png"
+    ],
+    "tags": [
+        "suscolors",
+        "gruvbox",
+        "dark",
+        "modern"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/suscolors.png"
+}
