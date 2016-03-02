@@ -42,7 +42,7 @@ To add a new theme, you have to create at least 4 files:
         "[tag1]",
         "[tag2]",
     ],
-    "available": "[true or false (depending on weather the theme is subimitted to MELPA)] ",
+    "available": "[true or false (depending on whether the theme is submitted to MELPA)] ",
     "smallImg": ".\/assets\/imgs-small\/[small-img-name]"
 }
 #+END_SRC
