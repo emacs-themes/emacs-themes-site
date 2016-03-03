@@ -1,0 +1,18 @@
+{
+    "name": "Dark Mint Theme",
+    "description": "A dark & minty fresh emacs theme",
+    "remoteSrc": "https:\/\/github.com\/shaunvxc\/dark-mint-theme",
+    "localSrc": ".\/assets\/local-src\/dark-mint-theme-source-code.el",
+    "author": "Shaun Viguerie",
+    "largeImgs": [
+        ".\/assets\/imgs\/dark-mint-large.png",
+    ],
+    "tags": [
+        "dark",
+        "mint",
+	"emacs"
+	"awesome",
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/dark-mint-small.png"
+}
