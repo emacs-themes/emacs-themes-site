@@ -5,13 +5,13 @@
     "localSrc": ".\/assets\/local-src\/dark-mint-theme-source-code.el",
     "author": "Shaun Viguerie",
     "largeImgs": [
-        ".\/assets\/imgs\/dark-mint-large.png",
+        ".\/assets\/imgs\/dark-mint-large.png"
     ],
     "tags": [
         "dark",
         "mint",
-	"emacs"
-	"awesome",
+	"emacs",
+	"awesome"
     ],
     "available": true,
     "smallImg": ".\/assets\/imgs-small\/dark-mint-small.png"
