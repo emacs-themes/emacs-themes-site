@@ -1,0 +1,18 @@
+{
+    "name": "Github def Theme",
+    "description": "GitHub-like (deftheme) theme for Emacs.",
+    "remoteSrc": "https:\/\/github.com\/philiparvidsson\/emacs-github-theme",
+    "localSrc": ".\/assets\/local-src\/github2-theme-source-code.el",
+    "author": "Philip Arvidsson",
+    "largeImgs": [
+        ".\/assets\/imgs\/github2.png",
+        ".\/assets\/imgs\/github2-bis.png"
+    ],
+    "tags": [
+        "github",
+        "light",
+        "white"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/github2.png"
+}
