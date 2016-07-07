@@ -1,0 +1,19 @@
+{
+    "name": "Zweilight Theme",
+    "description": "A dark color theme for Emacs.",
+    "remoteSrc": "https:\/\/github.com\/philiparvidsson\/zweilight-emacs",
+    "localSrc": ".\/assets\/local-src\/zweilight-theme-source-code.el",
+    "author": "Philip Arvidsson",
+    "largeImgs": [
+        ".\/assets\/imgs\/zweilight.png",
+        ".\/assets\/imgs\/zweilight-bis.png"
+    ],
+    "tags": [
+        "zweilight",
+        "black",
+        "dark",
+        "purple"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/zweilight.png"
+}
