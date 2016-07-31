@@ -1,0 +1,19 @@
+{
+    "name": "Labburn Theme",
+    "description": "A lab color space zenburn theme",
+    "remoteSrc": "https:\/\/github.com\/ksjogo\/labburn-theme",
+    "localSrc": ".\/assets\/local-src\/labburn-theme-source-code.el",
+    "author": "Johannes Goslar",
+    "largeImgs": [
+        ".\/assets\/imgs\/labburn.png",
+        ".\/assets\/imgs\/labburn-bis.png"
+    ],
+    "tags": [
+        "labburn",
+        "gray",
+        "dark",
+        "modern"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/labburn.png"
+}
