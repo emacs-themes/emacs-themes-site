@@ -1,0 +1,16 @@
+{
+    "name": "Aanila Theme",
+    "description": "A moderately dark theme",
+    "remoteSrc": "https:\/\/github.com\/santoshs\/aanila",
+    "localSrc": ".\/assets\/local-src\/aanila-theme-source-code.el",
+    "author": "Santosh Sivaraj [santosh@fossix.org]",
+    "largeImgs": [
+        ".\/assets\/imgs\/aanila.png",
+        ".\/assets\/imgs\/aanila-1.png"
+    ],
+    "tags": [
+        "dark"
+    ],
+    "available": "false",
+    "smallImg": ".\/assets\/imgs-small\/aanila-theme.png"
+}
