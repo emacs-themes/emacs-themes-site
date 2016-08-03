@@ -1,0 +1,18 @@
+{
+    "name": "Foggy Night Theme",
+    "description": "Dark low contrast theme with soft and muted colors.",
+    "remoteSrc": "https:\/\/github.com\/mswift42\/foggy-night-theme",
+    "localSrc": ".\/assets\/local-src\/foggy-night-theme-source-code.el",
+    "author": "Martin Haesler",
+    "largeImgs": [
+        ".\/assets\/imgs\/foggy-night.png",
+        ".\/assets\/imgs\/foggy-night-bis.png"
+    ],
+    "tags": [
+        "foggy-night",
+        "brown",
+        "dark"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/foggy-night.png"
+}
