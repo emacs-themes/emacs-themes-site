@@ -1,0 +1,16 @@
+  {
+    "name": "avk-daylight",
+    "description": "avk theme: yellow on dark blue",
+    "remoteSrc": "https://github.com/avkoval/avk-emacs-themes",
+    "localSrc": ".\/assets\/local-src\/avk-daylight-theme.el",
+    "author": "Alex V. Koval",
+    "largeImgs": [
+        ".\/assets\/imgs\/avk-daylight-theme.png",
+        ".\/assets\/imgs\/avk-daylight-theme-bis.png",
+    ],
+    "tags": [
+        "light",
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/avk-daylight.png"
+}
