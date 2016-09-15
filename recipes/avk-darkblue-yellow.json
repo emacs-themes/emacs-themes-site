@@ -1,16 +1,16 @@
-  {
-    "name": "avk-darkblue-yellow",
-    "description": "avk theme: yellow on dark blue",
-    "remoteSrc": "https://github.com/avkoval/avk-emacs-themes",
-    "localSrc": ".\/assets\/local-src\/avk-darkblue-yellow-theme.el",
-    "author": "Alex V. Koval",
-    "largeImgs": [
-        ".\/assets\/imgs\/avk-darkblue-yellow-theme.png",
-        ".\/assets\/imgs\/avk-darkblue-yellow-theme-bis.png",
-    ],
-    "tags": [
-        "dark",
-    ],
-    "available": true,
-    "smallImg": ".\/assets\/imgs-small\/avk-darkblue-yellow.png"
+{
+  "name": "avk-darkblue-yellow",
+  "description": "avk theme: yellow on dark blue",
+  "remoteSrc": "https://github.com/avkoval/avk-emacs-themes",
+  "localSrc": ".\/assets\/local-src\/avk-darkblue-yellow-theme-source-code.el",
+  "author": "Alex V. Koval",
+  "largeImgs": [
+    ".\/assets\/imgs\/avk-darkblue-yellow-theme.png",
+    ".\/assets\/imgs\/avk-darkblue-yellow-theme-bis.png"
+  ],
+  "tags": [
+    "dark"
+  ],
+  "available": true,
+  "smallImg": ".\/assets\/imgs-small\/avk-darkblue-yellow.png"
 }

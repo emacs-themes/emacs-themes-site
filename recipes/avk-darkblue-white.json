@@ -1,16 +1,16 @@
-  {
-    "name": "avk-darkblue-white",
-    "description": "avk theme: white on dark blue",
-    "remoteSrc": "https://github.com/avkoval/avk-emacs-themes",
-    "localSrc": ".\/assets\/local-src\/avk-darkblue-white-theme.el",
-    "author": "Alex V. Koval",
-    "largeImgs": [
-        ".\/assets\/imgs\/avk-darkblue-white-theme.png",
-        ".\/assets\/imgs\/avk-darkblue-white-theme-bis.png",
-    ],
-    "tags": [
-        "dark",
-    ],
-    "available": true,
-    "smallImg": ".\/assets\/imgs-small\/avk-darkblue-white.png"
+{
+  "name": "avk-darkblue-white",
+  "description": "avk theme: white on dark blue",
+  "remoteSrc": "https://github.com/avkoval/avk-emacs-themes",
+  "localSrc": ".\/assets\/local-src\/avk-darkblue-white-theme-source-code.el",
+  "author": "Alex V. Koval",
+  "largeImgs": [
+    ".\/assets\/imgs\/avk-darkblue-white-theme.png",
+    ".\/assets\/imgs\/avk-darkblue-white-theme-bis.png"
+  ],
+  "tags": [
+    "dark"
+  ],
+  "available": true,
+  "smallImg": ".\/assets\/imgs-small\/avk-darkblue-white.png"
 }
