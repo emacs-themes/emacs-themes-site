@@ -1,7 +1,7 @@
 {
     "name": "Silkworm Theme",
     "description": "Light Emacs theme with low contrast colors",
-    "remoteSrc": "https:\/\/github.com\/ranmocy\/amelie-theme",
+    "remoteSrc": "https:\/\/github.com\/mswift42\/silkworm-theme",
     "localSrc": ".\/assets\/local-src\/silkworm-theme-source-code.el",
     "author": "Martin Haesler",
     "largeImgs": [
