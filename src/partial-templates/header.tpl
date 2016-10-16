@@ -10,7 +10,6 @@
                 <li class="menu-item"><a href="{{ chartsFile }}">Charts</a></li>
                 <li class="menu-item"><a href="{{ aboutFile }}">About</a></li>
             </ul>
-            <div class="google-search"><gcse:search></gcse:search></div>
         </div>
     </div>
 </div>
