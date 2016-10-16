@@ -1,0 +1,18 @@
+{
+    "name": "Paganini Theme",
+    "description": "A colorful, dark and warm theme.",
+    "remoteSrc": "https:\/\/github.com\/onurtemizkan\/paganini",
+    "localSrc": ".\/assets\/local-src\/paganini-blue-theme-source-code.el",
+    "author": "Onur Temizkan",
+    "largeImgs": [
+        ".\/assets\/imgs\/paganini.png",
+        ".\/assets\/imgs\/paganini-bis.png"
+    ],
+    "tags": [
+        "paganini",
+        "dark",
+        "black"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/paganini.png"
+}
