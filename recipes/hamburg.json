@@ -1,0 +1,18 @@
+{
+    "name": "Hamburg Theme",
+    "description": "Emacs Color Theme with a dark background.",
+    "remoteSrc": "https:\/\/github.com\/mswift42\/hamburg-theme",
+    "localSrc": ".\/assets\/local-src\/hamburg-theme-source-code.el",
+    "author": "Martin Haesler",
+    "largeImgs": [
+        ".\/assets\/imgs\/hamburg.png",
+        ".\/assets\/imgs\/hamburg-bis.png"
+    ],
+    "tags": [
+        "dark",
+      	"purple",
+      	"blue"
+    ],
+    "available": "true",
+    "smallImg": ".\/assets\/imgs-small\/hamburg.png"
+}
