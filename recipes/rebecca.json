@@ -1,0 +1,20 @@
+{
+    "name": "Rebecca Theme",
+    "description": "Rebecca, the purple turtle.",
+    "remoteSrc": "https:\/\/github.com\/vic\/rebecca-theme",
+    "localSrc": ".\/assets\/local-src\/rebecca-theme-source-code.el",
+    "author": "Victor Hugo Borja",
+    "largeImgs": [
+        ".\/assets\/imgs\/rebecca.png",
+        ".\/assets\/imgs\/rebecca-bis.png"
+    ],
+    "tags": [
+        "rebecca",
+        "purple",
+        "dark",
+        "dracula",
+        "gloom"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/rebecca.png"
+}
