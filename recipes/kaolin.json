@@ -1,0 +1,19 @@
+{
+    "name": "Kaolin theme",
+    "description": "A dark jade Emacs theme inspired by Sierra.vim.",
+    "remoteSrc": "https://github.com/0rdy/kaolin-theme/",
+    "localSrc": ".\/assets\/local-src\/kaolin-theme-source-code.el",
+    "author": "0rdy",
+    "largeImgs": [
+        ".\/assets\/imgs\/kaolin.png",
+        ".\/assets\/imgs\/kaolin-bis.png"
+    ],
+    "tags": [
+        "dark",
+        "green",
+        "jade",
+        "kaolin"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/kaolin.png"
+}
