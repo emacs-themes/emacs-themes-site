@@ -1,0 +1,19 @@
+{
+    "name": "Toxi Theme",
+    "description": "A dark color theme by toxi",
+    "remoteSrc": "https:\/\/bitbucket.org\/postspectacular\/toxi-theme",
+    "localSrc": ".\/assets\/local-src\/toxi-theme-source-code.el",
+    "author": "Karsten Schmidt",
+    "largeImgs": [
+        ".\/assets\/imgs\/toxi.png",
+        ".\/assets\/imgs\/toxi-bis.png"
+    ],
+    "tags": [
+        "toxi",
+        "dark",
+        "emacs24"
+        "green"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/toxi.png"
+}
