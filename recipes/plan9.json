@@ -1,0 +1,18 @@
+{
+    "name": "Plan9",
+    "description": "Emacs theme inspired by the Plan9 project. A light alternative for that classic look.",
+    "remoteSrc": "https:\/\/github.com\/john2x\/plan9-theme.el",
+    "localSrc": ".\/assets\/local-src\/plan9-theme-source-code.el",
+    "author": "John Louis Del Rosario",
+    "largeImgs": [
+        ".\/assets\/imgs\/plan9.png",
+        ".\/assets\/imgs\/plan9-bis.png"
+    ],
+    "tags": [
+        "plan9",
+        "light",
+        "yellow"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/plan9.png"
+}
