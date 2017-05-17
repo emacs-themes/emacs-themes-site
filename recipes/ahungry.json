@@ -1,0 +1,19 @@
+{
+    "name": "Ahungry Theme",
+    "description": "Ahungry color theme",
+    "remoteSrc": "https:\/\/github.com\/ahungry\/color-theme-ahungry",
+    "localSrc": ".\/assets\/local-src\/ahungry-theme-source-code.el",
+    "author": "Matthew Carter",
+    "largeImgs": [
+        ".\/assets\/imgs\/ahungry.png",
+        ".\/assets\/imgs\/ahungry-bis.png"
+    ],
+    "tags": [
+        "ahungry",
+        "dark",
+        "black",
+        "yellow"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/ahungry.png"
+}
