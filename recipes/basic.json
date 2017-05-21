@@ -1,0 +1,19 @@
+{
+    "name": "Basic Theme",
+    "description": "Minimal color theme for Emacs using base16 colors.",
+    "remoteSrc": "https:\/\/github.com\/fgeller\/basic-theme.el",
+    "localSrc": ".\/assets\/local-src\/basic-theme-source-code.el",
+    "author": "Felix Geller",
+    "largeImgs": [
+        ".\/assets\/imgs\/basic.png",
+        ".\/assets\/imgs\/basic-bis.png"
+    ],
+    "tags": [
+        "basic",
+        "light",
+        "white",
+        "minimal"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/basic.png"
+}
