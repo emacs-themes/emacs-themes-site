@@ -1,0 +1,19 @@
+{
+    "name": "Eink Theme",
+    "description": "Low distraction, minimalistic color theme emulating reading",
+    "remoteSrc": "https:\/\/github.com\/maio\/eink-emacs",
+    "localSrc": ".\/assets\/local-src\/eink-theme-source-code.el",
+    "author": "Marian Schubert",
+    "largeImgs": [
+        ".\/assets\/imgs\/eink.png",
+        ".\/assets\/imgs\/eink-bis.png"
+    ],
+    "tags": [
+        "eink",
+        "light",
+        "white",
+        "minimal"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/eink.png"
+}
