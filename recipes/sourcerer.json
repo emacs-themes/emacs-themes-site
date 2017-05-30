@@ -1,0 +1,18 @@
+{
+    "name": "Sourcerer Theme",
+    "description": "An emacs color scheme inspired by xero's sourcerer theme",
+    "remoteSrc": "https:\/\/github.com\/gilbertw1\/sourcerer-emacs",
+    "localSrc": ".\/assets\/local-src\/sourcerer-theme-source-code.el",
+    "author": "Bryan Gilbert",
+    "largeImgs": [
+        ".\/assets\/imgs\/sourcerer.png",
+        ".\/assets\/imgs\/sourcerer-bis.png"
+    ],
+    "tags": [
+        "sourcerer",
+        "dark",
+        "brown"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/sourcerer.png"
+}
