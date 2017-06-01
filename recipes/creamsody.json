@@ -1,0 +1,19 @@
+{
+    "name": "Creamsody Theme",
+    "description": "A color theme for Emacs. Straight from the soda fountain.",
+    "remoteSrc": "https://github.com/emacsfodder/emacs-theme-creamsody",
+    "localSrc": ".\/assets\/local-src\/creamsody-theme-source-code.el",
+    "author": "Jason Milkins",
+    "largeImgs": [
+        ".\/assets\/imgs\/creamsody.png",
+        ".\/assets\/imgs\/creamsody-bis.png"
+    ],
+    "tags": [
+        "creamsody",
+        "dark",
+        "blue",
+        "indigo"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/creamsody.png"
+}
