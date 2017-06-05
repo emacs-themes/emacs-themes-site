@@ -1,0 +1,19 @@
+{
+    "name": "Termbright theme",
+    "description": "A more usable theme for white-on-black terminals",
+    "remoteSrc": "https:\/\/github.com\/bmastenbrook\/termbright-theme-el",
+    "localSrc": ".\/assets\/local-src\/termbright-theme-source-code.el",
+    "author": "Brian Mastenbrook",
+    "largeImgs": [
+        ".\/assets\/imgs\/termbright.png",
+        ".\/assets\/imgs\/termbright-bis.png"
+    ],
+    "tags": [
+        "termbright",
+        "light",
+        "white",
+        "terminal"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/termbright.png"
+}
