@@ -14,6 +14,6 @@
         "green",
         "indigo"
     ],
-    "available": yes,
+    "available": true,
     "smallImg": ".\/assets\/imgs-small\/weyland-yutani.png"
 }
