@@ -1,0 +1,19 @@
+{
+    "name": "Github Modern Theme",
+    "description": "A theme for Emacs, inspired by the GitHub website user interface",
+    "remoteSrc": "https:\/\/github.com\/philiparvidsson\/GitHub-Modern-Theme-for-Emacs",
+    "localSrc": ".\/assets\/local-src\/github-modern-theme-source-code.el",
+    "author": "Philip Arvidsson",
+    "largeImgs": [
+        ".\/assets\/imgs\/github-modern.png",
+        ".\/assets\/imgs\/github-modern-bis.png"
+    ],
+    "tags": [
+        "github-modern",
+        "github",
+        "light",
+        "white"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/github-modern.png"
+}
