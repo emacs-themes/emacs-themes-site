@@ -1,0 +1,20 @@
+{
+  "name": "Exotica Theme",
+  "description": "A dark theme with vibrant colors for Emacs. Inspired by Molokai and Dracula themes",
+  "remoteSrc": "https:\/\/github.com\/jbharat\/exotica-theme",
+  "localSrc": ".\/assets\/local-src\/exotica-theme-source-code.el",
+  "author": "Bharat Joshi",
+  "largeImgs": [
+    ".\/assets\/imgs\/exotica.png",
+    ".\/assets\/imgs\/exotica-bis.png"
+  ],
+  "tags": [
+    "exotica",
+    "dark",
+    "blue",
+    "modern",
+    "vibrant"
+  ],
+  "available": true,
+  "smallImg": ".\/assets\/imgs-small\/exotica.png"
+}
