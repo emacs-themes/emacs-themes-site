@@ -1,0 +1,19 @@
+{
+  "name": "Monokai Alt Theme",
+  "description": "Theme with a dark background. Based on sublime monokai theme.",
+  "remoteSrc": "https:\/\/github.com\/dawidof\/emacs-monokai-theme",
+  "localSrc": ".\/assets\/local-src\/monokai-alt-theme-source-code.el",
+  "author": "Dmytro Koval",
+  "largeImgs": [
+    ".\/assets\/imgs\/monokai-alt.png",
+    ".\/assets\/imgs\/monokai-alt-bis.png"
+  ],
+  "tags": [
+    "monokai-alt",
+    "monokai",
+    "dark",
+    "black"
+  ],
+  "available": true,
+  "smallImg": ".\/assets\/imgs-small\/monokai-alt.png"
+}
