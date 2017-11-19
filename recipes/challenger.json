@@ -1,0 +1,20 @@
+{
+  "name": "Challenger Theme",
+  "description": "A dark color theme for Emacs.",
+  "remoteSrc": "https:\/\/github.com\/MaxSt\/challenger-deep",
+  "localSrc": ".\/assets\/local-src\/challenger-theme-source-code.el",
+  "author": "MaxSt",
+  "largeImgs": [
+    ".\/assets\/imgs\/challenger.png",
+    ".\/assets\/imgs\/challenger-bis.png"
+  ],
+  "tags": [
+    "challenger",
+    "dark",
+    "purple",
+    "modern",
+    "emacs24"
+  ],
+  "available": true,
+  "smallImg": ".\/assets\/imgs-small\/challenger.png"
+}
