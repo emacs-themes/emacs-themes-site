@@ -1,0 +1,20 @@
+{
+  "name": "Goose Theme",
+  "description": "A low-contrast Emacs theme that reduces unnecessary coloring, especially when editing source code.",
+  "remoteSrc": "https:\/\/github.com\/tokenrove\/goose-theme",
+  "localSrc": ".\/assets\/local-src\/goose-theme-source-code.el",
+  "author": "Stephen Whipple",
+  "largeImgs": [
+    ".\/assets\/imgs\/goose.png",
+    ".\/assets\/imgs\/goose-bis.png"
+  ],
+  "tags": [
+    "goose",
+    "light",
+    "grey",
+    "black&white",
+    "emacs24"
+  ],
+  "available": true,
+  "smallImg": ".\/assets\/imgs-small\/goose.png"
+}
