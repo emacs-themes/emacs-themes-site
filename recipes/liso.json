@@ -1,0 +1,19 @@
+{
+    "name": "Liso Theme",
+    "description": "An eclectic dark theme inspired by TangoTango.",
+    "remoteSrc": "https:\/\/github.com\/caisah\/liso-theme",
+    "localSrc": ".\/assets\/local-src\/liso-theme-source-code.el",
+    "author": "Vlad Piersec",
+    "largeImgs": [
+        ".\/assets\/imgs\/liso.png",
+        ".\/assets\/imgs\/liso-bis.png"
+    ],
+    "tags": [
+        "liso",
+        "grey",
+        "tango",
+        "dark"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/liso.png"
+}
