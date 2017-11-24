@@ -1,0 +1,18 @@
+{
+  "name": "Oceanic Theme",
+  "description": "Port the theme from Oceanic Next Color Scheme.",
+  "remoteSrc": "https:\/\/github.com\/terry3\/oceanic-theme",
+  "localSrc": ".\/assets\/local-src\/oceanic-theme-source-code.el",
+  "author": "Tengfei Guo",
+  "largeImgs": [
+    ".\/assets\/imgs\/oceanic.png",
+    ".\/assets\/imgs\/oceanic-bis.png"
+  ],
+  "tags": [
+    "oceanic",
+    "dark",
+    "blue"
+  ],
+  "available": "true",
+  "smallImg": ".\/assets\/imgs-small\/oceanic.png"
+}
