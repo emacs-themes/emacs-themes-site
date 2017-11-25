@@ -1,0 +1,19 @@
+{
+  "name": "Spike Theme",
+  "description": "A light color theme with muted, autumnal colors.",
+  "remoteSrc": "https:\/\/github.com\/m31271n\/spike-theme",
+  "localSrc": ".\/assets\/local-src\/spike-theme-source-code.el",
+  "author": "m31271n",
+  "largeImgs": [
+    ".\/assets\/imgs\/spike.png",
+    ".\/assets\/imgs\/spike-bis.png"
+  ],
+  "tags": [
+    "spike",
+    "dark",
+    "green",
+    "green-phosphor"
+  ],
+  "available": true,
+  "smallImg": ".\/assets\/imgs-small\/spike.png"
+}
