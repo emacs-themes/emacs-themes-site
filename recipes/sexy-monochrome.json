@@ -1,0 +1,20 @@
+{
+    "name": "Sexy Monochrome Theme",
+    "description": " A sexy dark Emacs >= 24 theme",
+    "remoteSrc": "https:\/\/github.com\/voloyev\/sexy-monochrome-theme",
+    "localSrc": ".\/assets\/local-src\/sexy-monochrome-theme-source-code.el",
+    "author": "Volodymyr Yevtushenko",
+    "largeImgs": [
+        ".\/assets\/imgs\/sexy-monochrome.png",
+        ".\/assets\/imgs\/sexy-monochrome-bis.png"
+    ],
+    "tags": [
+        "sexy-monochrome",
+        "dark",
+        "emacs 24",
+        "black",
+        "monochrome"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/sexy-monochrome.png"
+}
