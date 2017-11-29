@@ -1,0 +1,19 @@
+{
+  "name": "Intellij Theme",
+  "description": "Emacs theme inspired by IntelliJ's default theme.",
+  "remoteSrc": "https:\/\/gitlab.com\/fommil\/emacs-intellij-theme",
+  "localSrc": ".\/assets\/local-src\/intellij-theme-source-code.el",
+  "author": "Vladimir Polushin & Sam Halliday",
+  "largeImgs": [
+    ".\/assets\/imgs\/intellij.png",
+    ".\/assets\/imgs\/intellij-bis.png"
+  ],
+  "tags": [
+    "intellij",
+    "light",
+    "white",
+    "blue"
+  ],
+  "available": "true",
+  "smallImg": ".\/assets\/imgs-small\/intellij.png"
+}
