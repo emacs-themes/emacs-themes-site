@@ -1,0 +1,18 @@
+{
+    "name": "Green Screen Theme",
+    "description": "A nice color theme for those who miss green CRTs",
+    "remoteSrc": "https:\/\/github.com\/rbanffy\/green-screen-emacs",
+    "localSrc": ".\/assets\/local-src\/green-screen-theme-source-code.el",
+    "author": "Ricardo Banffy",
+    "largeImgs": [
+        ".\/assets\/imgs\/green-screen.png",
+        ".\/assets\/imgs\/green-screen-bis.png"
+    ],
+    "tags": [
+        "green screen",
+        "dark",
+        "green"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/green-screen.png"
+}
