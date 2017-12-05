@@ -1,0 +1,18 @@
+{
+    "name": "FlatUI Dark Theme",
+    "description": "A dark theme for Emacs inspired by grandshell-theme and leuven-theme, using the FlatUi colors",
+    "remoteSrc": "https:\/\/github.com\/theasp\/flatui-dark-theme",
+    "localSrc": ".\/assets\/local-src\/flatui-dark-theme-source-code.el",
+    "author": "Andrew Phillips",
+    "largeImgs": [
+        ".\/assets\/imgs\/flatui-dark.png",
+        ".\/assets\/imgs\/flatui-dark-bis.png"
+    ],
+    "tags": [
+        "dark",
+        "flatui",
+        "black"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/flatui-dark.png"
+}
