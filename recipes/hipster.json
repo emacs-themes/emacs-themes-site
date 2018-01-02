@@ -1,7 +1,7 @@
 {
     "name": "Hipster Theme",
     "description": "A low contrast theme with hipster colors.",
-    "remoteSrc": "https:\/\/github.com\/xzerocode\/hipster-theme",
+    "remoteSrc": "https:\/\/github.com\/purcell\/hipster-theme",
     "localSrc": ".\/assets\/local-src\/hipster-theme-source-code.el",
     "author": "Luis Angel",
     "largeImgs": [
@@ -14,6 +14,6 @@
         "hipster",
         "vim"
     ],
-    "available": true,
+    "available": false,
     "smallImg": ".\/assets\/imgs-small\/hipster.png"
 }
