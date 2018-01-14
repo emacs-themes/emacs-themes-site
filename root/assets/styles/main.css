@@ -195,6 +195,22 @@ a.no-hover:hover {
     border-color: #3A377D;
     margin: 0;
 }
+.search-bar {
+    height: 24px;
+    width: 300px;
+    border-radius: 0px !important;
+    border: 1px solid grey;
+    padding: 5px;
+}
+.search-button {
+    height: 36px;
+    margin-left: -6px;
+    border-radius: 0px !important;
+    border: 1px solid #5E5BA8;
+    background-color: #5E5BA8;
+    cursor: pointer;
+    color: #FFFFFF;
+}
 input.gsc-search-button.gsc-search-button-v2 {
     background-color: #3A377D;
 }
