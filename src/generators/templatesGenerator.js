@@ -53,6 +53,16 @@ var allData = [
     },
     {
         templateData: {
+            name: 'theme-search',
+            title: 'Search Themes | Emacs Themes',
+            description: 'Themes search' +
+                ' | Emacs Themes',
+            relativePath: '../'
+        },
+        schema: ['header', 'theme-search', 'footer']
+    },
+    {
+        templateData: {
             name: 'tags',
             title: 'TAGS | Emacs Themes',
             description: 'A list of tags for all GNU Emacs Themes',
