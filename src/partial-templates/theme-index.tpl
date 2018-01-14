@@ -1,6 +1,10 @@
 <div class="content center-wrapper">
 
     <!-- Theme list start -->
+    <form action="themes.html">
+          <input name="search" id="search" type="text" class="search-bar" placeholder="Search for themes..."/>
+          <button type="submit" name="submit">Search</button>
+    </form>
     <ul class="themes-list">
         {{#each themes}}
         <li class="cell">
