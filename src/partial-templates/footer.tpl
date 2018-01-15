@@ -43,7 +43,7 @@
 
             for (var i = 0; i < themeCells.length; i++) {
                 var cell = themeCells[i];
-                var themeName = cell.getAttribute('data-title').split(' ');
+                var themeName = cell.getAttribute('data-title');
 
                 if (!search(themeName, searchParameters)) {
                     cell.style.display = 'none';

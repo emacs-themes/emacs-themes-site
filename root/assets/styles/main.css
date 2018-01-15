@@ -200,7 +200,7 @@ a.no-hover:hover {
     width: 300px;
     border-radius: 0px !important;
     border: 1px solid grey;
-    padding: 5px;
+    padding: 5px 10px;
 }
 .search-button {
     height: 36px;
