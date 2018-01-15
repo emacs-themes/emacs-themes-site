@@ -133,6 +133,7 @@ a.no-hover:hover {
 .themes-list {
     display: inline-block;
     width: 100%;
+    margin-bottom: 40px;
 }
 .theme-title {
     font-size: 1.5rem;
