@@ -1,8 +1,8 @@
 <div class="content center-wrapper">
 
-    <form action="#">
-          <input name="search" id="search" type="text" class="search-bar" placeholder="Search for themes..."/>
-          <button type="submit" name="submit" class="search-button">Search</button>
+    <form action="#" id="searchForm">
+        <input name="search" id="search" type="text" class="search-bar" placeholder="Search themes..."/>
+        <button type="submit" name="submit" class="search-button">Search</button>
     </form>
 
     <!-- Theme list start -->
