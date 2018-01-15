@@ -8,7 +8,7 @@
     <!-- Theme list start -->
     <ul class="themes-list">
         {{#each themes}}
-        <li class="cell js-theme-cell" data-title="{{this.title}}">
+        <li class="cell js-theme-cell" data-title="{{this.title}}" data-tags="{{this.tags}}">
             <p class="theme-title">{{this.title}}</p>
             <a class="no-hover" href="{{this.link}}">
                 <img class="theme-small-img" alt="{{this.title}}" title="{{this.title}}" src="{{this.img}}"/>

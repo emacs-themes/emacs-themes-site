@@ -43,9 +43,9 @@
 
             for (var i = 0; i < themeCells.length; i++) {
                 var cell = themeCells[i];
-                var themeName = cell.getAttribute('data-title');
+                var themeParameters = cell.getAttribute('data-title') + ' ' + cell.getAttribute('data-tags');
 
-                if (!search(themeName, searchParameters)) {
+                if (!search(themeParameters, searchParameters)) {
                     cell.style.display = 'none';
                 }
             }

@@ -9,6 +9,16 @@ var CONSTANTS = require('../helpers/constants');
 var ROOT_DIR = CONSTANTS.ROOT_DIR;
 var THEMES_PER_PAGE = CONSTANTS.THEMES_PER_PAGE;
 
+function getStringThemeTags(tags) {
+    var tagsString = '';
+
+    for (var i = 0; i < tags.length; i++) {
+        tagsString += tags[i].spacedValue + ' ';
+    }
+
+    return tagsString;
+}
+
 // builds theme index page
 function buildThemeSearch(allTemplates, allRecipes) {
     var template = Handlebars.compile(allTemplates['theme-search']);
@@ -16,6 +26,7 @@ function buildThemeSearch(allTemplates, allRecipes) {
     var themes = [];
     var page = {};
     var theme;
+    var tags = '';
     var recipe;
     var i;
 
@@ -25,6 +36,7 @@ function buildThemeSearch(allTemplates, allRecipes) {
         theme.title = recipe.name.spacedValue;
         theme.img = '.' + recipe.smallImg;
         theme.link = '../themes/' + recipe.name.hyphenedValue + '.html';
+        theme.tags = getStringThemeTags(recipe.tags);
         themes.push(theme);
     }
 
