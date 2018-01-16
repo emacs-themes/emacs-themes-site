@@ -5,6 +5,7 @@ var generateDirs = require('./../generators/dirsGenerator');
 var generateTemplates = require('./../generators/templatesGenerator');
 var buildMainPage = require('./../builders/mainPageBuilder');
 var buildThemeIndex = require('./../builders/themeIndexBuilder');
+var buildThemeSearch = require('./../builders/themeSearchBuilder');
 var buildAllThemes = require('./../builders/allThemesBuilder');
 var buildAllTags = require('./../builders/allTagsBuilder');
 var buildTagsIndex = require('./../builders/tagIndexBuilder');
@@ -17,6 +18,7 @@ function buildAllPages(allTemplates, allRecipes) {
     buildMainPage(allTemplates);
     buildAllThemes(allTemplates, allRecipes);
     buildThemeIndex(allTemplates, allRecipes);
+    buildThemeSearch(allTemplates, allRecipes);
     buildAllTags(allTemplates, allRecipes);
     buildTagsIndex(allTemplates, allRecipes);
     buildCharts(allTemplates);
