@@ -1,20 +1,15 @@
 {
-    "name": "Northcode Theme",
-    "description": "Dark theme with blue and orange colors",
-    "remoteSrc": "https:\/\/github.com\/Northcode\/northcode-theme.el",
-    "localSrc": ".\/assets\/local-src\/northcode-theme.el",
-    "author": "Andreas Larsen @ northcode.no",
-    "largeImgs": [
-        ".\/assets\/imgs\/northcode-elisp.png",
-        ".\/assets\/imgs\/northcode-rust.png",
-        ".\/assets\/imgs\/northcode-python.png",
-    ],
-    "tags": [
-        "dark",
-        "emacs 25",
-        "blue",
-	"orange"
-    ],
-    "available": true,
-    "smallImg": ".\/assets\/imgs-small\/northcode.png"
+  "name": "Northcode Theme",
+  "description": "Dark theme with blue and orange colors",
+  "remoteSrc": "https://github.com/Northcode/northcode-theme.el",
+  "localSrc": "./assets/local-src/northcode-theme.el",
+  "author": "Andreas Larsen @ northcode.no",
+  "largeImgs": [
+    "./assets/imgs/northcode-elisp.png",
+    "./assets/imgs/northcode-rust.png",
+    "./assets/imgs/northcode-python.png"
+  ],
+  "tags": ["dark", "emacs 25", "blue", "orange"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/northcode.png"
 }
