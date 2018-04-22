@@ -1,0 +1,10 @@
+{ "name"       : "Klere Theme",
+  "description": "A dark theme with lambent color highlights and incremental grays",
+  "remoteSrc"  : "https:\/\/github.com\/WammKD\/emacs-klere-theme",
+  "localSrc"   : ".\/assets\/local-src\/klere-theme-source-code.el",
+  "author"     : "Wamm K. D.",
+  "largeImgs"  : [".\/assets\/imgs\/klere.png",
+                  ".\/assets\/imgs\/klere-bis.png"],
+  "tags"       : ["klere", "dark"],
+  "available"  : "true",
+  "smallImg"   : ".\/assets\/imgs-small\/klere.png"                                 }
