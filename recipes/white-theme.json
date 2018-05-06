@@ -1,0 +1,11 @@
+{
+  "name": "White Theme",
+  "description": "Minimalistic light color theme inspired by basic-theme",
+  "remoteSrc": "https://github.com/anler/white-theme.el",
+  "localSrc": "./assets/local-src/white-theme.el",
+  "author": "Anler Hernandez Peral",
+  "largeImgs": ["./assets/imgs/white.png", "./assets/imgs/white-bis.png"],
+  "tags": ["white", "light", "black & white"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/white.png"
+}
