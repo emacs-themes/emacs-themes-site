@@ -1,18 +1,18 @@
 {
-    "name": "wintermute",
+    "name": "Wintermute",
     "description": "An icy-looking cyberpunk theme",
     "remoteSrc": "https://github.com/Bleu-Box/wintermute-theme",
-    "localSrc": ".\/assets\/local-src\/wintermute-theme.el",
+    "localSrc": ".\/assets\/local-src\/wintermute-theme-source-code.el",
     "author": "Bleu Box",
     "largeImgs": [
 	".\/assets\/imgs\/wintermute.png",
-	".\/assets\/imgs\/wintermute-bis.png",
+	".\/assets\/imgs\/wintermute-bis.png"
     ],
     "tags": [
 	"dark",
 	"cyberpunk",
-	"low-contrast",
+	"low-contrast"
     ],
     "available": false,
-    "smallImg": ".\/assets\/imgs\/wintermute.png"
+    "smallImg": ".\/assets\/imgs-small\/wintermute.png"
 }
