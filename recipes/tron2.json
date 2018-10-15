@@ -1,0 +1,11 @@
+{
+  "name": "Tron Theme",
+  "description": "Custom Theme inspired by Tron: Legacy",
+  "remoteSrc": "https://github.com/ianpan870102/Emacs-Tron-Theme",
+  "localSrc": "./assets/local-src/tron2-theme-source-code.el",
+  "author": "Ian Y.E. Pan",
+  "largeImgs": ["./assets/imgs/tron2.png", "./assets/imgs/tron2-bis.png"],
+  "tags": ["black", "blue", "dark", "tron"],
+  "available": false,
+  "smallImg": "./assets/imgs-small/tron2.png"
+}
