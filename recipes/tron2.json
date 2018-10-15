@@ -1,5 +1,5 @@
 {
-  "name": "Tron Theme",
+  "name": "Tron Legacy Theme",
   "description": "Custom Theme inspired by Tron: Legacy",
   "remoteSrc": "https://github.com/ianpan870102/Emacs-Tron-Theme",
   "localSrc": "./assets/local-src/tron2-theme-source-code.el",
