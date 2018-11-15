@@ -1,0 +1,11 @@
+{
+  "name": "Lab Dark",
+  "description": "A custom theme carefully constructed in the LAB space",
+  "remoteSrc": "https://github.com/MetroWind/lab-theme",
+  "localSrc": "./assets/local-src/lab-dark-source-code.el",
+  "author": "Chris Corsair",
+  "largeImgs": ["./assets/imgs/lab-dark.png", "./assets/imgs/lab-dark-bis.png"],
+  "tags": ["dark", "blue", "lab", "lab-dark"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/lab-dark.png"
+}

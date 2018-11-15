@@ -1,0 +1,14 @@
+{
+  "name": "Lab Light",
+  "description": "A custom theme carefully constructed in the LAB space",
+  "remoteSrc": "https://github.com/MetroWind/lab-theme",
+  "localSrc": "./assets/local-src/lab-light-source-code.el",
+  "author": "Chris Corsair",
+  "largeImgs": [
+    "./assets/imgs/lab-light.png",
+    "./assets/imgs/lab-light-bis.png"
+  ],
+  "tags": ["light", "white", "lab", "lab-light"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/lab-light.png"
+}
