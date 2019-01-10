@@ -1,0 +1,11 @@
+{
+  "name": "Sunburn Theme",
+  "description": " A port of the popular Vim theme Zenburn for Emacs 24, built on top of the new built-in theme support in Emacs 24.",
+  "remoteSrc": "https://github.com/mvarela/Sunburn-Theme",
+  "localSrc": "./assets/local-src/sunburn-theme-source-code.el",
+  "author": "Martín Varela",
+  "largeImgs": ["./assets/imgs/sunburn.png", "./assets/imgs/sunburn-bis.png"],
+  "tags": ["purple", "dark", "sunburn", "iterm"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/sunburn.png"
+}
