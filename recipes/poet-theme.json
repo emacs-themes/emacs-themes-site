@@ -14,7 +14,7 @@
     "./assets/imgs/poet-dark-monochrome.png",
     "./assets/imgs/poet-dark-monochrome-bis.png"
   ],
-  "tags": ["light", "dark", "poet", "monochrome"],
+  "tags": ["light", "dark", "poet", "monochrome", "grey", "brown", "popular"],
   "available": true,
   "smallImg": "./assets/imgs-small/poet.png"
 }
