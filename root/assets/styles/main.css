@@ -51,8 +51,8 @@ a.no-hover:hover {
     position: relative;
 }
 .header {
-    border-top: 1rem solid #3A377D;
-    background-color: #5E5BA8;
+    border-top: 1rem solid #622486;
+    background-color: #7F5AB6;
     color: #fff;
     padding: 1rem 0 0.5rem 0;
 }
@@ -119,7 +119,7 @@ a.no-hover:hover {
     width: 100%;
     font-size: 0.75rem;
     height: 3rem;
-    background-color:#5E5BA8;
+    background-color:#7F5AB6;
     color: #fff;
 }
 .footer-info {
