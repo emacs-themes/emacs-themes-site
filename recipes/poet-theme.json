@@ -1,0 +1,20 @@
+{
+  "name": "Poet Theme",
+  "description": "A light emacs theme that's well suited for prose: particularly org-mode and markdown-mode; or any mode that works well with variable-pitch mode.",
+  "remoteSrc": "https://github.com/kunalb/poet",
+  "localSrc": "./assets/local-src/poet-theme-source-code.el",
+  "author": "Kunal Bhalla",
+  "largeImgs": [
+    "./assets/imgs/poet.png",
+    "./assets/imgs/poet-bis.png",
+    "./assets/imgs/poet-monochrome.png",
+    "./assets/imgs/poet-monochrome-bis.png",
+    "./assets/imgs/poet-dark.png",
+    "./assets/imgs/poet-dark-bis.png",
+    "./assets/imgs/poet-dark-monochrome.png",
+    "./assets/imgs/poet-dark-monochrome-bis.png"
+  ],
+  "tags": ["light", "dark", "poet", "monochrome"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/poet.png"
+}
