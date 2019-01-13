@@ -1,0 +1,11 @@
+{
+  "name": "Srcery Theme",
+  "description": "Dark theme with clearly defined contrasting colors and a slightly earthy tone.",
+  "remoteSrc": "https://github.com/srcery-colors/srcery-emacs",
+  "localSrc": "./assets/local-src/srcery-theme-source-code.el",
+  "author": "Daniel Berg",
+  "largeImgs": ["./assets/imgs/srcery.png", "./assets/imgs/srcery-bis.png"],
+  "tags": ["srcery", "dark", "popular", "brown"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/srcery.png"
+}
