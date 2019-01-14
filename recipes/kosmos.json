@@ -1,0 +1,11 @@
+{
+  "name": "Kosmos Theme",
+  "description": "Black and lightgray theme with not so much syntax highlighting.",
+  "remoteSrc": "https://github.com/habamax/kosmos-theme/",
+  "localSrc": "./assets/local-src/kosmos-theme-source-code.el",
+  "author": "Maxim Kim",
+  "largeImgs": ["./assets/imgs/kosmos.png", "./assets/imgs/kosmos-bis.png"],
+  "tags": ["kosmos", "dark", "black"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/kosmos.png"
+}
