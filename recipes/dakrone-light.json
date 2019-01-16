@@ -1,0 +1,14 @@
+{
+  "name": "Dakrone Light Theme",
+  "description": "A theme with lot of blues, greens, and a bit of purple and brown.",
+  "remoteSrc": "https://github.com/dakrone/dakrone-light-theme",
+  "localSrc": "./assets/local-src/dakrone-light-theme-source-code.el",
+  "author": "Lee Hinman",
+  "largeImgs": [
+    "./assets/imgs/dakrone-light.png",
+    "./assets/imgs/dakrone-light-bis.png"
+  ],
+  "tags": ["light", "darkrone", "emacs 24", "grey"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/dakrone-light.png"
+}
