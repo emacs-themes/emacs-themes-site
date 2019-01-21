@@ -1,0 +1,14 @@
+{
+  "name": "MetalHeart Theme",
+  "description": "Dark Emacs low contrast theme with a blue-green background.",
+  "remoteSrc": "https://github.com/mswift42/MetalHeart-Emacs/",
+  "localSrc": "./assets/local-src/metalheart-theme-source-code.el",
+  "author": "Martin Haesler",
+  "largeImgs": [
+    "./assets/imgs/metalheart.png",
+    "./assets/imgs/metalheart-bis.png"
+  ],
+  "tags": ["metalheart", "dark", "blue", "green"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/metalheart.png"
+}
