@@ -1,0 +1,11 @@
+{
+  "name": "Prassee Theme",
+  "description": "A high contrast color theme for Emacs.",
+  "remoteSrc": "https://github.com/prassee/prassee-emacs-theme",
+  "localSrc": "./assets/local-src/prassee-theme-source-code.el",
+  "author": "Prassee Sathian",
+  "largeImgs": ["./assets/imgs/prassee.png", "./assets/imgs/prassee-bis.png"],
+  "tags": ["prassee", "dark", "green"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/prassee.png"
+}
