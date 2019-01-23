@@ -1,0 +1,11 @@
+{
+  "name": "Panda Theme",
+  "description": "A superminimal, dark syntax theme for Emacs.",
+  "remoteSrc": "https://github.com/jamiecollinson/emacs-panda-theme",
+  "localSrc": "./assets/local-src/panda-theme-source-code.el",
+  "author": "Jamie Collinson",
+  "largeImgs": ["./assets/imgs/panda.png", "./assets/imgs/panda-bis.png"],
+  "tags": ["dark", "grey", "panda"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/panda.png"
+}
