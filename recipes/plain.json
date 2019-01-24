@@ -1,0 +1,11 @@
+{
+  "name": "Plain Theme",
+  "description": "Plain theme without syntax highlighting",
+  "remoteSrc": "https://gitlab.com/yegortimoshenko/plain-theme",
+  "localSrc": "./assets/local-src/plain-theme-source-code.el",
+  "author": "Yegor Timoshenko",
+  "largeImgs": ["./assets/imgs/plain.png", "./assets/imgs/plain-bis.png"],
+  "tags": ["light", "monochrome", "black and white", "plain"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/plain.png"
+}
