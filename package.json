@@ -1,29 +1,25 @@
 {
-    "name": "emacs-themes",
-    "version": "0.1.1",
-    "description": "Static site generator for Emacs Themes",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "node ./src/main.js",
-        "mocha": "node_modules/mocha/bin/mocha"
-    },
-
-    "dependencies": {
-        "handlebars": "latest",
-        "q": "latest"
-    },
-
-    "devDependencies": {
-        "mocha": "latest",
-        "chai": "latest"
-
-    },
-
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/emacs-themes/emacs-themes-site"
-    },
-    "author": "Vlad Piersec",
-    "license": "CC-BY-NC-4.0"
+  "name": "emacs-themes",
+  "version": "0.2.0",
+  "description": "Static site generator for Emacs Themes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./src/main.js",
+    "mocha": "node_modules/mocha/bin/mocha"
+  },
+  "dependencies": {
+    "handlebars": "latest",
+    "q": "latest"
+  },
+  "devDependencies": {
+    "chai": "latest",
+    "mocha": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emacs-themes/emacs-themes-site"
+  },
+  "author": "Vlad Piersec",
+  "license": "CC-BY-NC-4.0"
 }

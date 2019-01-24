@@ -136,7 +136,7 @@ a.no-hover:hover {
     margin-bottom: 40px;
 }
 .theme-title {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 .cell {
     width: 33%;
@@ -162,22 +162,26 @@ a.no-hover:hover {
     display: inline-block;
     padding-right: 5px;
 }
-.charts-list {
+.top-list {
     display: block;
     padding-bottom: 20px
 }
-.chart {
+.top-item {
     display: list-item;
-    list-style-type: disc;
+    list-style-type: number;
     margin-left: 28px;
     padding-bottom: 12px;
 }
-.charts-themes-list {
-    margin-left: 5px;
-    padding-bottom: 12px;
+.top-theme {
+  display: inline-block;
+  text-transform: capitalize;
+  width: 350px;
 }
-.charts-themes-list .chart{
-    list-style-type: decimal;
+.download-number,
+.download-text {
+  display: inline-block;
+  width: 80px;
+  font-size: 0.8em;
 }
 .google-search {
     display: inline-block;

@@ -2,9 +2,11 @@ node_modules/
 root/index/*
 root/themes/*
 root/tags/*
-root/charts/*
+root/popular/*
 root/pages/*
 root/index.html
 /npm-debug.log
 logs/*
+cache/*
+src/popular/cache.json
 *.tern-port

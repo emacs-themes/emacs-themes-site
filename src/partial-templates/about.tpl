@@ -7,7 +7,7 @@
 
 
     <h3 class="tipe">Tip!</h3>
-    <p>You should always use the <strong>Official Source</strong>, or the version from  package if available, instead of Local Source (This is the source code of the theme at the time of the post creation. In the meantime there could of been a lot of changes/updates to the code. So don’t risk it. I only keep the code here because it may disappear (no pun intended) and this website tries to be a long-time resource).
+    <p>You should always use the <strong>Official Source</strong>, or the version from  package if available, instead of Local Source (This is the source code of the theme at the time of the post creation. In the meantime there could have been a lot of changes/updates to the code. So don’t risk it. I only keep the code here because it may disappear (no pun intended) and this website tries to be a long-time resource).
     </p>
 
     <p>I don’t have the time and energy to list all the themes but if you want your theme to be listed or have any suggestions/thoughts regarding the site, <a href="mailto:vlad.piersec@gmail.com">email me</a> !</p>
