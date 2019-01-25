@@ -60,7 +60,7 @@ const fetchAll = async () => {
 
     return filterPackages(packages, recipes).slice(0, 50);
   } catch (err) {
-    const errorText = `Error fetching from MELPA: ${err}\n`;
+    const errorText = `${new Date()} Error fetching from MELPA: ${err}\n`;
 
     fs.appendFileSync(errorLogPath, errorText);
   }
@@ -71,12 +71,15 @@ const saveThemesToCache = async () => {
 
   fs.writeFile(cacheFile, JSON.stringify(themes), err => {
     if (err) {
-      const errorText = `Error writing to file: ${err}\n`;
+      const errorText = `${new Date()} Error writing to file: ${err}\n`;
 
       fs.appendFileSync(errorLogPath, errorText);
     }
 
-    fs.appendFileSync(mainLogPath, 'Fetched themes successfully\n');
+    fs.appendFileSync(
+      mainLogPath,
+      `${new Date()} Fetched themes successfully\n`,
+    );
   });
 };
 
