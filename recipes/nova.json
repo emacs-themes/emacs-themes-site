@@ -1,0 +1,11 @@
+{
+  "name": "Nova Theme",
+  "description": "A dark, pastel color theme for Emacs based on Trevor Miller's Nova color scheme.",
+  "remoteSrc": "https://github.com/muirmanders/emacs-nova-theme",
+  "localSrc": "./assets/local-src/nova-theme-source-code.el",
+  "author": "Muir Manders",
+  "largeImgs": ["./assets/imgs/nova.png", "./assets/imgs/nova-bis.png"],
+  "tags": ["dark", "pastel", "blue"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/nova.png"
+}
