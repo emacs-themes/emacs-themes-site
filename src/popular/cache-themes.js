@@ -66,21 +66,25 @@ const fetchAll = async () => {
   }
 };
 
-const saveThemesToCache = async () => {
-  const themes = await fetchAll();
+const saveThemesToCache = () =>
+  new Promise(async (resolve, reject) => {
+    const themes = await fetchAll();
 
-  fs.writeFile(cacheFile, JSON.stringify(themes), err => {
-    if (err) {
-      const errorText = `${new Date()} Error writing to file: ${err}\n`;
+    fs.writeFile(cacheFile, JSON.stringify(themes), err => {
+      if (err) {
+        const errorText = `${new Date()} Error writing to file: ${err}\n`;
 
-      fs.appendFileSync(errorLogPath, errorText);
-    }
+        fs.appendFileSync(errorLogPath, errorText);
+        reject(err);
+        return;
+      }
 
-    fs.appendFileSync(
-      mainLogPath,
-      `${new Date()} Fetched themes successfully\n`,
-    );
+      fs.appendFileSync(
+        mainLogPath,
+        `${new Date()} Fetched themes successfully\n`,
+      );
+      resolve();
+    });
   });
-};
 
 module.exports = saveThemesToCache;
