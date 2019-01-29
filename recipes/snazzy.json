@@ -1,0 +1,11 @@
+{
+  "name": "Snazzy Theme",
+  "description": "An elegant syntax theme with bright colors.",
+  "remoteSrc": "https://github.com/weijiangan/emacs-snazzy",
+  "localSrc": "./assets/local-src/snazzy-theme-source-code.el",
+  "author": "Wei Jian Gan",
+  "largeImgs": ["./assets/imgs/snazzy.png", "./assets/imgs/snazzy-bis.png"],
+  "tags": ["dark", "grey", "snazzy"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/snazzy.png"
+}
