@@ -1,0 +1,11 @@
+{
+  "name": "Nordless Theme",
+  "description": "A mostly colorless theme",
+  "remoteSrc": "https://github.com/lthms/nordless-theme.el",
+  "localSrc": "./assets/local-src/nordless-theme-source-code.el",
+  "author": "Thomas Letan",
+  "largeImgs": ["./assets/imgs/nordless.png", "./assets/imgs/nordless-bis.png"],
+  "tags": ["dark", "blue", "nordless"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/nordless.png"
+}
