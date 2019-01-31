@@ -1,0 +1,11 @@
+{
+  "name": "Doneburn Theme",
+  "description": "A dark on light Emacs theme based on Bozhidar Batsov's Zenburn theme.",
+  "remoteSrc": "https://github.com/manuel-uberti/doneburn-theme",
+  "localSrc": "./assets/local-src/doneburn-theme-source-code.el",
+  "author": "Manuel Uberti",
+  "largeImgs": ["./assets/imgs/doneburn.png", "./assets/imgs/doneburn-bis.png"],
+  "tags": ["light", "white", "zenburn", "doneburn"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/doneburn.png"
+}
