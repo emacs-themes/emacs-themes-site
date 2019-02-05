@@ -1,0 +1,14 @@
+{
+  "name": "Monotropic Theme",
+  "description": "(Almost) monochromatic theme for Emacs. Originally based on maio/eink-emacs.",
+  "remoteSrc": "https://github.com/caffo/monotropic-theme",
+  "localSrc": "./assets/local-src/monotropic-theme-source-code.el",
+  "author": "Rodrigo Franco",
+  "largeImgs": [
+    "./assets/imgs/monotropic.png",
+    "./assets/imgs/monotropic-bis.png"
+  ],
+  "tags": ["monotropic", "light", "monochrome", "monotropic"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/monotropic.png"
+}
