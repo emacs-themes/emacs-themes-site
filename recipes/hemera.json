@@ -1,0 +1,11 @@
+{
+  "name": "Hemera Theme",
+  "description": "A light emacs theme",
+  "remoteSrc": "https://github.com/guidoschmidt/emacs-hemera-theme",
+  "localSrc": "./assets/local-src/hemera-theme-source-code.el",
+  "author": "Guido Schmidt",
+  "largeImgs": ["./assets/imgs/hemera.png", "./assets/imgs/hemera-bis.png"],
+  "tags": ["light", "white", "hemera"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/hemera.png"
+}
