@@ -1,0 +1,11 @@
+{
+  "name": "Rimero Theme",
+  "description": "Theme with a dark background suitable for UI and terminal usage.",
+  "remoteSrc": "https://github.com/yveszoundi/emacs-rimero-theme",
+  "localSrc": "./assets/local-src/rimero-theme-source-code.el",
+  "author": "Yves Zoundi",
+  "largeImgs": ["./assets/imgs/rimero.png", "./assets/imgs/rimero-bis.png"],
+  "tags": ["dark", "brown", "grey", "rimero"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/rimero.png"
+}
