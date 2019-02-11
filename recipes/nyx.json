@@ -1,0 +1,11 @@
+{
+  "name": "Nyx Theme",
+  "description": "Dark theme for original use with circadian theme preview",
+  "remoteSrc": "https://github.com/guidoschmidt/emacs-nyx-theme",
+  "localSrc": "./assets/local-src/nyx-theme-source-code.el",
+  "author": "Guido Schmidt",
+  "largeImgs": ["./assets/imgs/nyx.png", "./assets/imgs/nyx-bis.png"],
+  "tags": ["dark", "black", "nyx"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/nyx.png"
+}
