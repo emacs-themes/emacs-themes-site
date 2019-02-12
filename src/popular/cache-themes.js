@@ -9,6 +9,7 @@ const cacheFile = path.join(__dirname, './cache.json');
 const themeStr = '-theme';
 const ignored = {
   'helm-themes': true,
+  'color-theme': true,
 };
 
 const composeUrl = pck => pck && `https://${pck.fetcher}.com/${pck.repo}`;
