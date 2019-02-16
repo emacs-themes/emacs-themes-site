@@ -1,0 +1,11 @@
+{
+  "name": "M&M Theme",
+  "description": "An M&M color theme",
+  "remoteSrc": "https://github.com/choppsv1/emacs-mandm-theme",
+  "localSrc": "./assets/local-src/mandm-theme-source-code.el",
+  "author": "Christian Hopps",
+  "largeImgs": ["./assets/imgs/mandm.png", "./assets/imgs/mandm-bis.png"],
+  "tags": ["dark", "brown", "green", "m&m"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/mandm.png"
+}
