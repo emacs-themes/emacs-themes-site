@@ -1,0 +1,14 @@
+{
+  "name": "One Light Theme",
+  "description": "Port of the One theme for Vim/Neovim - light",
+  "remoteSrc": "https://github.com/balajisivaraman/emacs-one-themes",
+  "localSrc": "./assets/local-src/one-light-theme-source-code.el",
+  "author": "Balaji Sivaraman ",
+  "largeImgs": [
+    "./assets/imgs/one-light.png",
+    "./assets/imgs/one-light-bis.png"
+  ],
+  "tags": ["light", "one", "white"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/one-light.png"
+}
