@@ -1,0 +1,11 @@
+{
+  "name": "Chyla Theme",
+  "description": "Green color theme",
+  "remoteSrc": "https://github.com/chyla/ChylaThemeForEmacs/",
+  "localSrc": "./assets/local-src/chyla-theme-source-code.el",
+  "author": "Adam Chyła",
+  "largeImgs": ["./assets/imgs/chyla.png", "./assets/imgs/chyla-bis.png"],
+  "tags": ["light", "green", "chyla"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/chyla.png"
+}
