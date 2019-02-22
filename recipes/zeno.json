@@ -1,0 +1,11 @@
+{
+  "name": "Zeno theme",
+  "description": "A dark jade Emacs theme inspired by Sierra.vim.",
+  "remoteSrc": "https://github.com/jbharat/zeno-theme",
+  "localSrc": "./assets/local-src/zeno-theme-source-code.el",
+  "author": "Bharat Joshi",
+  "largeImgs": ["./assets/imgs/zeno.png", "./assets/imgs/zeno-bis.png"],
+  "tags": ["dark", "purple", "zeno"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/zeno.png"
+}
