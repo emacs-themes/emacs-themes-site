@@ -1,0 +1,14 @@
+{
+  "name": "Inverse Acme Theme",
+  "description": "A theme that looks like an inverse of Acme's color scheme.",
+  "remoteSrc": "https://github.com/dcjohnson/inverse-acme-theme",
+  "localSrc": "./assets/local-src/inverse-acme-theme-source-code.el",
+  "author": "Dylan Johnson",
+  "largeImgs": [
+    "./assets/imgs/inverse-acme.png",
+    "./assets/imgs/inverse-acme-bis.png"
+  ],
+  "tags": ["dark", "brown", "inverse acme"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/inverse-acme.png"
+}
