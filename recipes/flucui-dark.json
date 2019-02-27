@@ -1,0 +1,14 @@
+{
+  "name": "Fluc UI Dark Theme",
+  "description": "Custom theme inspired by the Flat UI palette",
+  "remoteSrc": "https://github.com/MetroWind/flucui-theme/",
+  "localSrc": "./assets/local-src/flucui-dark-theme-source-code.el",
+  "author": "Chris Corsair",
+  "largeImgs": [
+    "./assets/imgs/flucui-dark.png",
+    "./assets/imgs/flucui-dark-bis.png"
+  ],
+  "tags": ["dark", "blue", "fluc UI"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/flucui-dark.png"
+}
