@@ -1,0 +1,14 @@
+{
+  "name": "Fluc UI Light Theme",
+  "description": "Custom theme inspired by the Flat UI palette",
+  "remoteSrc": "https://github.com/MetroWind/flucui-theme/",
+  "localSrc": "./assets/local-src/flucui-light-theme-source-code.el",
+  "author": "Chris Corsair",
+  "largeImgs": [
+    "./assets/imgs/flucui-light.png",
+    "./assets/imgs/flucui-light-bis.png"
+  ],
+  "tags": ["light", "blue", "fluc UI"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/flucui-light.png"
+}
