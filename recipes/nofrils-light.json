@@ -1,0 +1,14 @@
+{
+  "name": "Nofrils Light Theme",
+  "description": "A port of the No Frils Acme Vim theme to Emacs",
+  "remoteSrc": "https://gitlab.com/esessoms/nofrils-theme",
+  "localSrc": "./assets/local-src/nofrils-light-theme-source-code.el",
+  "author": "Eric Sessoms",
+  "largeImgs": [
+    "./assets/imgs/nofrils-light.png",
+    "./assets/imgs/nofrils-light-bis.png"
+  ],
+  "tags": ["nofrils", "light", "grey", "monochrome"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/nofrils-light.png"
+}
