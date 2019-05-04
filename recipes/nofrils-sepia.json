@@ -1,0 +1,14 @@
+{
+  "name": "Nofrils Sepia Theme",
+  "description": "A port of the No Frils Acme Vim theme to Emacs",
+  "remoteSrc": "https://gitlab.com/esessoms/nofrils-theme",
+  "localSrc": "./assets/local-src/nofrils-sepia-theme-source-code.el",
+  "author": "Eric Sessoms",
+  "largeImgs": [
+    "./assets/imgs/nofrils-sepia.png",
+    "./assets/imgs/nofrils-sepia-bis.png"
+  ],
+  "tags": ["nofrils", "sepia", "black", "monochrome"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/nofrils-sepia.png"
+}
