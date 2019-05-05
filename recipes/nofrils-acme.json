@@ -8,7 +8,7 @@
     "./assets/imgs/nofrils-acme.png",
     "./assets/imgs/nofrils-acme-bis.png"
   ],
-  "tags": ["nofrils", "acme", "yellow"],
+  "tags": ["nofrils", "acme", "light", "yellow"],
   "available": true,
   "smallImg": "./assets/imgs-small/nofrils-acme.png"
 }
