@@ -1,0 +1,11 @@
+{
+  "name": "Habamax Theme",
+  "description": "Emacs theme with boring white background color that gets the job done. ",
+  "remoteSrc": "https://github.com/habamax/habamax-theme",
+  "localSrc": "./assets/local-src/habamax-theme-source-code.el",
+  "author": "Maxim Kim",
+  "largeImgs": ["./assets/imgs/habamax.png", "./assets/imgs/habamax-bis.png"],
+  "tags": ["habamax", "light", "white"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/habamax.png"
+}
