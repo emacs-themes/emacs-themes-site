@@ -1,0 +1,14 @@
+{
+  "name": "Wilmersdorf Theme",
+  "description": "Emacs theme with dark subtle syntax highlighting",
+  "remoteSrc": "https://github.com/ianpan870102/Emacs-Wilmersdorf-Theme",
+  "localSrc": "./assets/local-src/wilmersdorf-theme-source-code.el",
+  "author": "Ian Y.E. Pan",
+  "largeImgs": [
+    "./assets/imgs/wilmersdorf.png",
+    "./assets/imgs/wilmersdorf-bis.png"
+  ],
+  "tags": ["wilmersdorf", "dark", "blue", "purple", "indigo"],
+  "available": false,
+  "smallImg": "./assets/imgs-small/wilmersdorf.png"
+}
