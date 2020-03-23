@@ -1,19 +1,17 @@
 {
-    "name": "Weyland Yutani Theme",
-    "description": "An emacs theme based on the Alien movie franchise",
-    "remoteSrc": "https:\/\/github.com\/jstaursky\/weyland-yutani-theme",
-    "localSrc": ".\/assets\/local-src\/weyland-yutani-theme-source-code.el",
-    "author": "Joe Staursky",
-    "largeImgs": [
-        ".\/assets\/imgs\/weyland-yutani.png",
-        ".\/assets\/imgs\/weyland-yutani-bis.png"
-    ],
-    "tags": [
-        "weyland-yutani",
-        "dark",
-        "green",
-        "indigo"
-    ],
-    "available": true,
-    "smallImg": ".\/assets\/imgs-small\/weyland-yutani.png"
+  "name": "Weyland Yutani Theme",
+  "description": "An emacs theme based on the Alien movie franchise",
+  "remoteSrc": "https://github.com/jstaursky/weyland-yutani-theme",
+  "localSrc": "./assets/local-src/weyland-yutani-theme-source-code.el",
+  "author": "Joe Staursky",
+  "largeImgs": [
+    "./assets/imgs/weyland-yutani-01.png",
+    "./assets/imgs/weyland-yutani-02.png",
+    "./assets/imgs/weyland-yutani-03.png",
+    "./assets/imgs/weyland-yutani-04.png",
+    "./assets/imgs/weyland-yutani-05.png"
+  ],
+  "tags": ["weyland-yutani", "dark", "purple", "indigo"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/weyland-yutani.png"
 }
