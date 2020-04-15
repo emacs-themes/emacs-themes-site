@@ -1,0 +1,14 @@
+{
+  "name": "Immaterial Theme",
+  "description": "A flexible theme based on material design principles",
+  "remoteSrc": "https://github.com/petergardfjall/emacs-immaterial-theme",
+  "localSrc": "./assets/local-src/immaterial-theme-source-code.el",
+  "author": "Peter Gardfjäll",
+  "largeImgs": [
+    "./assets/imgs/immaterial.png",
+    "./assets/imgs/immaterial-bis.png"
+  ],
+  "tags": ["immaterial", "dark", "blue", "material design"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/immaterial.png"
+}
