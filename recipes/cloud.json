@@ -1,0 +1,11 @@
+{
+  "name": "Cloud Theme",
+  "description": "A light colored theme",
+  "remoteSrc": "https://github.com/vallyscode/cloud-theme",
+  "localSrc": "./assets/local-src/cloud-theme-source-code.el",
+  "author": "Valerii Lysenko",
+  "largeImgs": ["./assets/imgs/cloud.png", "./assets/imgs/cloud-bis.png"],
+  "tags": ["cloud", "light", "white", "blue"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/cloud.png"
+}
