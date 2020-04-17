@@ -1,0 +1,20 @@
+{
+  "name": "Almost Mono White Theme",
+  "description": "Almost monochrome in white variant",
+  "remoteSrc": "https://github.com/cryon/almost-mono-themes",
+  "localSrc": "./assets/local-src/almost-mono-white-theme-source-code.el",
+  "author": "John Olsson ",
+  "largeImgs": [
+    "./assets/imgs/almost-mono-white.png",
+    "./assets/imgs/almost-mono-white-bis.png"
+  ],
+  "tags": [
+    "almost mono white",
+    "light",
+    "white",
+    "monochrome",
+    "black and white"
+  ],
+  "available": true,
+  "smallImg": "./assets/imgs-small/almost-mono-white.png"
+}
