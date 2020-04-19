@@ -1,0 +1,20 @@
+{
+  "name": "Almost Mono Black Theme",
+  "description": "Almost monochrome in black variant",
+  "remoteSrc": "https://github.com/cryon/almost-mono-themes",
+  "localSrc": "./assets/local-src/almost-mono-black-theme-source-code.el",
+  "author": "John Olsson ",
+  "largeImgs": [
+    "./assets/imgs/almost-mono-black.png",
+    "./assets/imgs/almost-mono-black-bis.png"
+  ],
+  "tags": [
+    "almost mono black",
+    "dark",
+    "black",
+    "monochrome",
+    "black and white"
+  ],
+  "available": true,
+  "smallImg": "./assets/imgs-small/almost-mono-black.png"
+}
