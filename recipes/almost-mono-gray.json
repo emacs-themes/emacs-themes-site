@@ -1,0 +1,14 @@
+{
+  "name": "Almost Mono Gray Theme",
+  "description": "Almost monochrome in gray variant",
+  "remoteSrc": "https://github.com/cryon/almost-mono-themes",
+  "localSrc": "./assets/local-src/almost-mono-gray-theme-source-code.el",
+  "author": "John Olsson ",
+  "largeImgs": [
+    "./assets/imgs/almost-mono-gray.png",
+    "./assets/imgs/almost-mono-gray-bis.png"
+  ],
+  "tags": ["almost mono gray", "dark", "gray", "monochrome"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/almost-mono-gray.png"
+}
