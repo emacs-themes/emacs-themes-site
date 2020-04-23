@@ -1,0 +1,11 @@
+{
+  "name": "Naysayer Theme",
+  "description": "Emacs theme inspired by Jonathan Blow's compiler livestreams.",
+  "remoteSrc": "https://github.com/nickav/naysayer-theme.el",
+  "localSrc": "./assets/local-src/naysayer-theme-source-code.el",
+  "author": "Nick Aversano",
+  "largeImgs": ["./assets/imgs/naysayer.png", "./assets/imgs/naysayer-bis.png"],
+  "tags": ["naysayer", "green", "dark"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/naysayer.png"
+}
