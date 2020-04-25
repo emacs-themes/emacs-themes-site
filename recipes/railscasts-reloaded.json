@@ -1,0 +1,14 @@
+{
+  "name": "Railscasts reloaded Theme",
+  "description": "A port of Ryan Bates's Textmate/vim theme.",
+  "remoteSrc": "https://github.com/thegeorgeous/railscasts-reloaded-theme",
+  "localSrc": "./assets/local-src/railscasts-reloaded-theme-source-code.el",
+  "author": "George Thomas",
+  "largeImgs": [
+    "./assets/imgs/railscasts-reloaded.png",
+    "./assets/imgs/railscasts-reloaded-bis.png"
+  ],
+  "tags": ["railscasts-reloaded", "dark", "textmate", "bronwn"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/railscasts-reloaded.png"
+}
