@@ -1,0 +1,14 @@
+{
+  "name": "Humanoid Dark Theme",
+  "description": "Emacs color schemes with bright colors.",
+  "remoteSrc": "https://github.com/humanoid-colors/emacs-humanoid-themes",
+  "localSrc": "./assets/local-src/humanoid-dark-theme-source-code.el",
+  "author": "Thomas Friese",
+  "largeImgs": [
+    "./assets/imgs/humanoid-dark.png",
+    "./assets/imgs/humanoid-dark-bis.png"
+  ],
+  "tags": ["humanoid dark", "blue", "dark"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/humanoid-dark.png"
+}
