@@ -10,3 +10,4 @@ logs/*
 cache/*
 src/popular/cache.json
 *.tern-port
+.log

@@ -1,0 +1,14 @@
+{
+  "name": "Humanoid Light Theme",
+  "description": "Emacs color schemes with bright colors.",
+  "remoteSrc": "https://github.com/humanoid-colors/emacs-humanoid-themes",
+  "localSrc": "./assets/local-src/humanoid-light-theme-source-code.el",
+  "author": "Thomas Friese",
+  "largeImgs": [
+    "./assets/imgs/humanoid-light.png",
+    "./assets/imgs/humanoid-light-bis.png"
+  ],
+  "tags": ["humanoid light", "blue", "light"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/humanoid-light.png"
+}
