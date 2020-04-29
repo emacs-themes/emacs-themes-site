@@ -1,0 +1,19 @@
+{
+    "name": "Berrys Theme",
+    "description": "A light, clean and elegant theme for Emacs.",
+    "remoteSrc": "https://github.com/vbuzin/berrys-theme",
+    "localSrc": ".\/assets\/local-src\/berrys-theme-source-code.el",
+    "author": "Slava Buzin",
+    "largeImgs": [
+        ".\/assets\/imgs\/berrys.png",
+        ".\/assets\/imgs\/berrys-bis.png"
+    ],
+    "tags": [
+        "berrys",
+        "light",
+        "monochrome",
+        "blue"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/berrys.png"
+}
