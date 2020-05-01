@@ -1,0 +1,14 @@
+{
+  "name": "VS Dark Theme",
+  "description": "Visual Studio IDE dark theme.",
+  "remoteSrc": "https://github.com/jcs-elpa/vs-dark-theme/",
+  "localSrc": "./assets/local-src/vs-dark-theme-source-code.el",
+  "author": "Thomas Friese",
+  "largeImgs": [
+    "./assets/imgs/vs-dark.png",
+    "./assets/imgs/vs-dark-bis.png"
+  ],
+  "tags": ["vs dark", "visual studio", "dark"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/vs-dark.png"
+}
