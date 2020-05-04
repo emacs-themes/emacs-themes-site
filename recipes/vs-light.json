@@ -1,0 +1,14 @@
+{
+  "name": "VS Light Theme",
+  "description": "Visual Studio IDE light theme.",
+  "remoteSrc": "https://github.com/jcs-elpa/vs-light-theme/",
+  "localSrc": "./assets/local-src/vs-light-theme-source-code.el",
+  "author": "Thomas Friese",
+  "largeImgs": [
+    "./assets/imgs/vs-light.png",
+    "./assets/imgs/vs-light-bis.png"
+  ],
+  "tags": ["vs light", "visual studio", "light", "white"],
+  "available": true,
+  "smallImg": "./assets/imgs-small/vs-light.png"
+}
