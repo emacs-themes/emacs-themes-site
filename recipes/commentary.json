@@ -1,0 +1,19 @@
+{
+    "name": "Commentary Theme",
+    "description": "A minimal theme with contrasting comments",
+    "remoteSrc": "https://github.com/pzel/commentary-theme",
+    "localSrc": ".\/assets\/local-src\/commentary-theme-source-code.el",
+    "author": "Amirreza Ghaderi & Simon Zelazny ",
+    "largeImgs": [
+        ".\/assets\/imgs\/commentary.png",
+        ".\/assets\/imgs\/commentary-bis.png"
+    ],
+    "tags": [
+        "commentary",
+        "light",
+        "white",
+        "red"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/commentary.png"
+}
