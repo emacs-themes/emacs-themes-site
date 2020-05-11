@@ -1,0 +1,18 @@
+{
+    "name": "Laguna Theme",
+    "description": "A theme that's easy on the eyes & focuses on importance.",
+    "remoteSrc": "https://github.com/HenryNewcomer/laguna-theme/",
+    "localSrc": ".\/assets\/local-src\/laguna-theme-source-code.el",
+    "author": "Henry Newcomer",
+    "largeImgs": [
+        ".\/assets\/imgs\/laguna.png",
+        ".\/assets\/imgs\/laguna-bis.png"
+    ],
+    "tags": [
+        "laguna",
+        "dark",
+        "blue"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/laguna.png"
+}
