@@ -1,6 +1,6 @@
 {
   "name": "Joker Theme",
-  "description": "Minimal color theme for Emacs using base16 colors.",
+  "description": "A minimal theme for Emacs in terminal.",
   "remoteSrc": "https://github.com/DogLooksGood/joker-theme",
   "localSrc": ".\/assets\/local-src\/joker-theme-source-code.el",
   "author": "Shi Tianshu",
