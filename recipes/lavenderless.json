@@ -1,0 +1,18 @@
+{
+    "name": "Lavenderless Theme",
+    "description": "A mostly colorless version of lavender-theme",
+    "remoteSrc": "https://git.sr.ht/~lthms/colorless-themes.el/",
+    "localSrc": ".\/assets\/local-src\/lavenderless-theme-source-code.el",
+    "author": "Thomas Letan",
+    "largeImgs": [
+        ".\/assets\/imgs\/lavenderless.png",
+        ".\/assets\/imgs\/lavenderless-bis.png"
+    ],
+    "tags": [
+        "lavenderless",
+        "dark",
+        "purple"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/lavenderless.png"
+}
