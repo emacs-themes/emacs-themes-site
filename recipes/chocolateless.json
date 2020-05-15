@@ -1,0 +1,18 @@
+{
+    "name": "Chocolateless Theme",
+    "description": "A mostly colorless version of chocolate-theme",
+    "remoteSrc": "https://git.sr.ht/~lthms/colorless-themes.el/",
+    "localSrc": ".\/assets\/local-src\/chocolateless-theme-source-code.el",
+    "author": "Thomas Letan",
+    "largeImgs": [
+        ".\/assets\/imgs\/chocolateless.png",
+        ".\/assets\/imgs\/chocolateless-bis.png"
+    ],
+    "tags": [
+        "chocolateless",
+        "dark",
+        "brown"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/chocolateless.png"
+}
