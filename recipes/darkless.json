@@ -1,0 +1,18 @@
+{
+    "name": "Darkless Theme",
+    "description": "A colorless, gray theme",
+    "remoteSrc": "https://git.sr.ht/~lthms/colorless-themes.el/",
+    "localSrc": ".\/assets\/local-src\/darkless-theme-source-code.el",
+    "author": "Thomas Letan",
+    "largeImgs": [
+        ".\/assets\/imgs\/darkless.png",
+        ".\/assets\/imgs\/darkless-bis.png"
+    ],
+    "tags": [
+        "darkless",
+        "dark",
+        "gray"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/darkless.png"
+}
