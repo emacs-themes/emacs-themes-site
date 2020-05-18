@@ -1,0 +1,18 @@
+{
+    "name": "Einkless Theme",
+    "description": "A colorless port of eink-theme",
+    "remoteSrc": "https://git.sr.ht/~lthms/colorless-themes.el/",
+    "localSrc": ".\/assets\/local-src\/einkless-theme-source-code.el",
+    "author": "Thomas Letan",
+    "largeImgs": [
+        ".\/assets\/imgs\/einkless.png",
+        ".\/assets\/imgs\/einkless-bis.png"
+    ],
+    "tags": [
+        "einkless",
+        "light",
+        "gray"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/einkless.png"
+}
