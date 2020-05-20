@@ -1,0 +1,18 @@
+{
+    "name": "Hydrangealess Theme",
+    "description": "A mostly colorless version of hydrangea-theme",
+    "remoteSrc": "https://git.sr.ht/~lthms/colorless-themes.el/",
+    "localSrc": ".\/assets\/local-src\/hydrangealess-theme-source-code.el",
+    "author": "Thomas Letan",
+    "largeImgs": [
+        ".\/assets\/imgs\/hydrangealess.png",
+        ".\/assets\/imgs\/hydrangealess-bis.png"
+    ],
+    "tags": [
+        "hydrangealess",
+        "dark",
+        "blue"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/hydrangealess.png"
+}
