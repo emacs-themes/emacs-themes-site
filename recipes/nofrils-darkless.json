@@ -1,0 +1,19 @@
+{
+  "name": "Nofrils Darkless Theme",
+  "description": "A colorless port of the vim nofrils-dark theme",
+  "remoteSrc": "https://git.sr.ht/~lthms/colorless-themes.el/",
+  "localSrc": ".\/assets\/local-src\/nofrils-darkless-theme-source-code.el",
+  "author": "Thomas Letan",
+  "largeImgs": [
+    ".\/assets\/imgs\/nofrils-darkless.png",
+    ".\/assets\/imgs\/nofrils-darkless-bis.png"
+  ],
+  "tags": [
+    "nofrils darkless",
+    "dark",
+    "gray",
+    "purple"
+  ],
+  "available": true,
+  "smallImg": ".\/assets\/imgs-small\/nofrils-darkless.png"
+}
