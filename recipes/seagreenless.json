@@ -1,0 +1,19 @@
+{
+  "name": "Seagreenless Theme",
+  "description": "A colorless, gray theme",
+  "remoteSrc": "https://git.sr.ht/~lthms/colorless-themes.el/",
+  "localSrc": ".\/assets\/local-src\/seagreenless-theme-source-code.el",
+  "author": "Thomas Letan",
+  "largeImgs": [
+    ".\/assets\/imgs\/seagreenless.png",
+    ".\/assets\/imgs\/seagreenless-bis.png"
+  ],
+  "tags": [
+    "seagreenless",
+    "light",
+    "white",
+    "green"
+  ],
+  "available": false,
+  "smallImg": ".\/assets\/imgs-small\/seagreenless.png"
+}
