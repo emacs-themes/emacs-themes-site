@@ -1,0 +1,20 @@
+{
+    "name": "Modus Operandi Theme",
+    "description": "Accessible light theme (WCAG AAA)",
+    "remoteSrc": "https://gitlab.com/protesilaos/modus-themes",
+    "localSrc": ".\/assets\/local-src\/modus-operandi-theme-source-code.el",
+    "author": "Protesilaos Stavrou",
+    "largeImgs": [
+        ".\/assets\/imgs\/modus-operandi.png",
+        ".\/assets\/imgs\/modus-operandi-bis.png"
+    ],
+    "tags": [
+        "modus-operandi",
+        "light",
+        "emacs 24",
+        "purple",
+        "white"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/modus-operandi.png"
+}
