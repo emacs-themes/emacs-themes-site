@@ -1,0 +1,19 @@
+{
+    "name": "Modus Vivendi Theme",
+    "description": "Accessible light theme (WCAG AAA)",
+    "remoteSrc": "https://gitlab.com/protesilaos/modus-themes",
+    "localSrc": ".\/assets\/local-src\/modus-vivendi-theme-source-code.el",
+    "author": "Protesilaos Stavrou",
+    "largeImgs": [
+        ".\/assets\/imgs\/modus-vivendi.png",
+        ".\/assets\/imgs\/modus-vivendi-bis.png"
+    ],
+    "tags": [
+        "modus-vivendi",
+        "dark",
+        "purple",
+        "black"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/modus-vivendi.png"
+}
