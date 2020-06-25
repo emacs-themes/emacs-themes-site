@@ -1,0 +1,19 @@
+{
+  "name": "Seventies Theme",
+  "description": "Emacs 24 theme with a dark background",
+  "remoteSrc": "https://github.com/RyanBurnside/Seventies",
+  "localSrc": ".\/assets\/local-src\/seventies-theme-source-code.el",
+  "author": "Ryan Burnside",
+  "largeImgs": [
+    ".\/assets\/imgs\/seventies.png",
+    ".\/assets\/imgs\/seventies-bis.png"
+  ],
+  "tags": [
+    "seventies",
+    "dark",
+    "brown",
+    "yellow"
+  ],
+  "available": false,
+  "smallImg": ".\/assets\/imgs-small\/seventies.png"
+}
