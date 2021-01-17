@@ -21,7 +21,7 @@ To add a new theme, you have to create at least 4 files:
       Add whatever number of =.png= (screenshots) files you want to */root/assets/imgs* directory. These will show on the theme page.
       You will have to add this name to the [[#add-the-recipejson-file][recipe]] file.
 
-**** Add the souce code (.el) file
+**** Add the source code (.el) file
       Add a =.el= file to */root/assets/local-src* directory. You can name it as you like but I strongly encourage to use a name of the form: ~[theme-name]-theme-source-code.el~.
       You will have to add this name to the [[#add-the-recipejson-file][recipe]] file.
 
