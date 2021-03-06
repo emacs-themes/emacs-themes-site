@@ -109,7 +109,7 @@
 
     ;; parens / smart-parens
     ;; ========================================
-    `(show-paren-match ((t (:background ,my-shadow :weight bold))))
+    `(show-paren-match ((t (:background ,my-shadow :foreground ,my-pop :weight bold))))
     `(show-paren-mismatch ((t (:background ,my-warning :weight bold))))
     `(sp-show-pair-match-face ((t (:background ,my-shadow :weight bold))))
     `(sp-show-pair-mismatch-face ((t (:background ,my-warning :weight bold))))
