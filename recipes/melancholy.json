@@ -3,10 +3,12 @@
   "description": "A dark theme for dark minds",
   "remoteSrc": "https:\/\/github.com\/techquila\/melancholy-theme",
   "localSrc": ".\/assets\/local-src\/melancholy-theme-source-code.el",
-  "author": "Sod Oscarfono",
+  "author": "Cooper Oscarfono",
   "largeImgs": [
-    ".\/assets\/imgs\/melancholy.png",
-    ".\/assets\/imgs\/melancholy-bis.png"
+    ".\/assets\/imgs\/melancholy-buffers.png",
+    ".\/assets\/imgs\/melancholy-init.png",
+    ".\/assets\/imgs\/melancholy-magit.png",
+    ".\/assets\/imgs\/melancholy-startup.png"
   ],
   "tags": [
     "melancholy",
