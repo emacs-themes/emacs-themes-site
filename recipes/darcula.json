@@ -1,0 +1,19 @@
+{
+    "name": "Darcula Theme",
+    "description": "Emacs theme inspired by IntelliJ\u2019s Darcula.",
+    "remoteSrc": "https:\/\/gitlab.com\/fommil\/emacs-darcula-theme",
+    "localSrc": ".\/assets\/local-src\/darcula-theme-source-code.el",
+    "author": "Sam Halliday",
+    "largeImgs": [
+        ".\/assets\/imgs\/darcula.png",
+        ".\/assets\/imgs\/darcula-bis.png"
+    ],
+    "tags": [
+        "black",
+        "dark",
+        "dracula",
+        "intellij"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/darcula.png"
+}
