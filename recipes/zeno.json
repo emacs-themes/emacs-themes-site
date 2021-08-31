@@ -5,7 +5,7 @@
   "localSrc": "./assets/local-src/zeno-theme-source-code.el",
   "author": "Bharat Joshi",
   "largeImgs": ["./assets/imgs/zeno.png", "./assets/imgs/zeno-bis.png"],
-  "tags": ["dark", "purple", "zeno"],
+  "tags": ["dark", "dracula", "purple", "zeno"],
   "available": true,
   "smallImg": "./assets/imgs-small/zeno.png"
 }

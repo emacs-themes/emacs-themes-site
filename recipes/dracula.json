@@ -1,18 +1,18 @@
 {
     "name": "Dracula Theme",
-    "description": "Emacs theme inspired by IntelliJ\u2019s Darcula.",
-    "remoteSrc": "https:\/\/github.com\/fommil\/darcula-theme-emacs",
+    "description": "A dark color theme available for a number of editors.",
+    "remoteSrc": "https:\/\/github.com\/dracula\/emacs",
     "localSrc": ".\/assets\/local-src\/dracula-theme-source-code.el",
-    "author": "Sam Halliday",
+    "author": "Zeno Rocha & Garrett T",
     "largeImgs": [
         ".\/assets\/imgs\/dracula.png",
         ".\/assets\/imgs\/dracula-bis.png"
     ],
     "tags": [
-        "black",
         "dark",
         "dracula",
-        "intellij"
+        "modern",
+        "pink"
     ],
     "available": true,
     "smallImg": ".\/assets\/imgs-small\/dracula.png"
