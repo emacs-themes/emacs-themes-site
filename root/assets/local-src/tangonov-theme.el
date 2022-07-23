@@ -8,7 +8,7 @@
 ;; Created: 20th July, 2022
 ;; Keywords: faces, theme, dark
 ;; Version: 1.0.0
-;; Package-Requires: ((emacs "25") cl-lib)
+;; Package-Requires: ((emacs "25"))
 
 ;; License: GPL3
 
@@ -313,8 +313,26 @@ Alpha should be a float between 0 and 1."
    `(hydra-face-teal ((,spec (:foreground ,teal :weight bold))))
    `(isearch ((,spec (:inherit 'match :weight bold))))
    `(isearch-fail ((,spec (:background ,red :foreground ,gray1 :weight bold))))
+   `(flymake-error ((,spec (:underline (:style wave :color ,red)))))
+   `(flymake-note ((,spec (:underline (:style wave :color ,green)))))
+   `(flymake-warning ((,spec (:underline (:style wave :color ,orange)))))
+   `(flycheck-error ((,spec (:underline (:style wave :color ,red)))))
+   `(flycheck-warning ((,spec (:underline (:style wave :color ,yellow)))))
+   `(flycheck-info ((,spec (:underline (:style wave :color ,green)))))
+   `(flycheck-fringe-error ((,spec (:inherit 'fringe :foreground ,red))))
+   `(flycheck-fringe-warning ((,spec (:inherit 'fringe :foreground ,yellow))))
+   `(flycheck-fringe-info ((,spec (:inherit 'fringe :foreground ,green))))
+   `(flycheck-posframe-face ((,spec (:inherit 'default))))
+   `(flycheck-posframe-background-face ((,spec (:background ,bg-alt))))
+   `(flycheck-posframe-error-face
+     ((,spec (:inherit 'flycheck-posframe-face :foreground ,red))))
+   `(flycheck-posframe-info-face
+     ((,spec (:inherit 'flycheck-posframe-face :foreground ,fg))))
+   `(flycheck-posframe-warning-face
+     ((,spec (:inherit 'flycheck-posframe-face :foreground ,yellow))))
+   `(flyspell-incorrect ((,spec (:underline (:style wave :color ,red) :inherit 'unspecified))))
+   `(flyspell-duplicate ((,spec (:underline (:style wave :color ,yellow) :inherit 'unspecified))))
    `(eglot-highlight-symbol-face ((,spec (:weight bold :background ,gray1))))
-   `(eldoc-highlight-function-argument ((,spec (:weight bold :underline t))))
    `(eldoc-box-border ((,spec (:background ,fg-alt))))
    ;; Modeline/Tabline
    `(mode-line
