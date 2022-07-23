@@ -1,0 +1,21 @@
+{
+    "name": "Tangonov",
+    "description": "A pleasant 256 color dark theme with bright, easy to read pastels.",
+    "remoteSrc": "https:\/\/github.com\/trev-dev\/tangonov-theme",
+    "localSrc": ".\/assets\/local-src\/tangonov-theme.el",
+    "author": "Trevor Richards",
+    "largeImgs": [
+        ".\/assets\/imgs\/tangonov-1.png",
+        ".\/assets\/imgs\/tangonov-2.png"
+    ],
+    "tags": [
+        "color themes",
+        "dark",
+        "pastels",
+        "material",
+        "doom",
+        "256"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/tangonov.png"
+}
