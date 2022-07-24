@@ -7,7 +7,7 @@
 ;; URL: https://github.com/trev-dev/tangonov
 ;; Created: 20th July, 2022
 ;; Keywords: faces, theme, dark
-;; Version: 1.0.0
+;; Version: 1.0.2
 ;; Package-Requires: ((emacs "25"))
 
 ;; License: GPL3
@@ -35,40 +35,40 @@
 
 (require 'cl-lib)
 
-(defun name-to-rgb (color)
+(defun tangonov--get-rgb (color)
   "Get the hexidecimal version of the named `COLOR'."
   (cl-loop with div = (float (car (tty-color-standard-values "#ffffff")))
            for x in (tty-color-standard-values (downcase color))
            collect (/ x div)))
 
-(defun color-blend (c1 c2 alpha)
+(defun tangonov-blend (c1 c2 alpha)
   "Blend hexidecimal colors `C1' and `C2' together by a coefficient of `ALPHA'."
   (when (and c1 c2)
     (cond ((or (listp c1) (listp c2))
            (cl-loop for x in c1
                     when (if (listp c2) (pop c2) c2)
-                    collect (color-blend x it alpha)))
+                    collect (tangonov-blend x it alpha)))
           ((and (string-prefix-p "#" c1) (string-prefix-p "#" c2))
            (apply (lambda (r g b)
                     (format "#%02x%02x%02x" (* r 255) (* g 255) (* b 255)))
-                  (cl-loop for it    in (name-to-rgb c1)
-                           for other in (name-to-rgb c2)
+                  (cl-loop for it    in (tangonov--get-rgb c1)
+                           for other in (tangonov--get-rgb c2)
                            collect (+ (* alpha it) (* other (- 1 alpha))))))
           (c1))))
 
-(defun color-darken (color alpha)
+(defun tangonov-darken (color alpha)
   "Darken a hexidecimal `COLOR' by a coefficient of `ALPHA'.
 Alpha should be a float between 0 and 1."
   (cond ((listp color)
-         (cl-loop for c in color collect (color-darken c alpha)))
-        ((color-blend color "#000000" (- 1 alpha)))))
+         (cl-loop for c in color collect (tangonov-darken c alpha)))
+        ((tangonov-blend color "#000000" (- 1 alpha)))))
 
-(defun color-lighten (color alpha)
+(defun tangonov-lighten (color alpha)
   "Lighten a hexidecimal `COLOR' by a coefficient of `ALPHA'.
 Alpha should be a float between 0 and 1."
   (cond ((listp color)
-         (cl-loop for c in color collect (color-lighten c alpha)))
-        ((color-blend color "#FFFFFF" (- 1 alpha)))))
+         (cl-loop for c in color collect (tangonov-lighten c alpha)))
+        ((tangonov-blend color "#FFFFFF" (- 1 alpha)))))
 
 (deftheme tangonov
   "A 256 color dark theme featuring bright pastels.")
@@ -95,15 +95,16 @@ Alpha should be a float between 0 and 1."
    'tangonov
    `(avy-goto-char-timer-face
      ((,spec (:inherit 'isearch))))
-   `(avy-background-face ((,spec (:foreground ,(color-darken bg 0.2)))))
+   `(avy-background-face ((,spec (:foreground ,(tangonov-darken bg 0.2)))))
    `(avy-lead-face
      ((,spec (:foreground ,red :weight bold))))
    `(avy-lead-face-0
      ((,spec (:inherit 'avy-lead-face :foreground ,yellow))))
    `(avy-lead-face-1
-     ((,spec (:inheri avy-lead-face :foreground ,(color-darken yellow 0.4)))))
+     ((,spec (:inheri avy-lead-face :foreground ,(tangonov-darken yellow 0.4)))))
    `(avy-lead-face-2
-     ((,spec (:inherit 'avy-lead-face :foreground ,(color-darken yellow 0.6)))))
+     ((,spec (:inherit 'avy-lead-face :foreground
+                       ,(tangonov-darken yellow 0.6)))))
    `(default ((,spec (:background ,bg :foreground ,fg))))
    `(bold ((,spec (:weight bold))))
    `(italic ((,spec (:slant italic))))
@@ -113,8 +114,10 @@ Alpha should be a float between 0 and 1."
    `(link ((,spec (:foreground ,blue :weight bold :underline t))))
    `(link-visited ((,spec (:inherit 'link :foreground ,magenta))))
    `(highlight ((,spec (:background ,gray1 :weight bold))))
-   `(match ((,spec (:foreground ,green :background ,(color-darken green 0.5)))))
-   `(region ((,spec (:foreground ,cyan :background ,(color-darken cyan 0.5)))))
+   `(match ((,spec (:foreground
+                    ,green :background ,(tangonov-darken green 0.5)))))
+   `(region ((,spec (:foreground
+                     ,cyan :background ,(tangonov-darken cyan 0.5)))))
    `(secondary-selection ((,spec (:background ,gray2 :foreground ,fg))))
    `(lazy-highlight ((,spec (:inherit 'isearch))))
    `(error ((,spec (:foreground ,red))))
@@ -152,11 +155,11 @@ Alpha should be a float between 0 and 1."
    `(custom-variable-button ((,spec (:foreground ,green :underline t))))
    `(custom-saved
      ((,spec (:foreground ,green :background
-                          ,(color-darken green 0.5) :bold bold))))
+                          ,(tangonov-darken green 0.5) :bold bold))))
    `(custom-comment ((,spec (:foreground ,fg))))
    `(custom-comment-tag ((,spec (:foreground ,gray2))))
    `(custom-modified
-     ((,spec (:foreground ,blue :background ,(color-darken blue 0.5)))))
+     ((,spec (:foreground ,blue :background ,(tangonov-darken blue 0.5)))))
    `(custom-variable-tag ((,spec (:foreground ,magenta))))
    `(custom-visibility ((,spec (:foreground ,blue :underline nil))))
    `(custom-group-subtitle ((,spec (:foreground ,red))))
@@ -164,18 +167,18 @@ Alpha should be a float between 0 and 1."
    `(custom-group-tag-1 ((,spec (:foreground ,blue))))
    `(custom-set ((,spec (:foreground ,yellow :background ,bg))))
    `(custom-themed ((,spec (:foreground ,yellow :background ,bg))))
-   `(custom-invalid ((,spec (:foreground ,red
-                                         :background ,(color-darken red 0.5)))))
+   `(custom-invalid
+     ((,spec (:foreground ,red :background ,(tangonov-darken red 0.5)))))
    `(custom-variable-obsolete ((,spec (:foreground ,gray2 :background ,bg))))
    `(custom-state
-     ((,spec (:foreground ,green :background ,(color-darken green 0.5)))))
+     ((,spec (:foreground ,green :background ,(tangonov-darken green 0.5)))))
    `(custom-changed ((,spec (:foreground ,blue :background ,bg))))
    `(message-header-name ((,spec (:foreground ,green))))
    `(message-header-subject ((,spec (:foreground ,cyan :weight bold))))
    `(message-header-to ((,spec (:foreground ,cyan :weight bold))))
    `(message-header-cc
      ((,spec (:inherit 'message-header-to
-                       :foreground ,(color-darken cyan 0.15)))))
+                       :foreground ,(tangonov-darken cyan 0.15)))))
    `(message-header-other ((,spec (:foreground ,violet))))
    `(message-header-newsgroups ((,spec (:foreground ,yellow))))
    `(message-header-xheader ((,spec (:foreground ,gray3))))
@@ -212,19 +215,20 @@ Alpha should be a float between 0 and 1."
    `(gnus-header-subject ((,spec (:inherit 'message-header-subject))))
    `(gnus-summary-cancelled ((,spec (:foreground ,red :strike-through t))))
    `(gnus-summary-high-ancient
-     ((,spec (:foreground ,(color-lighten gray3 0.2) :inherit 'italic))))
+     ((,spec (:foreground ,(tangonov-lighten gray3 0.2) :inherit 'italic))))
    `(gnus-summary-high-read
-     ((,spec (:foreground ,(color-lighten fg 0.2)))))
+     ((,spec (:foreground ,(tangonov-lighten fg 0.2)))))
    `(gnus-summary-high-ticked
-     ((,spec (:foreground ,(color-lighten magenta 0.2)))))
+     ((,spec (:foreground ,(tangonov-lighten magenta 0.2)))))
    `(gnus-summary-high-unread
-     ((,spec (:foreground ,(color-lighten green 0.2)))))
+     ((,spec (:foreground ,(tangonov-lighten green 0.2)))))
    `(gnus-summary-low-ancient
-     ((,spec (:foreground ,(color-darken gray3 0.2) :inherit 'italic))))
-   `(gnus-summary-low-read ((,spec (:foreground ,(color-darken fg 0.2)))))
+     ((,spec (:foreground ,(tangonov-darken gray3 0.2) :inherit 'italic))))
+   `(gnus-summary-low-read ((,spec (:foreground ,(tangonov-darken fg 0.2)))))
    `(gnus-summary-low-ticked
-     ((,spec (:foreground ,(color-darken magenta 0.2)))))
-   `(gnus-summary-low-unread ((,spec (:foreground ,(color-darken green 0.2)))))
+     ((,spec (:foreground ,(tangonov-darken magenta 0.2)))))
+   `(gnus-summary-low-unread
+     ((,spec (:foreground ,(tangonov-darken green 0.2)))))
    `(gnus-summary-normal-ancient
      ((,spec (:foreground ,gray3 :inherit 'italic))))
    `(gnus-summary-normal-read ((,spec (:foreground ,fg))))
@@ -249,7 +253,7 @@ Alpha should be a float between 0 and 1."
    `(notmuch-search-count ((,spec (:foreground ,gray2))))
    `(notmuch-search-date ((,spec (:foreground ,orange))))
    `(notmuch-search-flagged-face
-     ((,spec (:foreground ,(color-darken red 0.5)))))
+     ((,spec (:foreground ,(tangonov-darken red 0.5)))))
    `(notmuch-search-matching-authors ((,spec (:foreground ,blue))))
    `(notmuch-search-non-matching-authors ((,spec (:foreground ,fg))))
    `(notmuch-search-subject ((,spec (:foreground ,fg))))
@@ -280,7 +284,7 @@ Alpha should be a float between 0 and 1."
    `(erc-direct-msg-face ((,spec (:foreground ,magenta))))
    `(erc-error-face ((,spec (:inherit 'error))))
    `(erc-header-line
-     ((,spec (:background ,(color-darken bg-alt 0.15) :foreground ,cyan))))
+     ((,spec (:background ,(tangonov-darken bg-alt 0.15) :foreground ,cyan))))
    `(erc-input-face ((,spec (:foreground ,green))))
    `(erc-current-nick-face ((,spec (:foreground ,green :weight bold))))
    `(erc-timestamp-face ((,spec (:foreground ,blue :weight bold))))
@@ -330,8 +334,10 @@ Alpha should be a float between 0 and 1."
      ((,spec (:inherit 'flycheck-posframe-face :foreground ,fg))))
    `(flycheck-posframe-warning-face
      ((,spec (:inherit 'flycheck-posframe-face :foreground ,yellow))))
-   `(flyspell-incorrect ((,spec (:underline (:style wave :color ,red) :inherit 'unspecified))))
-   `(flyspell-duplicate ((,spec (:underline (:style wave :color ,yellow) :inherit 'unspecified))))
+   `(flyspell-incorrect
+     ((,spec (:underline (:style wave :color ,red) :inherit 'unspecified))))
+   `(flyspell-duplicate
+     ((,spec (:underline (:style wave :color ,yellow) :inherit 'unspecified))))
    `(eglot-highlight-symbol-face ((,spec (:weight bold :background ,gray1))))
    `(eldoc-box-border ((,spec (:background ,fg-alt))))
    ;; Modeline/Tabline
@@ -372,11 +378,39 @@ Alpha should be a float between 0 and 1."
    `(org-checkbox-statistics-done ((,spec (:inherit 'org-done))))
    `(org-agenda-done ((,spec (:inherit 'org-done))))
    `(org-agenda-clocking
-     ((,spec (:background ,(color-darken cyan 0.5) :extend t))))
+     ((,spec (:background ,(tangonov-darken cyan 0.5) :extend t))))
    `(org-time-grid ((,spec (:foreground ,gray2))))
    `(org-imminent-deadline ((,spec (:foreground ,yellow))))
    `(org-upcoming-deadline ((,spec (:foreground ,teal))))
    `(org-agenda-dimmed-todo-face ((,spec (:foreground ,gray3))))
+   `(org-habit-clear-face ((,spec (:weight bold :background ,gray2))))
+   `(org-habit-clear-future-face ((,spec (:weight bold :background ,gray3))))
+   `(org-habit-ready-face
+     ((,spec (:weight bold :background ,(tangonov-darken blue 0.5)))))
+   `(org-habit-ready-future-face
+     ((,spec (:weight bold :background ,(tangonov-darken blue 0.3)))))
+   `(org-habit-alert-face
+     ((,spec (:weight bold :background ,(tangonov-darken yellow 0.5)))))
+   `(org-habit-alert-future-face
+     ((,spec (:weight bold :background ,(tangonov-darken yellow 0.3)))))
+   `(org-habit-overdue-face
+     ((,spec (:weight bold :background ,(tangonov-darken red 0.5)))))
+   `(org-habit-overdue-future-face
+     ((,spec (:weight bold :background ,(tangonov-darken red 0.3)))))
+`(org-journal-highlight ((,spec (:foreground ,violet))))
+`(org-journal-calendar-entry-face
+  ((,spec (:foreground ,magenta :slant italic))))
+`(org-journal-calendar-scheduled-face
+  ((,spec (:foreground ,red :slant italic))))
+   `(org-pomodoro-mode-line ((,spec (:foreground ,red))))
+   `(org-pomodoro-mode-line-overtime
+     ((,spec (:foreground ,yellow :weight bold))))
+   `(org-ref-acronym-face ((,spec (:foreground ,violet))))
+   `(org-ref-cite-face
+     ((,spec (:foreground ,yellow :weight light :underline t))))
+   `(org-ref-glossary-face ((,spec (:foreground ,magenta))))
+   `(org-ref-label-face ((,spec (:foreground ,blue))))
+   `(org-ref-ref-face ((,spec (:inherit 'link :foreground ,teal))))
    `(rainbow-delimiters-depth-1-face ((,spec (:foreground ,magenta))))
    `(rainbow-delimiters-depth-2-face ((,spec (:foreground ,orange))))
    `(rainbow-delimiters-depth-3-face ((,spec (:foreground ,green))))
@@ -402,30 +436,32 @@ Alpha should be a float between 0 and 1."
    `(eshell-ls-symlink ((,spec (:foreground ,cyan))))
    `(eshell-ls-unreadable ((,spec (:foreground ,gray3))))
    `(vterm-color-black
-     ((,spec (:background ,gray1 :foreground ,(color-lighten gray1 0.2)))))
+     ((,spec (:background ,gray1 :foreground ,(tangonov-lighten gray1 0.2)))))
    `(vterm-color-red
-     ((,spec (:background ,red :foreground ,(color-lighten red 0.2)))))
+     ((,spec (:background ,red :foreground ,(tangonov-lighten red 0.2)))))
    `(vterm-color-green
-     ((,spec (:background ,green :foreground ,(color-lighten green 0.2)))))
+     ((,spec (:background ,green :foreground ,(tangonov-lighten green 0.2)))))
    `(vterm-color-yellow
-     ((,spec (:background ,yellow :foreground ,(color-lighten yellow 0.2)))))
+     ((,spec (:background ,yellow :foreground ,(tangonov-lighten yellow 0.2)))))
    `(vterm-color-blue
-     ((,spec (:background ,blue :foreground ,(color-lighten blue 0.2)))))
+     ((,spec (:background ,blue :foreground ,(tangonov-lighten blue 0.2)))))
    `(vterm-color-magenta
-     ((,spec (:background ,magenta :foreground ,(color-lighten violet 0.2)))))
+     ((,spec (:background ,magenta :foreground
+                          ,(tangonov-lighten violet 0.2)))))
    `(vterm-color-cyan
-     ((,spec (:background ,cyan :foreground ,(color-lighten cyan 0.2)))))
+     ((,spec (:background ,cyan :foreground ,(tangonov-lighten cyan 0.2)))))
    `(vterm-color-white ((,spec (:background ,fg :foreground ,gray3))))
    `(typescript-jsdoc-tag ((,spec (:foreground ,magenta))))
    `(typescript-jsdoc-type ((,spec (:foreground ,gray3))))
    `(typescript-jsdoc-value ((,spec (:foreground ,cyan))))
    `(diff-added ((,spec
-                  (:foreground ,green :background ,(color-darken green 0.5)))))
+                  (:foreground ,green :background
+                               ,(tangonov-darken green 0.5)))))
    `(diff-changed
-     ((,spec (:foreground ,blue :background ,(color-darken blue 0.5)))))
+     ((,spec (:foreground ,blue :background ,(tangonov-darken blue 0.5)))))
    `(diff-context ((,spec (:foreground ,gray3))))
    `(diff-removed
-     ((,spec (:foreground ,red :background ,(color-darken red 0.5)))))
+     ((,spec (:foreground ,red :background ,(tangonov-darken red 0.5)))))
    `(diff-header ((,spec (:foreground ,cyan))))
    `(diff-file-header ((,spec (:foreground ,blue :background ,bg))))
    `(diff-hunk-header ((,spec (:foreground ,violet))))
@@ -437,11 +473,11 @@ Alpha should be a float between 0 and 1."
    `(diff-hl-insert ((,spec (:background ,green :foreground ,green))))
    `(ediff-fine-diff-A ((,spec
                          (:background
-                          ,(color-blend cyan bg 0.7) :weight bold :extend))))
+                          ,(tangonov-blend cyan bg 0.7) :weight bold :extend))))
    `(ediff-fine-diff-B ((,spec (:inherit 'ediff-fine-diff-A))))
    `(ediff-fine-diff-C ((,spec (:inherit 'ediff-fine-diff-A))))
    `(ediff-current-diff-A
-     ((,spec (:background ,(color-blend cyan bg 0.3) :extend t))))
+     ((,spec (:background ,(tangonov-blend cyan bg 0.3) :extend t))))
    `(ediff-current-diff-B ((,spec (:inherit 'ediff-current-diff-A))))
    `(ediff-current-diff-C ((,spec (:inherit 'ediff-current-diff-A))))
    `(ediff-even-diff-A ((,spec (:inherit 'hl-line))))
@@ -463,40 +499,42 @@ Alpha should be a float between 0 and 1."
    `(magit-cherry-equivalent ((,spec (:foreground ,violet))))
    `(magit-cherry-unmatched ((,spec (:foreground ,cyan))))
    `(magit-diff-added
-     ((,spec (:foreground ,(color-darken green 0.2) :background
-                          ,(color-blend green bg 0.1) :extend t))))
+     ((,spec (:foreground ,(tangonov-darken green 0.2) :background
+                          ,(tangonov-blend green bg 0.1) :extend t))))
    `(magit-diff-added-highlight
      ((,spec (:foreground ,green :background
-                          ,(color-blend green bg 0.2) :weight bold :extend t))))
+                          ,(tangonov-blend green bg 0.2)
+                          :weight bold :extend t))))
    `(magit-diff-base
-     ((,spec (:foreground ,(color-darken orange 0.2) :background
-                          ,(color-blend orange bg 0.1) :extend t))))
+     ((,spec (:foreground ,(tangonov-darken orange 0.2) :background
+                          ,(tangonov-blend orange bg 0.1) :extend t))))
    `(magit-diff-base-highlight
      ((,spec (:foreground ,orange :background
-                          ,(color-blend orange bg 0.2) :weight
+                          ,(tangonov-blend orange bg 0.2) :weight
                           bold :extend t))))
    `(magit-diff-context
-     ((,spec (:foreground ,(color-darken fg 0.4) :background ,bg :extend t))))
+     ((,spec (:foreground ,(tangonov-darken fg 0.4) :background
+                          ,bg :extend t))))
    `(magit-diff-context-highlight
      ((,spec (:foreground ,fg :background ,bg-alt :extend t))))
    `(magit-diff-file-heading
      ((,spec (:foreground ,fg :weight bold :extend t))))
    `(magit-diff-file-heading-selection
      ((,spec (:foreground ,magenta :background
-                          ,(color-darken blue 0.5) :weight bold :extend t))))
+                          ,(tangonov-darken blue 0.5) :weight bold :extend t))))
    `(magit-diff-hunk-heading
      ((,spec (:foreground ,bg :background
-                          ,(color-blend violet bg 0.3) :extend t))))
+                          ,(tangonov-blend violet bg 0.3) :extend t))))
    `(magit-diff-hunk-heading-highlight
      ((,spec (:foreground ,bg :background ,violet :weight bold :extend t))))
    `(magit-diff-lines-heading
      ((,spec (:foreground ,yellow :background ,red :extend t :extend t))))
    `(magit-diff-removed
-     ((,spec (:foreground ,(color-darken red 0.2) :background
-                          ,(color-blend red bg 0.1) :extend t))))
+     ((,spec (:foreground ,(tangonov-darken red 0.2) :background
+                          ,(tangonov-blend red bg 0.1) :extend t))))
    `(magit-diff-removed-highlight
      ((,spec (:foreground ,red :background
-                          ,(color-blend red bg 0.2)
+                          ,(tangonov-blend red bg 0.2)
                           :weight bold :extend t))))
    `(magit-diffstat-added ((,spec (:foreground ,green))))
    `(magit-diffstat-removed ((,spec (:foreground ,red))))
