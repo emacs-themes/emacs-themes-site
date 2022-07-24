@@ -397,11 +397,11 @@ Alpha should be a float between 0 and 1."
      ((,spec (:weight bold :background ,(tangonov-darken red 0.5)))))
    `(org-habit-overdue-future-face
      ((,spec (:weight bold :background ,(tangonov-darken red 0.3)))))
-`(org-journal-highlight ((,spec (:foreground ,violet))))
-`(org-journal-calendar-entry-face
-  ((,spec (:foreground ,magenta :slant italic))))
-`(org-journal-calendar-scheduled-face
-  ((,spec (:foreground ,red :slant italic))))
+   `(org-journal-highlight ((,spec (:foreground ,violet))))
+   `(org-journal-calendar-entry-face
+     ((,spec (:foreground ,magenta :slant italic))))
+   `(org-journal-calendar-scheduled-face
+     ((,spec (:foreground ,red :slant italic))))
    `(org-pomodoro-mode-line ((,spec (:foreground ,red))))
    `(org-pomodoro-mode-line-overtime
      ((,spec (:foreground ,yellow :weight bold))))
