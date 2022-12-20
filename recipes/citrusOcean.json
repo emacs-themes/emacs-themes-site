@@ -1,0 +1,16 @@
+{
+    "name": "citrusOcean",
+    "description": "A dark theme base on orange and blue",
+    "remoteSrc": "https://github.com/huanginch/citrusOcean",
+    "localSrc": ".\/assets\/local-src\/citrusOcean-theme.el",
+    "author": "int Huang",
+    "largeImgs": [
+        ".\/assets\/imgs\/citrusOcean-bis.png"
+    ],
+    "tags": [
+        "dark",
+        "ranbow-delimiters"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/citrusOcean.png"
+}
