@@ -2,8 +2,6 @@
 
 This is the source code for the [[http://emacsthemes.com][Emacs Themes Gallery]] site.
 
-[[https://app.buddy.works/caisah/emacs-themes-site/pipelines/pipeline/300925/badge.svg?token=5b38c1c7fb779c7287205525f5ce19e4f62a20225909df9a048e8b5e9b0d12c4]]
-
 ** Contribute
 
 To add a new theme, you have to create at least 4 files:
