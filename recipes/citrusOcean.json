@@ -2,7 +2,7 @@
     "name": "citrusOcean",
     "description": "A dark theme base on orange and blue",
     "remoteSrc": "https://github.com/huanginch/citrusOcean",
-    "localSrc": ".\/assets\/local-src\/citrusOcean-theme.el",
+    "localSrc": ".\/assets\/local-src\/citrusOcean-theme-source-code.el",
     "author": "int Huang",
     "largeImgs": [
         ".\/assets\/imgs\/citrusOcean-bis.png"
