@@ -1,0 +1,25 @@
+{
+    "name": "Nordic Night theme",
+    "description": "A darker, higher-contrast spin on the lovely Nord color palette",
+    "remoteSrc": "https://sr.ht/~ashton314/nordic-night/",
+    "localSrc": ".\/assets\/local-src\/nordic-night-theme-source-code.el",
+    "author": "Ashton Wiersdorf",
+    "largeImgs": [
+        ".\/assets\/imgs\/nordic-night-detail-code.png",
+        ".\/assets\/imgs\/nordic-night-detail-corfu.png",
+        ".\/assets\/imgs\/nordic-night-detail-magit.png",
+        ".\/assets\/imgs\/nordic-night-detail-modelines.png",
+        ".\/assets\/imgs\/nordic-night-detail-org-agenda.png",
+        ".\/assets\/imgs\/nordic-night-detail-vertico-find-file.png",
+        ".\/assets\/imgs\/nordic-night-elisp.png",
+        ".\/assets\/imgs\/nordic-night-markdown.png"
+    ],
+    "tags": [
+        "nord",
+        "dark",
+        "blue",
+        "colorful"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/nordic-night.png"
+}
