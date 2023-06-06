@@ -5,7 +5,7 @@
     "localSrc": ".\/assets\/local-src\/timu-rouge-themes-source-code.el",
     "author": "Aime Bertrand",
     "largeImgs": [
-        ".\/assets\/imgs\/timu-rouge-big.png",
+        ".\/assets\/imgs\/timu-rouge-big.png"
     ],
     "tags": [
         "dark",

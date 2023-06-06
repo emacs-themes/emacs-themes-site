@@ -5,7 +5,7 @@
     "localSrc": ".\/assets\/local-src\/timu-caribbean-themes-source-code.el",
     "author": "Aime Bertrand",
     "largeImgs": [
-        ".\/assets\/imgs\/timu-caribbean-big.png",
+        ".\/assets\/imgs\/timu-caribbean-big.png"
     ],
     "tags": [
         "dark",
