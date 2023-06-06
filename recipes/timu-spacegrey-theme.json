@@ -1,0 +1,19 @@
+{
+    "name": "Timu-Spacegrey Dark & Light",
+    "description": "Color theme inspired by the Spacegray theme in Sublime Text.",
+    "remoteSrc": "https:\/\/gitlab.com\/aimebertrand\/timu-spacegrey-theme",
+    "localSrc": ".\/assets\/local-src\/timu-spacegrey-themes-source-code.el",
+    "author": "Aime Bertrand",
+    "largeImgs": [
+        ".\/assets\/imgs\/timu-spacegrey-big-dark.png",
+        ".\/assets\/imgs\/timu-spacegrey-big-light.png"
+    ],
+    "tags": [
+        "dark",
+        "light",
+        "grey",
+        "orange",
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/timu-spacegrey.png"
+}
