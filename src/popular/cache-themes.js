@@ -12,7 +12,17 @@ const ignored = {
   'color-theme': true,
 };
 
-const composeUrl = pck => pck && `https://${pck.fetcher}.com/${pck.repo}`;
+const composeUrl = pck => {
+  if (!pck) {
+    return;
+  }
+
+  if (pck.fetcher === 'sourcehut') {
+    return `https://git.sr.ht/~${pck.repo}`
+  }
+
+  return `https://${pck.fetcher}.com/${pck.repo}`
+};
 
 const formatName = name => name.replace(/-/g, ' ');
 
