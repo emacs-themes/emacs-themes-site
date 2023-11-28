@@ -1,0 +1,20 @@
+{
+    "name": "Automata Theme",
+    "description": "A refined light theme roughly based on NieR:Automata's colors.",
+    "remoteSrc": "https:\/\/github.com\/merrittlj\/automata-theme",
+    "localSrc": ".\/assets\/local-src\/automata-theme-source-code.el",
+    "author": "Lucas Merritt",
+    "largeImgs": [
+        ".\/assets\/imgs\/automata-ex.png",
+        ".\/assets\/imgs\/automata-renderer.png"
+    ],
+    "tags": [
+        "light",
+        "minimal",
+        "gruvbox",
+        "cream",
+        "automata"
+    ],
+    "available": "false",
+    "smallImg": ".\/assets\/imgs-small\/automata.png"
+}
