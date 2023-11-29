@@ -1,0 +1,19 @@
+{
+    "name": "Naga-blue",
+    "description": "An electric-blue on black theme.",
+    "remoteSrc": "https:\/\/github.com\/amolv06\/naga-blue",
+    "localSrc": ".\/assets\/local-src\/naga-blue-theme-source-code.el",
+    "author": "Big Eatie",
+    "largeImgs": [
+        ".\/assets\/imgs\/naga-blue-1.png",
+        ".\/assets\/imgs\/naga-blue-2.png",
+    ],
+    "tags": [
+        "blue",
+        "electric-blue",
+        "dark",
+        "black"
+    ],
+    "available": true,
+    "smallImg": ".\/assets\/imgs-small\/naga-blue.png"
+}
