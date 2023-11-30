@@ -15,6 +15,6 @@
         "cream",
         "automata"
     ],
-    "available": "false",
+    "available": false,
     "smallImg": ".\/assets\/imgs-small\/automata.png"
 }
