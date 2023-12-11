@@ -1,7 +1,7 @@
 {
     "name": "Kanagawa Theme",
     "description": "Ideal Emacs theme inspired by the colors of the famous painting by Katsushika Hokusai.",
-    "remoteSrc": "https:\/\/github.com\/Meritamen\/kanagawa-theme",
+    "remoteSrc": "https:\/\/github.com\/meritamen\/emacs-kanagawa-theme",
     "localSrc": ".\/assets\/local-src\/kanagawa-theme-source-code.el",
     "author": "Meritamen",
     "largeImgs": [
