@@ -1,0 +1,17 @@
+{
+    "name": "kuronami",
+    "description": "Cool autumnal colors against a deep blue background.",
+    "remoteSrc": "https://github.com/inj0h/kuronami",
+    "localSrc": "./assets/local-src/kuronami-theme-source-code.el",
+    "author": "inj0h",
+    "largeImgs": [
+        "./assets/imgs/kuronami-1.png"
+    ],
+    "tags": [
+        "kuronami",
+        "dark",
+        "blue"
+    ],
+    "available": true,
+    "smallImg": "./assets/imgs-small/kuronami.png"
+}
