@@ -5,7 +5,7 @@
     "localSrc": "./assets/local-src/kuronami-theme-source-code.el",
     "author": "inj0h",
     "largeImgs": [
-        "./assets/imgs/kuronami-1.png"
+        "./assets/imgs/kuronami-big.png"
     ],
     "tags": [
         "kuronami",
