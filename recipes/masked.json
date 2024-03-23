@@ -1,0 +1,18 @@
+  {
+    "name": "Masked Theme",
+    "description": "A Masked - low-contrast - color theme for GNU Emacs.",
+    "remoteSrc": "https:\/\/github.com\/enoks1\/masked-theme",
+    "localSrc": ".\/assets\/local-src\/masked-theme-source-code.el",
+    "author": "Mehmet Enes Kaya",
+    "largeImgs": [
+        ".\/assets\/imgs\/masked.png",
+        ".\/assets\/imgs\/masked-lisp.png",
+    ],
+    "tags": [
+        "dark",
+        "dark blue",
+		"low-contrast",
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/masked.png"
+}
