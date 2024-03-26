@@ -6,12 +6,12 @@
     "author": "Mehmet Enes Kaya",
     "largeImgs": [
         ".\/assets\/imgs\/masked.png",
-        ".\/assets\/imgs\/masked-lisp.png",
+        ".\/assets\/imgs\/masked-lisp.png"
     ],
     "tags": [
         "dark",
         "dark blue",
-		"low-contrast",
+        "low-contrast"
     ],
     "available": false,
     "smallImg": ".\/assets\/imgs-small\/masked.png"
