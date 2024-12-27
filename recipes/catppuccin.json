@@ -1,0 +1,23 @@
+{
+  "name": "Catppuccin Theme",
+  "description": "Soothing pastel theme",
+  "remoteSrc": "https:\/\/github.com\/catppuccin\/emacs",
+  "localSrc": ".\/assets\/local-src\/catppuccin-theme-soure-code.el",
+  "author": "pspiagicw [pspiagicw@gmail.com]",
+  "largeImgs": [
+    ".\/assets\/imgs\/catppuccin-latte.png",
+    ".\/assets\/imgs\/catppuccin-frappe.png",
+    ".\/assets\/imgs\/catppuccin-macchiato.png",
+    ".\/assets\/imgs\/catppuccin-mocha.png"
+  ],
+  "tags": [
+    "dark",
+    "light",
+    "pastel",
+    "modern",
+    "catppuccin",
+    "emacs 26"
+  ],
+  "available": true,
+  "smallImg": ".\/assets\/imgs-small\/catppuccin.png"
+}
