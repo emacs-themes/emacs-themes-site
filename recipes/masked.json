@@ -1,7 +1,7 @@
   {
     "name": "Masked Theme",
     "description": "A Masked - low-contrast - color theme for GNU Emacs.",
-    "remoteSrc": "https:\/\/github.com\/enoks1\/masked-theme",
+    "remoteSrc": "https://github.com/itix-enoks/masked-theme",
     "localSrc": ".\/assets\/local-src\/masked-theme-source-code.el",
     "author": "Mehmet Enes Kaya",
     "largeImgs": [
