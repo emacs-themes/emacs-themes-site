@@ -1,9 +1,9 @@
 {
     "name": "Inkpot Theme",
     "description": "A port of the vim inkpot theme for emacs deftheme",
-    "remoteSrc": "https://gitlab.com/ideasman42/emacs-inkpot-theme",
+    "remoteSrc": "https://codeberg.org/ideasman42/emacs-theme-inkpot",
     "localSrc": ".\/assets\/local-src\/inkpot-theme-source-code.el",
-    "author": "Sarah Iovan",
+    "author": "Sarah Iovan, Campbell Barton",
     "largeImgs": [
         ".\/assets\/imgs\/inkpot.png",
         ".\/assets\/imgs\/inkpot-bis.png"
