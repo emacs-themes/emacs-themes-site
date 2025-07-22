@@ -1,0 +1,19 @@
+{
+    "name": "Fleury Theme",
+    "description": "Emacs theme insiped by Ryan Fleury's debugger live stream",
+    "remoteSrc": "https:\/\/github.com\/ShamsParvezArka\/fleury-theme.el",
+    "localSrc": ".\/assets\/local-src\/fleury-theme.el",
+    "author": "Shams Parvez Arka",
+    "largeImgs": [
+        ".\/assets\/imgs\/fleury-theme-img-large0.png",
+        ".\/assets\/imgs\/fleury-theme-img-large1.png"
+    ],
+    "tags": [
+        "dark",
+        "fleury-theme"
+        "ryan fleury",
+        "popular"
+    ],
+    "available": false,
+    "smallImg": ".\/assets\/imgs-small\/fleury-theme-img-small.png"
+}
